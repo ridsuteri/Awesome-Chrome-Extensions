@@ -37,7 +37,7 @@ Here's an image of what the extensions looks like:
 
 <p align="center"><img src="https://media.giphy.com/media/l4FGjORgOyZJCzyzm/giphy.gif" width = 40%></p>
 
-If you'd like to use this extension for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up.
+If you'd like to use these extension sfor yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up.
 
 First, clone this repository.Find out the extension that excites you and  if you'd like to further customize it or make any other edits to the page, you will likely want to do that in either the `popup.html` file or the `script.js` file. Once you've made your desired changes (if any), open Chrome and navigate to `chrome://extensions/`. Click the toggle in the upper-right corner marker "Developer Mode". You should then see three new buttons towards the top of your screen. Click "Load Unpacked", and then select the folder containing this repository. You can then turn off Developer Mode. Now, when you open up a new tab, you should see the customized page!
 
