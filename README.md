@@ -23,7 +23,23 @@ Do you want to contribute to some Awesome Javascript projects and showcase your 
 
 Then, You got here right!! 
 
-Awesome Chrome Extensions contain many awesome extension each built using javascript and every extension will teach you some new and important javscript concepts.
+Awesome Chrome Extensions contain many awesome extension each built using javascript and every extension will teach you some new and important javascript concepts.
+
+## Overview
+This repository contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers
+
+Here's an image of what the extensions looks like:
+
+![Extension Image]()
+
+
+## How to use these extensions?
+
+<p align="center"><img src="https://media.giphy.com/media/l4FGjORgOyZJCzyzm/giphy.gif" width = 40%></p>
+
+If you'd like to use this extension for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up.
+
+First, clone this repository.Find out the extension that excites you and  if you'd like to further customize it or make any other edits to the page, you will likely want to do that in either the `popup.html` file or the `script.js` file. Once you've made your desired changes (if any), open Chrome and navigate to `chrome://extensions/`. Click the toggle in the upper-right corner marker "Developer Mode". You should then see three new buttons towards the top of your screen. Click "Load Unpacked", and then select the folder containing this repository. You can then turn off Developer Mode. Now, when you open up a new tab, you should see the customized page!
 
 The Main Motive of this project is to make you fall❌ rise ✅ in love with Javascript. You will be in love with the beauty of Javascript.
 
@@ -111,6 +127,7 @@ git push -u origin <your_branch_name>
 
 
 **15** Voila :exclamation: You have made a PR to the Awesome-Chrome-Extensions :boom: . Wait for your submission to be accepted and your PR to be merged.
+
 
 ## Project Admin 😃
 
