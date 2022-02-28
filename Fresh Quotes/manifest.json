@@ -1,0 +1,13 @@
+{
+    "name":"Fresh Quotes",
+    "version":"0.01",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_icon":"logo.png"
+    },
+    "icons":{
+        "128":"logo.png"
+    }
+    
+}
