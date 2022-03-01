@@ -136,6 +136,11 @@ git push -u origin <your_branch_name>
 
 **15.** Voila :exclamation: You have made a PR to the Awesome-Chrome-Extensions :boom: . Wait for your submission to be accepted and your PR to be merged.
 
+For further details, click on [CONTRIBUTING.md](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/CONTRIBUTING.md)
+
+## Code of Conduct
+
+To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/CODE_OF_CONDUCT.md). 
 
 ## Project Admin 😃
 
