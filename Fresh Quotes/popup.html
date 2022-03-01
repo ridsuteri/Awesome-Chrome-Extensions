@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>QUOTES</title>
+    <script src="https://kit.fontawesome.com/c66557c71b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+    </div>
+    <h1 class="header"><i class="fas fa-globe-europe" style="color: red;"></i>Fresh Quotes<i class="fas fa-globe-europe" style="color: red;"></i></h1>
+    <div class="container">
+        <div class="inner">
+            <div class="box">
+                <div class="text">
+                    <div class="qc">
+                        <i class="fas fa-quote-left"></i>
+                        <p id="quotes">Loading.....</p>
+                        <i class="fas fa-quote-right"></i>
+                        <p id="author"> </p>
+                    </div>
+                    <label class="button">
+                        <p id="newq">New Quotes</p>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <script>
+            const quotes = document.getElementById("quotes");
+            const author = document.getElementById("author");
+            const newq = document.getElementById("newq");
+            let realData = " ";
+            const getNewQuotes = () => {
+                let rnum = Math.floor(Math.random() * 1600);
+                console.log(realData[rnum]);
+                quotes.innerText = `${realData[rnum].text}`;
+                if (realData[rnum].author == null) {
+                    author.innerText = "--unKnown";
+                }
+                else {
+
+                    author.innerText = `--${realData[rnum].author}`;
+                }
+            }
+            const getQuotes = async () => {
+                try {
+                    const api = "https://type.fit/api/quotes"
+                    let data = await fetch(api);
+                    realData = await data.json();
+                    getNewQuotes();
+                } catch (error) {
+
+                }
+            };
+            newq.addEventListener('click', getNewQuotes);
+            getQuotes();
+        </script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+</body>
+
+</html>
