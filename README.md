@@ -5,7 +5,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
-
 [![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
 [![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
 [![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
@@ -30,10 +29,10 @@ Awesome Chrome Extensions contains many awesome extensions, each built using jav
 ## Overview
 This repository contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers
 
-Here's an example image of what an extensions looks like:
+Here's an example image of what an extension looks like:
 
-![Extension Image]()
-
+![Extension Image](https://github.com/GoogleChrome/chrome-extensions-samples/blob/main/apps/samples/hello-world/assets/screenshot_1280_800.png)
+(Image taken from Google Chrome's [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples) repository)
 
 ## How to use these extensions?
 
