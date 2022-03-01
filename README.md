@@ -1,5 +1,6 @@
 <h1 align="center">Awesome Chrome Extensions </h1>
 
+
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -8,6 +9,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
 [![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
 [![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
+[![GitHub License](https://img.shields.io/github/license/ridsuteri/Awesome-Chrome-Extensions)]()
 
 Do you want awesome chrome extensions ?
 
@@ -28,7 +30,7 @@ Awesome Chrome Extensions contains many awesome extensions, each built using jav
 ## Overview
 This repository contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers
 
-Here's an image of what an extensions looks like:
+Here's an example image of what an extensions looks like:
 
 ![Extension Image]()
 
