@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-color: purple;
+    animation-name: water;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    width: 100%;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(154, 255, 245);
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(250, 154, 186);
+
+}
+
+@keyframes water {
+    0% {
+        background-color: rgb(250, 57, 89);
+    }
+
+    10% {
+        background-color: greenyellow;
+    }
+
+    20% {
+        background-color: orange;
+    }
+
+    30% {
+        background-color: rgb(0, 180, 162);
+    }
+
+    40% {
+        background-color: rgb(255, 0, 43);
+    }
+
+    50% {
+        background-color: rgb(153, 255, 0);
+    }
+
+    60% {
+        background-color: orange;
+    }
+
+    70% {
+        background-color: rgb(2, 206, 185);
+    }
+
+    80% {
+        background-color: rgb(253, 2, 44);
+    }
+
+    90% {
+        background-color: rgb(130, 214, 3);
+    }
+
+    100% {
+        background-color: rgb(255, 0, 0);
+    }
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 142);
+
+}
+
+.start {
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgb(2, 90, 2);
+    color: white;
+    border-radius: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    box-shadow: 2px 2px #888888;
+    font-size: 15px;
+}
+
+.start:hover {
+    padding: 8px 18px;
+    background-color: rgb(1, 248, 236);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0.5px 0.5px #888888;
+
+}
+
+.reset {
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+    border-radius: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    box-shadow: 2px 2px #414040;
+    font-size: 15px;
+}
+
+.reset:hover {
+    padding: 8px 18px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    box-shadow: 0.5px 0.5px #888888;
+
+}
+
+
+.work {
+    padding: 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(217, 189, 250);
+}
