@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": " BMI Calculator",
+  "version": "0.0.1",
+  "icons": {
+    "100": "./Logo-code.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
