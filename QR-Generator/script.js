@@ -6,6 +6,7 @@ btn.addEventListener("click",generateQR);
 
 function generateQR(){
     let data = text.value;
+    
     if(data.trim()!=""){
         let baseURL = 'https://api.qrserver.com/v1/create-qr-code/';
         let url = `${baseURL}?data=${data}`;
