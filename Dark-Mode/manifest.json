@@ -1,0 +1,29 @@
+{
+    "name": "Dark Mode",
+    "description": "An extension to toggle dark mode",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "./icons/dark-mode-16.png",
+        "32": "./icons/dark-mode-32.png",
+        "48": "./icons/dark-mode-48.png",
+        "64": "./icons/dark-mode-64.png",
+        "128": "./icons/dark-mode-128.png"
+    },
+    "browser_action": {
+        "default_title": "Dark Mode",
+        "default_popup": "popup.html"
+    },
+    "background":{
+        "scripts":[
+            "popup.js"
+        ],
+        "persistent":true
+    },
+    "permissions": [
+        "tabs",
+        "https://*/*",
+        "http://*/*",
+        "*://*/*"
+    ]
+}
