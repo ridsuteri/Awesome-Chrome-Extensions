@@ -1,5 +1,9 @@
 <h1 align="center">Awesome Chrome Extensions </h1>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=GirlScript+Summer+of+Code">
+</p>
+
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
