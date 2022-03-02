@@ -1,0 +1,8 @@
+#competitiveTrainer .options-container a:nth-child(3)::after{
+    transition: 2s all;
+    content: '';
+    border-bottom: blue 4px solid;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Competitive trainer",
+    "description": "Overwhelmed by the amount of problems you see on each platfrom and unable to decide what to solve, select a random problem and ace it!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "default_title": "Ready for today's challenges?",
+    "action": {
+        "default_popup": "html/leetcode.html"
+    },
+    "content_scripts": [
+    {
+        "matches": ["http://*/*","https://*/*"],
+        "css": ["css/main.css"],
+        "js": ["js/jquery.js", "js/main.js"]
+    } ]
+}
