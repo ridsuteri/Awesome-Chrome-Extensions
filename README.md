@@ -1,14 +1,21 @@
 <h1 align="center">Awesome Chrome Extensions </h1>
 
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
-[![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
-[![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
-[![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
-[![GitHub License](https://img.shields.io/github/license/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/LICENSE)
+<div align="center">
+
+![Contributors](https://img.shields.io/github/contributors/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+  ![Forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+![License](https://img.shields.io/github/license/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+
+![](https://img.shields.io/github/issues-raw/ridsuteri/Awesome-Chrome-Extensions?color=orange&style=for-the-badge)
+![](https://img.shields.io/github/issues-closed/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+![](https://img.shields.io/github/issues-pr/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+![](https://img.shields.io/github/issues-pr-closed-raw/ridsuteri/Awesome-Chrome-Extensions?style=for-the-badge)
+  
+</div>
+
+<hr>
 
 Do you want awesome chrome extensions ?
 
