@@ -1,6 +1,7 @@
 var addRippleEffect = function (e) {
     var target = e.target;
     //if (target.tagName.toLowerCase() !== 'button') return false;
+    // console.log(e);
     var rect = target.getBoundingClientRect();
     var ripple = target.querySelector('.ripple');
     if (!ripple) {
@@ -20,11 +21,41 @@ var addRippleEffect = function (e) {
     return false;
 }
 
+var clicked = false
 $(document).ready(function(){
     console.log("here");
     let buts = document.getElementsByClassName("rippler");
     for (let i = 0; i < buts.length; i++) {
-        buts[i].addEventListener('mousedown', addRippleEffect, false);
+        // buts[i].addEventListener('mousedown', addRippleEffect, false);
+        buts[i].addEventListener('click',function(event){
+            if(clicked){
+                clicked = false
+                return;
+            }
+            addRippleEffect(event)
+            event.preventDefault()
+            console.log("Hi");
+            setTimeout(()=>{
+                clicked = true
+                event.target.click();
+            },500);
+        },true)
         buts[i].addEventListener('mouseenter', addRippleEffect, false);
+        // let img = buts[i].getElementsByTagName('img');
+        // for(let j = 0;j<img.length;j++){
+        //     img[j].addEventListener('click',function(event){
+        //         if(imgClick){
+        //             imgClick = false
+        //             return;
+        //         }
+        //         addRippleEffect(event)
+        //         event.preventDefault()
+        //         console.log("Hi");
+        //         setTimeout(()=>{
+        //             imgClick = true
+        //             event.target.click();
+        //         },500);
+        //     },true)
+        // }
     }
 })

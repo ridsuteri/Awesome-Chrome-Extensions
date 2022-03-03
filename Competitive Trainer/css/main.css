@@ -13,7 +13,8 @@
 }
 
 #competitiveTrainer .options-container a{
-    padding: 0!important;
+    box-shadow: none;
+    padding: 15px!important;
     margin: 0;
     height: fit-content;
     border-radius: 0;
@@ -21,11 +22,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.75s all;
+}
+
+#competitiveTrainer .options-container a:hover{
+    background-color: #d8e7fd61!important;
+    box-shadow: 0px 0px 50px -20px;
 }
 
 #competitiveTrainer .rippler img{
     width: 50px;
-    padding: 20px;
 }
 
 /* Rippler */
