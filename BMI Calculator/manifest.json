@@ -6,6 +6,6 @@
     "100": "./Logo-code.png"
   },
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "popup.html"
   }
 }
