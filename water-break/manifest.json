@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Water Break",
+    "version": "1.0",
+    "description": "An extension to remind you to take a break and drink water",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "browser_action": {
+        "default_icon": "icon16.png",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": [
+            "index.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "https://*/*",
+        "http://*/*"
+    ]
+}

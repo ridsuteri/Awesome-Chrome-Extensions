@@ -1,19 +1,20 @@
 <h1 align="center">Awesome Chrome Extensions </h1>
 
+
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
-
-[![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions/)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
-[![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions/)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
-[![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions/)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
+[![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
+[![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
+[![GitHub License](https://img.shields.io/github/license/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/LICENSE)
 
 Do you want awesome chrome extensions ?
 
 <p align="center"><img src="https://media.giphy.com/media/l4q83E0RjRSGLXBLO/giphy.gif" width = 40%></p>
 
-Are you looking for some awesome extensions in which each and every project will teach you an important Javascript Concept? and will give you some cool extensions as well
+Are you looking for some awesome extensions in which each and every project will teach you an important Javascript Concept? and, on top of that, will give you some cool extensions as well? 
 
 <p align="center"><img src="https://media.giphy.com/media/Uq4XZx6xm8bdVgrv9T/giphy.gif" width = 40%></p>
 
@@ -21,27 +22,35 @@ Do you want to contribute to some Awesome Javascript projects and showcase your 
 
 <p align="center"><img src="https://media.giphy.com/media/3oEjI8vagntG7EDxgQ/giphy.gif" width = 40%></p>
 
-Then, You got here right!! 
+CONGRATULATIONS, YOU'VE FOUND THE RIGHT REPO!!! 
 
-Awesome Chrome Extensions contain many awesome extension each built using javascript and every extension will teach you some new and important javascript concepts.
+Awesome Chrome Extensions contains many awesome extensions, each built using javascript and every extension will teach you some new and important javascript concepts.
 
 ## Overview
 This repository contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers
 
-Here's an image of what the extensions looks like:
+Here's an example image of what an extension looks like:
 
-![Extension Image]()
-
+![Extension Image](https://github.com/GoogleChrome/chrome-extensions-samples/blob/main/apps/samples/hello-world/assets/screenshot_1280_800.png)
+(Image taken from Google Chrome's [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples) repository)
 
 ## How to use these extensions?
 
 <p align="center"><img src="https://media.giphy.com/media/l4FGjORgOyZJCzyzm/giphy.gif" width = 40%></p>
 
-If you'd like to use these extension sfor yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up.
+If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up:
 
-First, clone this repository.Find out the extension that excites you and  if you'd like to further customize it or make any other edits to the page, you will likely want to do that in either the `popup.html` file or the `script.js` file. Once you've made your desired changes (if any), open Chrome and navigate to `chrome://extensions/`. Click the toggle in the upper-right corner marker "Developer Mode". You should then see three new buttons towards the top of your screen. Click "Load Unpacked", and then select the folder containing this repository. You can then turn off Developer Mode. Now, when you open up a new tab, you should see the customized page!
+- Clone this repository.
+- Find out the extension that excites you.
+- If you'd like to further customize it or make any other edits to the page, you will likely want to do that in either the `popup.html` file or the `script.js` file.
+- Once you've made your desired changes (if any), open Chrome and navigate to `chrome://extensions/`.
+- Click the toggle in the upper-right corner marker "Developer Mode".
+- You should then see three new buttons towards the top of your screen.
+- Click "Load Unpacked", and then select the folder containing this repository.
+- You can then turn off Developer Mode.
+- Now, when you open up a new tab, you should see the customized page!
 
-The Main Motive of this project is to make you fall❌ rise ✅ in love with Javascript. You will be in love with the beauty of Javascript.
+The Main Motive of this project is to make you ❎fall ☑️rise in love with Javascript. You will be in love with the beauty of Javascript.
 
 So, What are you waiting for?
 
@@ -126,8 +135,13 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 
-**15** Voila :exclamation: You have made a PR to the Awesome-Chrome-Extensions :boom: . Wait for your submission to be accepted and your PR to be merged.
+**15.** Voila :exclamation: You have made a PR to the Awesome-Chrome-Extensions :boom: . Wait for your submission to be accepted and your PR to be merged.
 
+For further details, click on [CONTRIBUTING.md](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/CONTRIBUTING.md)
+
+## Code of Conduct
+
+To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/CODE_OF_CONDUCT.md). 
 
 ## Project Admin 😃
 
