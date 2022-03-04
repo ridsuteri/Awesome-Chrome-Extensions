@@ -33,7 +33,7 @@ function checkO(move){
 	if(document.getElementById(0).innerHTML == move){
 		if(document.getElementById(1).innerHTML == move){
 			if(document.getElementById(2).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -41,7 +41,7 @@ function checkO(move){
 	if(document.getElementById(0).innerHTML == move){
 		if(document.getElementById(3).innerHTML == move){
 			if(document.getElementById(6).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -50,7 +50,7 @@ function checkO(move){
 	if(document.getElementById(0).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(8).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -59,7 +59,7 @@ function checkO(move){
 	if(document.getElementById(1).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(7).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -68,7 +68,7 @@ function checkO(move){
 	if(document.getElementById(2).innerHTML == move){
 		if(document.getElementById(5).innerHTML == move){
 			if(document.getElementById(8).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -77,7 +77,7 @@ function checkO(move){
 	if(document.getElementById(2).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(6).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -86,7 +86,7 @@ function checkO(move){
 	if(document.getElementById(3).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(5).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -95,7 +95,7 @@ function checkO(move){
 	if(document.getElementById(6).innerHTML == move){
 		if(document.getElementById(7).innerHTML == move){
 			if(document.getElementById(8).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 2 (O) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -113,7 +113,7 @@ function checkX(move){
 	if(document.getElementById(0).innerHTML == move){
 		if(document.getElementById(1).innerHTML == move){
 			if(document.getElementById(2).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -121,7 +121,7 @@ function checkX(move){
 	if(document.getElementById(0).innerHTML == move){
 		if(document.getElementById(3).innerHTML == move){
 			if(document.getElementById(6).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -130,7 +130,7 @@ function checkX(move){
 	if(document.getElementById(0).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(8).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -139,7 +139,7 @@ function checkX(move){
 	if(document.getElementById(1).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(7).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -148,7 +148,7 @@ function checkX(move){
 	if(document.getElementById(2).innerHTML == move){
 		if(document.getElementById(5).innerHTML == move){
 			if(document.getElementById(8).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -157,7 +157,7 @@ function checkX(move){
 	if(document.getElementById(2).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(6).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -166,7 +166,7 @@ function checkX(move){
 	if(document.getElementById(3).innerHTML == move){
 		if(document.getElementById(4).innerHTML == move){
 			if(document.getElementById(5).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
@@ -175,7 +175,7 @@ function checkX(move){
 	if(document.getElementById(6).innerHTML == move){
 		if(document.getElementById(7).innerHTML == move){
 			if(document.getElementById(8).innerHTML == move){
-			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='single.html'><button class='alertbutton'>Play Again</button></a>";
+			document.getElementById("alertbox").innerHTML = "<h2>PLAYER 1 (X) WINS</h2><a href='singleplayer.html'><button class='alertbutton'>Play Again</button></a>";
 			stopbutton(0,1,2,3,4,5,6,7,8)
 			}
 		}
