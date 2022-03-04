@@ -1,0 +1,15 @@
+{
+    "name": "Tic-Tac-Toe",
+    "version": "1.13",
+    "manifest_version": 2,
+    "description": "A fun tic-tac-toe game for your browser!",
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/logo_128x128.png",
+      "default_popup": "single.html"
+    }
+}
