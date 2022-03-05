@@ -81,7 +81,8 @@ const calc = () => {
             val1USD = value;
         }
     })
-    currVal2.value = parseFloat(val2USD/val1USD * val1);
+    let ans = parseFloat(val2USD/val1USD * val1).toFixed(2);
+    currVal2.value = ans;
 }
 
 exchangeIcon.addEventListener("click", (e) => {
@@ -100,4 +101,19 @@ convert.addEventListener('click', e => {
 reset.addEventListener('click', () => {
     currVal1.value = '0';
     calc()
+})
+
+currVal1.addEventListener('input' , e => {
+  let num = 0;
+  [...currVal1.value].forEach(x => {
+    if(x == '.') {
+      return;
+    }
+    num = ( num * 10 ) + +x;
+  }) 
+  const arr = currVal1.value.split('.');
+  if(arr.length > 1) {
+    num = [...num, '.', ...arr[2]]
+  }
+  currVal1.value = num;
 })
