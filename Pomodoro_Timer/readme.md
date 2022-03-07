@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img width="120" src="./Pomodoro_Timer/icon.png">
+  <img width="120" src="./icon.png">
 </p>
   
 
