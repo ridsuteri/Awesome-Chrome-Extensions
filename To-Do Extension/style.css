@@ -1,0 +1,119 @@
+:root {
+  --main: #e6e8e6;
+  --cont: #080708;
+  --blue: #3772ff;
+  --grey: #323232;
+  --red: #df2935;
+  --yellow: #fdca40;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.4s ease;
+}
+body {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(125deg, #080708, #3772ff);
+}
+.container {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 13%;
+  left: 50%;
+}
+#newtask {
+  position: relative;
+  background: var(--cont);
+  padding: 30px 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#newtask input {
+  width: 80%;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: 2px solid var(--grey);
+  padding: 12px;
+  background: var(--grey);
+  color: var(--main);
+  font-weight: 500;
+  outline: none;
+  position: relative;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+#newtask input:focus {
+  border-color: var(--blue);
+}
+
+#newtask button {
+  position: relative;
+  float: right;
+  width: 65px;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  background: var(--blue);
+  border: none;
+  color: var(--main);
+  cursor: pointer;
+  outline: none;
+}
+
+#newtask button:hover {
+  background: var(--yellow);
+  color: var(--cont);
+}
+
+#tasks {
+  background: var(--main);
+  margin: 0;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  position: absolute;
+}
+.task {
+  background: var(--cont);
+  color: var(--main);
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.task span {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.task button {
+  background: var(--yellow);
+  color: var(--cont);
+  font-size: 20px;
+  height: 100%;
+  width: 45px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+}
+.task button:hover {
+  background: var(--red);
+  color: var(--main);
+  transition: 0.1s ease;
+}
+.completed {
+  text-decoration: line-through;
+}
