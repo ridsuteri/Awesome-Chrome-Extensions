@@ -9,3 +9,37 @@
 #competitiveTrainer #leetcode{
     background-color: #d8e7fd61!important;
 }
+
+#competitiveTrainer .body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#competitiveTrainer .link-dec{
+    text-decoration: none;
+    font-weight: 500;
+    color: blue;
+}
+#competitiveTrainer #daily-con{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+#competitiveTrainer .difficulty{
+    font-weight: 600;
+}
+#competitiveTrainer .difficulty{
+    font-weight: 500;
+}
+#competitiveTrainer .difficulty{
+    font-weight: 500;
+}
+#competitiveTrainer .difficulty.\.Easy{
+    color: green;
+}
+#competitiveTrainer .difficulty.\.Medium{
+    color: yellow;
+}
+#competitiveTrainer .difficulty.\.Hard{
+    color: red;
+}
