@@ -1,0 +1,53 @@
+td{
+    padding:0;
+    margin:0;
+    width:0%;
+    }
+    
+    .highlight{
+    height:150px;
+    width:150px;
+    font-size:90px;
+    text-align:center;
+    background-color:white;
+    color: rgb(223, 47, 23);
+    opacity:2.0;
+    }
+    
+    body{
+    background-image:url('water.jpg');
+    }
+    
+    
+    .menu{
+    width:48%;
+    background-color:rgb(146, 146, 231);
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    border: 5px solid lightblue;
+    text-decoration:bold;
+    opacity:3.0;
+    }
+    
+    h1{
+    font-family:"Helvetica, sans-serif";
+    font-size:40px;
+    color:rgb(147, 71, 170);
+    }
+    
+    #alertbox{
+    width:100%;
+    background-color:white;
+    opacity:0.8;
+    color:black;
+    font-family:"Helvetica, sans-serif";
+    text-decoration:bold;
+    border-radius:10px;
+    float:left;
+    }
+    
+    .alertbutton{
+    width:75%;
+    font-size:25px;
+    border-radius:8px;
+    }
