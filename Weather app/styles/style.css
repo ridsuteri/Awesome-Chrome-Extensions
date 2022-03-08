@@ -2,13 +2,13 @@ body{
     margin:0;
     font-family: 'Lora', serif;
     background-color: #203239;
+    text-shadow: 1px 1px #203239;
 }
 *{
     box-sizing: border-box;
 }
 
-.container{
-    min-height: 100vh;
+#container{
     background-image: url("../images/day/cloudy.jpg");
     background-position: center;
     background-size: cover;
@@ -17,9 +17,11 @@ body{
     position: relative;
     transition: 500ms;
     opacity: 1;
+    width: 800px;
+    height: 600px;
 }
 
-.container::before{
+#container::before{
     content:"";
     position: absolute;
     top:0;
@@ -39,13 +41,15 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    padding: 2em 3em 4em 3em;
+    padding: 2em 3em 4em 9em;
+    width:80%;
 }
 
 .weather_app > div{
     display:flex;
     justify-content: center;
-    align-items: cneter;
+    align-items: center;
+    width:50%;
 }
 
 .city_details, .temp, .weather{
@@ -55,11 +59,11 @@ body{
 .city_details h1{
     margin: 0;
     margin-bottom: 0.2em;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .temp{
-    font-size: 7em;
+    font-size: 5em;
     margin:0;
 }
 
@@ -96,8 +100,7 @@ body{
     background: #FF9F45;
     cursor: pointer;
     font-size: 1.2em;
-    transition: 0.4s;
-    width: 15%;
+    width: 19%;
     height: 10%;
 }
 
@@ -151,4 +154,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.city_date{
+    width:25%;
 }
