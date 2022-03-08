@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    font-family: 'Lora', serif;
+    background-color: #203239;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    background-image: url("../images/day/cloudy.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.container::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.weather_app{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2em 3em 4em 3em;
+}
+
+.weather_app > div{
+    display:flex;
+    justify-content: center;
+    align-items: cneter;
+}
+
+.city_details, .temp, .weather{
+    margin:0 1em;
+}
+
+.city_details h1{
+    margin: 0;
+    margin-bottom: 0.2em;
+    font-size: 3em;
+}
+
+.temp{
+    font-size: 7em;
+    margin:0;
+}
+
+.weather img{
+    display: block;
+    margin:0.5em 0;
+}
+
+.search_page{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top:0;
+    right:0;
+    background: rgba(110, 110, 110, 0.25);
+    box-shadow: 0 8px 32px 0 #203239;
+    z-index: 1;
+    padding: 3em 2em;
+    overflow-y: scroll;
+}
+
+.search_page form{
+    margin-bottom: 3em;
+}
+
+.search_button{
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 0.7em;
+    margin:0;
+    border:none;
+    outline:none;
+    background: #FF9F45;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: 0.4s;
+    width: 15%;
+    height: 10%;
+}
+
+.search_button:hover{
+    background: white !important;
+}
+
+.search{
+    background: none;
+    border:none;
+    border-bottom: 1px #ccc solid;
+    padding: 0 1em 0.5em 0;
+    width: 80%;
+    color: white;
+    font-size: 1.1em;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.search::placeholder{
+    color:#ccc;
+}
+
+.search_page ul{
+    padding: 0 0 1em 0;
+    margin: 2em 0;
+    border-bottom: 1px #ccc solid;
+}
+
+.search_page ul li{
+    color: #ccc;
+    margin: 2.5em 0;
+}
+
+.search_page ul h4{
+    margin: 3em 0;
+}
+
+.city{
+    display:block;
+    cursor: pointer;
+}
+
+.city:hover{
+    color: white;
+}
+
+.weather_details li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
