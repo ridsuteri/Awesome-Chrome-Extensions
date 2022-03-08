@@ -23,7 +23,7 @@ var addRippleEffect = function (e) {
 
 var clicked = false
 $(document).ready(function(){
-    console.log("here");
+    // console.log("here");
     let buts = document.getElementsByClassName("rippler");
     for (let i = 0; i < buts.length; i++) {
         // buts[i].addEventListener('mousedown', addRippleEffect, false);
