@@ -4,8 +4,12 @@ body{
     background-color: #203239;
     text-shadow: 1px 1px #203239;
 }
+
 *{
     box-sizing: border-box;
+}
+.title{
+    color: #F1D011;
 }
 
 #container{
@@ -133,7 +137,7 @@ body{
 }
 
 .search_page ul li{
-    color: #ccc;
+    color: #F1D011;
     margin: 2.5em 0;
 }
 
