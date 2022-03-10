@@ -1,0 +1,10 @@
+{
+    "name": "Paint Extension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "logo": "https://github.com/Girlwithasmile/Awesome-Chrome-Extensions/blob/paint/Paint/paintextensionlogo.png?raw=true"
+    },
+    "permissions": ["activeTab"]
+}

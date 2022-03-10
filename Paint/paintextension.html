@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paintextension.css">
+    <link rel="shortcut icon" href="https://github.com/Girlwithasmile/Awesome-Chrome-Extensions/blob/paint/Paint/paintextensionlogo.png?raw=true" type="image/x-icon">
+    <title>Drawing Pad</title>
+</head>
+
+<body>
+    <h3>Drawing Pad</h3>
+    <div class="sidebar">
+        <ul>
+            <li>
+                <label for="color">Color:</label>
+                <input type="color" id="color" />
+            </li>
+            <li>
+                <label for="weight">Stroke Width:</label>
+                <input type="number" id="weight" min="2" max="200" value="3" />
+            </li>
+            <li>
+                <button id="clear">Clear</button>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Using p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="paintextension.js"></script>
+
+</body>
+
+</html>
