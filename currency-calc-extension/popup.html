@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currencly Calulator</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button id="selectCurrency">Pick Currency</button>
+    </header>
+
+    <!-- homepage -> where exchange is done -->
+    <div class="homepage" id="homepage">
+        <div class="currencyNames">
+            <span class="curr-1" id="currName1">USD</span>
+            <span class="exchange-icon" id="exchangeIcon"><img src="./images/transfer.png" alt="transfer-icon"></span>
+            <span class="curr-2" id="currName2">INR</span>
+        </div>
+        <div class="inputBoxContainer">
+            <input type="number" name="value1" id="currVal1" placeholder="0"/>
+            <input type="number" name="value2" id="currVal2" placeholder="0" disabled/>
+        </div>
+        <div class="buttons-container">
+            <button class="convert" id="convert">Convert</button>
+            <button class="reset" id="reset">Reset</button>
+
+        </div>
+    </div>
+
+    <!-- page -> select currency or set a default currency -->
+    <div class="selectCurrencyPage hide" id="selectCurrencyPage">
+        <span class="text">select Currency 1</span>
+        <div class="dropdown" id="dropdownWrapper1">
+            <div class="current-currency" id="selectCurrency1">USD</div>
+            <div class="dropdown-items hide" id="dropdown1">
+            </div>
+        </div>
+
+        <span class="text">select Currency 2</span>
+        <div class="dropdown" id="dropdownWrapper2"> 
+            <div class="current-currency" id="selectCurrency2">INR</div>
+            <div class="dropdown-items hide" id="dropdown2">
+            </div>
+        </div>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+</html>

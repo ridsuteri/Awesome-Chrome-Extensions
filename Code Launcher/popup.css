@@ -1,0 +1,51 @@
+.html,body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    min-height: 275px;
+    padding:0;
+    width:300px;
+   
+}
+.modal-header{
+    padding-top:10px;
+    align-items: center;
+    display:flex;
+    height:50px;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color:#0066FF;
+    margin:0;
+    font-size:24px;
+    padding-left: 20px;
+}
+.logo-icon{
+    vertical-align: text-bottom;
+    width:50px;
+    height: 50px;
+    padding-top:20px;
+    padding-left:30px;
+}
+img{
+    height:55px;
+    width:55px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+.content{
+   font-family:'Times New Roman', Times, serif;
+   margin-left:30px;
+   font-weight:lighter;
+   font-size:17px;
+}
+.flex-container-1{
+    display: flex;
+    justify-content: space-between;
+    padding-right:27px;
+}
+.flex-container-2{
+    display: flex;
+    justify-content: space-between;
+    padding-right:27px;
+}

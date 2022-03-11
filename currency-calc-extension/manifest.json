@@ -1,0 +1,19 @@
+{
+    "name" : "Currencly Calculator",
+    "description" : "A chrome extension for converting on currency value to other",
+    "version" : "0.1.0",
+    "manifest_version" : 3,
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "action" : {
+        "default_icon" : "images/money-exchange.png",
+        "default_title" : "Currency Exchange",
+        "default_popup" : "popup.html"
+    },
+    "commands" : {
+        "_execute_action" : {
+            "suggested_key" : "Ctrl+Shift+Q"
+        }
+    }
+}

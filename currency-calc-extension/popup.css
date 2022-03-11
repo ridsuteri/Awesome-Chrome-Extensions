@@ -1,0 +1,259 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-pri : #f0f5ed;
+    --clr-sec : #05c46b;
+    --clr-ter : #3742fa;
+
+    --clr-black : #2b2e4a;
+    --clr-white : white;
+
+    /* font family */
+    --ff : 'Roboto', sans-serif;
+}
+
+body {
+    width: 30em;
+    height: fit-content;
+    font-family: var(--ff);
+}
+
+/* ******************************************************************* */
+/* header -> contains link for select and select default currency page */
+/* ******************************************************************* */
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    box-shadow: 0 0 5px  rgba(0, 0, 0, 0.2);
+}
+
+header button {
+    background: none;
+    border: none;
+    outline: none;
+
+    border-bottom: 1px solid var(--clr-sec);
+    border-left: 1px solid var(--clr-sec);
+    border-right: 1px solid var(--clr-sec);
+    padding: 0.4em 0.8em;
+
+    width: 100%;
+
+    font-size: 1.2em;
+    cursor: pointer;
+    
+    color: #2b2e4a;
+    background: var(--clr-pri);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ******************************************** */
+/* homepage -> all the conversion are done here */
+/* ******************************************** */
+
+.homepage {
+    width: 100%;
+    height: calc(100% - 1.5em - 0.4em * 2);
+
+    padding: 2em;
+    background-color: var(--clr-white);
+}
+
+/* currency name styling */
+
+.homepage .currencyNames {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    /* background: yellow; */
+    padding: 0.5em;
+
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #3742fa;
+    text-transform: uppercase;
+}
+
+.homepage .currencyNames .curr-1,
+.homepage .currencyNames .curr-2 {
+    cursor: pointer;
+    width: 48%;
+    text-align: center;
+}
+
+.homepage .currencyNames .exchange-icon img{
+    width: 1em;
+    height: 1em;
+
+    cursor: pointer;
+}
+
+/* inputs */
+.homepage .inputBoxContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2em;
+
+    padding: 0 1.6em;
+
+}
+
+.homepage .inputBoxContainer input {
+    width: 5em;
+    height: 2em;
+
+    background: none;
+    border: none;
+    outline: none;
+
+    border: 0.5px solid #05c46b;
+    border-radius: 4px;
+
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #05c46b;
+    background: #f0f5ed;
+
+    padding: 0 0.5em;
+}
+
+.homepage .inputBoxContainer input::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* homepage buttons */
+
+.homepage .buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 5em;
+}
+
+.homepage button {
+    background: none;
+    border: none;
+    outline: none;
+
+    border: 0.5px solid #05c46b;
+    border-radius: 20px;
+    padding: 0.4em 0.8em;
+
+    width: fit-content;
+
+    font-size: 1.5em;
+    cursor: pointer;
+
+    margin-bottom: 1em;
+
+    background-color: #05c46b;
+    color: white;
+}
+.homepage .buttons-container button:hover {
+    opacity: 0.8;
+}
+
+.homepage.hide {
+    display: none;
+}
+
+/* ************************************************* */
+/* currency selection ( including dropdown ) section */
+/* ************************************************* */
+
+.selectCurrencyPage {
+    width: 100%;
+    height: fit-content;
+
+    padding: 2em;
+
+    display: flex;
+    flex-direction: column;
+
+    background: var(--clr-white);
+}
+
+.selectCurrencyPage span.text {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.selectCurrencyPage span.text:not(:first-child) {
+    margin-top: 2em; 
+}
+
+.selectCurrencyPage .dropdown .current-currency {
+    width: 100%;
+    background: var(--clr-pri);
+
+    padding: 0.4em 0.8em;
+    font-size: 1.4em;
+
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+.selectCurrencyPage .dropdown .dropdown-items {
+    width: 100%;
+    max-height: 10em;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background: var(--clr-pri);
+
+    border: 1px solid var(--clr-sec);
+    border-radius: 4px;
+}
+
+.selectCurrencyPage .dropdown .dropdown-items.hide {
+    display: none;
+}
+
+.selectCurrencyPage .dropdown .dropdown-items .item {
+    padding: 0.4em 0.8em;
+
+    font-size: 1.3em;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.selectCurrencyPage .dropdown .dropdown-items .item:not(:last-child) {
+    border-bottom: 1px solid var(--clr-sec);
+}   
+
+.selectCurrencyPage.hide {
+    display: none;
+}
+
+.selectCurrencyPage .setDefaultWrapper {
+    margin-top: 1em;
+    font-size: 1.2em;
+
+    cursor: pointer;
+}
+.selectCurrencyPage .setDefaultWrapper input {
+    cursor: pointer;
+}

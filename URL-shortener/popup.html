@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="popup.js"></script>
+    <link rel="stylesheet" href="spectre.min.css">
+    <title>URL-Shortener</title>
+    <style>
+        body {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="toast toast-error d-hide">
+                Please enter valid URL
+            </div>
+            <div class="card-title h5">URL Shortener</div>
+            <div class="card-subtitle text-gray">Enter URL</div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input class="form-input" type="text" id="myurl">
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="loading d-hide"></div>
+            <button class="btn btn-primary" id="shortURL">Generate short URL</button>
+            <div class="toast toast-success d-hide"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

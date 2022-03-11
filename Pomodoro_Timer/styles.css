@@ -1,0 +1,59 @@
+body {
+  background-color: #072f5f;
+  transition: background-color 1s ease-in-out;
+  font-family: sans-serif;
+}
+
+#container {
+  width : 600px;
+	height: 480px;
+}
+  
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  text-align: center;
+}
+  
+#clock {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 10rem;
+  line-height: 1;
+  display: flex;
+}
+  
+.mode-btn {
+  font-size: 20px;
+  height: 28px;
+  cursor: pointer;
+  box-shadow: none;
+  font-weight: 300;
+  color: #fff;
+  border: 1px solid transparent;
+  margin: 0px;
+  border-radius: 4px;
+  padding: 2px 12px;
+  background: none;
+}
+  
+.mode-btn.active {
+  border-color: #fff;
+}
+  
+.main-btn {
+  cursor: pointer;
+  font-size: 22px;
+  height: 55px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 190px;
+  border-style: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  transition: color 0.5s ease-in-out 0s;
+}
