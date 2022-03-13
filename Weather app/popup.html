@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href = "./styles/style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div class="weather_app">
+                <h3 class = "title">Weather App</h3>
+                <div>
+                    <h1 class = "temp">16&#176;</h1>
+                    <div class = "city_details">
+                        <h1 class = "city_name">London</h1>
+                        <small class = "small">
+                            <span class = "city_time">06:10</span>
+                            <span class = "city_date">Mon Apr 8</span>
+                        </small>
+                    </div>
+                    <div class = "weather">
+                        <img src="./images/113.png" alt="day-icon" class = "icon" width="50" height="50"/>
+                        <span class = "weather_condition">Cloudy</span>
+                    </div>
+                </div>
+            </div>
+            <div class = "search_page">
+                <form id="location_input">
+                    <input type="text" class="search" placeholder="Enter loctation..."/>
+                    <button type="submit" class = "search_button">
+                        <img src="https://img.icons8.com/material/96/000000/search--v1.png" width="100%"/>
+                    </button>
+                </form>
+                <ul class="cities">
+                    <li class="city">New York</li>
+                    <li class="city">Paris</li>
+                </ul>
+                <ul class="weather_details">
+                    <h4>Weather Details</h4>
+                    <li>
+                        <span>Cloudy</span>
+                        <span class="cloud">80%</span>
+                    </li>
+                    <li>
+                        <span>Humidity</span>
+                        <span class="humidity">70%</span>
+                    </li>
+                    <li>
+                        <span>Wind</span>
+                        <span class="wind">8Km/h</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <script src="./js/index.js"></script>
+    </body>
+</html>

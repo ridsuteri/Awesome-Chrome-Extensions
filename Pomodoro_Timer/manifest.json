@@ -1,0 +1,13 @@
+{
+    "name": "Pomodoro Timer",
+    "description" : "Manage your time effectively with pomodoro technique.",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "icons": {
+        "100": "./icon.png"
+      },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
