@@ -1,4 +1,4 @@
-chrome.alarms.create("leetcodeAlarm",{ periodInMinutes: 60 });
+chrome.alarms.create("leetcodeAlarm",{ delayInMinutes: 0.1, periodInMinutes: 60 });
 
 chrome.alarms.onAlarm.addListener(() => {
     fetch("https://leetcode.com/graphql/?query=query questionOfToday{activeDailyCodingChallengeQuestion{date userStatus link question {acRate difficulty freqBar frontendQuestionId: questionFrontendId isFavor paidOnly: isPaidOnly status title titleSlug hasVideoSolution hasSolution topicTags {name id slug} }}}")

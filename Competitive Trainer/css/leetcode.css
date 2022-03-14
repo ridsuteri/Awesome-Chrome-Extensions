@@ -61,3 +61,10 @@
     cursor: pointer;
     background-color: rgb(0, 0, 216);
 }
+#competitiveTrainer .loader{
+    height: 28px;
+    transform: scale(3.5);
+}
+#competitiveTrainer .invalidInp{
+    box-shadow: 0px 0px 10px 2px red;
+}

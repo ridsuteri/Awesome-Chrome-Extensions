@@ -1,6 +1,6 @@
 {
     "name": "Competitive trainer",
-    "description": "Overwhelmed by the amount of problems you see on each platfrom and unable to decide what to solve, select a random problem and ace it!",
+    "description": "Overwhelmed by the amount of problems you see everywhere and unable to decide what to solve? Select a random problem and ace!",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
