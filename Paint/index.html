@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paintextension.css">
     <link rel="shortcut icon" href="https://github.com/Girlwithasmile/Awesome-Chrome-Extensions/blob/paint/Paint/paintextensionlogo.png?raw=true" type="image/x-icon">
-    <title>Drawing Pad</title>
+    <title>Drawing Pad + Quicknotes</title>
+
 </head>
 
 <body>
+    <!--Paint extension-->
     <h3>Drawing Pad</h3>
     <div class="sidebar">
         <ul>
@@ -23,15 +25,25 @@
                 <input type="number" id="weight" min="2" max="200" value="3" />
             </li>
             <li>
-                <button id="clear">Clear</button>
+                <button id="clear">Clear</button> <br><br><br>
+                <button id="Submit">Save</button>
             </li>
         </ul>
     </div>
-
+    <h3>+</h3>
 
     <!-- Using p5.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
     <script src="paintextension.js"></script>
+    <!--Notes extension-->
+    <h3>Quicknotes</h3>
+    <br> <br>
+    <div class="notes">
+        <!--Expandable textbox-->
+        <textarea id="notes" placeholder="  Type here" spellcheck="false" autofocus></textarea>
+    </div>
+
+
 
 </body>
 
