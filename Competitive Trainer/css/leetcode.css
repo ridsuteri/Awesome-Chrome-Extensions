@@ -20,7 +20,7 @@
     font-weight: 500;
     color: blue;
 }
-#competitiveTrainer #daily-con{
+#competitiveTrainer .leet-con{
     font-size: 16px;
     display: flex;
     justify-content: space-between;
@@ -34,12 +34,30 @@
 #competitiveTrainer .difficulty{
     font-weight: 500;
 }
-#competitiveTrainer .difficulty.\.Easy{
+#competitiveTrainer .difficulty.Easy{
     color: green;
 }
-#competitiveTrainer .difficulty.\.Medium{
-    color: yellow;
+#competitiveTrainer .difficulty.Medium{
+    color: #ffc107;
 }
-#competitiveTrainer .difficulty.\.Hard{
+#competitiveTrainer .difficulty.Hard{
     color: red;
+}
+#competitiveTrainer .status{
+    color: orange;
+}
+#competitiveTrainer .btn-primary{
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: calc(100% - 60px);
+}
+#competitiveTrainer .btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 216);
 }

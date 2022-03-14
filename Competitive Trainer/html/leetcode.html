@@ -23,9 +23,27 @@
     </div>
     <div class="body">
         <h2>Daily challenge question : <span id="date"></span></h2>
-        <p id="daily-con">
+        <p id="daily-con" class="leet-con">
             
         </p>
+    </div>
+    <div class="body">
+        <h2>Solve a random question : </h2>
+        <p class="leet-con">
+            <span>
+                <input type="checkbox" name="diff" id="easy">
+                <label for="easy" class="difficulty Easy">Easy</label>
+            </span>
+            <span>
+                <input type="checkbox" name="diff" id="medium">
+                <label for="medium" class="difficulty Medium">Medium</label>
+            </span>
+            <span>
+                <input type="checkbox" name="diff" id="hard">
+                <label for="hard" class="difficulty Hard">Hard</label>
+            </span>
+        </p>
+        <button class="btn-primary" id="leetCodeRandom">Go!</button>
     </div>
     <script src="../js/main.js"></script>
     <script src="../js/leetcode.js"></script>

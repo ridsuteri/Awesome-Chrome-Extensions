@@ -3,7 +3,6 @@
     "description": "Overwhelmed by the amount of problems you see on each platfrom and unable to decide what to solve, select a random problem and ace it!",
     "version": "1.0",
     "manifest_version": 3,
-    "default_title": "Ready for today's challenges?",
     "action": {
         "default_popup": "html/leetcode.html"
     },
@@ -16,5 +15,5 @@
     "background": {
         "service_worker": "js/background.js"
     },
-    "permissions": ["notifications"]
+    "permissions": ["notifications","alarms"]
 }
