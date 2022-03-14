@@ -1,4 +1,4 @@
-$('#leetcode').css('box-shadow',"0px 0px 50px -20px")
+$('#competitiveTrainer #leetcode').css('box-shadow',"0px 0px 50px -20px")
 
 $.ajax({
     url: "https://leetcode.com/graphql/",
@@ -17,23 +17,23 @@ $.ajax({
     }
 })
 
-$('#leetCodeRandom').on('mousedown',()=>{
-    $('#leetCodeRandom').html(
+$('#competitiveTrainer #leetCodeRandom').on('mousedown',()=>{
+    $('#competitiveTrainer #leetCodeRandom').html(
         `<img class="loader" src="../logos/loader.gif"></img>`
     )
     if(!($('#competitiveTrainer #easy').prop('checked') || $('#competitiveTrainer #medium').prop('checked') || $('#competitiveTrainer #hard').prop('checked'))){
-        $('#leetCodeRandom').html(`Go!`);
+        $('#competitiveTrainer #leetCodeRandom').html(`Go!`);
     }
 });
 
-$('#leetCodeRandom').on('click',()=>{
+$('#competitiveTrainer #leetCodeRandom').on('click',()=>{
     if(!($('#competitiveTrainer #easy').prop('checked') || $('#competitiveTrainer #medium').prop('checked') || $('#competitiveTrainer #hard').prop('checked'))){
         $('#competitiveTrainer #easy').toggleClass('invalidInp')
         $('#competitiveTrainer #medium').toggleClass('invalidInp')
         $('#competitiveTrainer #hard').toggleClass('invalidInp')
     }
     else{
-        $('#leetCodeRandom').html(`Loading...`);
+        $('#competitiveTrainer #leetCodeRandom').html(`Loading...`);
         leetCodeRandom();
     }
 });
