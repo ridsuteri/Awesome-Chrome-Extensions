@@ -5,8 +5,8 @@ $.ajax({
     method: "GET",
     data: {query:"query questionOfToday{activeDailyCodingChallengeQuestion{date userStatus link question {acRate difficulty freqBar frontendQuestionId: questionFrontendId isFavor paidOnly: isPaidOnly status title titleSlug hasVideoSolution hasSolution topicTags {name id slug} }}}"},
     success: function(data){
-        $('#date').html(data.data.activeDailyCodingChallengeQuestion.date)
-        $('#daily-con').html(
+        $('#competitiveTrainer #date').html(data.data.activeDailyCodingChallengeQuestion.date)
+        $('#competitiveTrainer #daily-con').html(
             `<a class="link-dec" target="_blank" href="https://leetcode.com${data.data.activeDailyCodingChallengeQuestion.link}">${data.data.activeDailyCodingChallengeQuestion.question.title}</a>
             <span class="difficulty ${data.data.activeDailyCodingChallengeQuestion.question.difficulty}">${data.data.activeDailyCodingChallengeQuestion.question.difficulty}</span>
             <span class="status">${(data.data.activeDailyCodingChallengeQuestion.question.status=="ac")?"Solved":"Unsolved"}</span>`
