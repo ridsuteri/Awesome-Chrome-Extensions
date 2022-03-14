@@ -4,6 +4,7 @@ body {
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 p {
@@ -14,4 +15,10 @@ p {
     border-radius: 6px;
     border: 1px solid lightblue;
     padding: 10px;
+}
+.button4 {
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
 }
