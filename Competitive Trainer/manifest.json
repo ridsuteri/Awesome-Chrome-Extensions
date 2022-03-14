@@ -4,7 +4,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-        "default_popup": "html/codeforces.html"
+        "default_popup": "html/leetcode.html"
     },
     "content_scripts": [
     {
