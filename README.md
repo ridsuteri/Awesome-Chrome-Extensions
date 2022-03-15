@@ -5,6 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
+<br>
 [![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
 [![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
 [![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
@@ -12,15 +13,15 @@
 
 Do you want awesome chrome extensions ?
 
-<p align="center"><img src="https://media.giphy.com/media/l4q83E0RjRSGLXBLO/giphy.gif" width = 40%></p>
+<p align="center"><img src="https://media.giphy.com/media/MNmyTin5qt5LSXirxd/giphy.gif" width = 40%></p>
 
 Are you looking for some awesome extensions in which each and every project will teach you an important Javascript Concept? and, on top of that, will give you some cool extensions as well? 
 
-<p align="center"><img src="https://media.giphy.com/media/Uq4XZx6xm8bdVgrv9T/giphy.gif" width = 40%></p>
+<p align="center"><img src="https://media.giphy.com/media/hXDrTueJWAscK3xWQ2/giphy.gif" width = 40%></p>
 
 Do you want to contribute to some Awesome Javascript projects and showcase your Javascript skills through it?🤩
 
-<p align="center"><img src="https://media.giphy.com/media/3oEjI8vagntG7EDxgQ/giphy.gif" width = 40%></p>
+<p align="center"><img src="https://media.giphy.com/media/3ohhweiVB36rAlqVCE/giphy.gif" width = 40%></p>
 
 CONGRATULATIONS, YOU'VE FOUND THE RIGHT REPO!!! 
 

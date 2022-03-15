@@ -1,0 +1,22 @@
+{
+    "name": "Parential Control",
+    "description": "Build an Extension!",
+    "version": "1.1",
+    "author": "bartick",
+    "manifest_version": 2,
+    "background": {
+      "service_worker": "background.js"
+    },
+    
+    "permissions": ["storage", "activeTab", "tabs", "webRequest", "webRequestBlocking", "<all_urls>"],
+    "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Parental Control"
+  },
+  "icons": {
+    "16": "/images/get_started16.png",
+    "32": "/images/get_started32.png",
+    "48": "/images/get_started48.png",
+    "128": "/images/get_started128.png"
+  }
+}
