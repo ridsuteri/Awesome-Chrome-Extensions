@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/codechef.css">
+    <script src='../js/jquery.js'></script>
+    <title>Competitive Trainer</title>
+</head>
+<body id="competitiveTrainer">
+    <div class="options-container">
+        <a href="leetcode.html" class="rippler" id="leetcode">
+            <img src="../logos/leetcode.png" alt="Leetcode">
+        </a>
+        <a href="codechef.html" class="rippler" id="codechef">
+            <img src="../logos/codechef.png" alt="Codechef">
+        </a>
+        <a href="codeforces.html" class="rippler" id="codeforces">
+            <img src="../logos/codeforces.png" alt="Codeforces">
+        </a>
+    </div>
+    <div style="margin:10px;">
+        <h2 style="margin:0;">Ready to ace some problems from codechef?</h2>
+        <p style="margin: 0;margin-bottom: 28px;">Select the rating range from which you wanna compete<p>
+    </div>
+    <div class="body">
+        <label for="begin">
+            Begin Rating : 
+        </label>
+        <input type="text" name="begin" id="begin">
+        <label for="end">
+            End Rating :
+        </label>
+        <input type="text" name="end" id="end">
+    </div>
+    <div id="error">
+
+    </div>
+    <button class="btn-primary" id="codeChefRandom">Go!</button>
+    <script src="../js/main.js"></script>
+    <script src="../js/codechef.js"></script>
+</body>
+</html>
