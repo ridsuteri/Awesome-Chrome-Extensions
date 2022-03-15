@@ -1,0 +1,49 @@
+#competitiveTrainer .options-container a:nth-child(2)::after{
+    content: '';
+    border-bottom: blue 4px solid;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#competitiveTrainer #codechef{
+    background-color: #d8e7fd61!important;
+}
+
+#competitiveTrainer .body{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr 1fr);
+}
+
+#competitiveTrainer .btn-primary{
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: calc(100% - 85px);
+}
+
+#competitiveTrainer .btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 216);
+}
+
+#competitiveTrainer .loader{
+    height: 28px;
+    transform: scale(3.5);
+}
+
+#competitiveTrainer .invalidInp{
+    box-shadow: 0px 0px 8px 0px red;
+}
+
+#competitiveTrainer #error{
+    margin: 19px;
+    color: red;
+}
