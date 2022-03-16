@@ -8,24 +8,65 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+
     <link rel="stylesheet" href="./style/popup.css" />
+       <link rel="manifest" href="manifest.json" />
     <title>Dark Mode</title>
   </head>
   <body>
+    <div class="ch">
     <div class="heading">
-      <h1>Dark Mode</h1>
-      <p>v1.0</p>
-    </div>
-    <div class="touggle">
+      <h3>Dark <br>Mode</h3>    
+      <p>&nbsp;&nbsp;&nbsp;v1.1</p>
+      <h6><br>&nbsp;&nbsp;&nbsp;It's better for &nbsp;&nbsp;&nbsp;low-light settings...</h6>    
+    </div> 
+      
+     <div class="touggle">
       <input type="checkbox" class="checkbox" id="chk" />
       <label class="label" for="chk">
         <i class="fas fa-moon"></i>
         <i class="fas fa-sun"></i>
         <div class="ball"></div>
       </label>
+    </div>    
+    <div><h4>Brightness</h4></div>    
+    <div class="container">
+        <i class="far fa-sun" id="far"></i>
+        <input type="range" id="range" min="10" max="100" value="100">
+        <i class="fas fa-sun" id="fas"></i>
     </div>
+    </div>  
+    <script>
+      rangeInput = document.getElementById('range');
+      container = document.getElementsByClassName('ch')[0];
 
+      rangeInput.addEventListener("change",function(){
+        container.style.filter = "brightness(" + rangeInput.value + "%)";
+      });
+    </script>
+    <script>
+       const chk = document.getElementById("chk");
+      const ball = document.getElementById("ball");
+
+let buttonOn = false;
+
+chk.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
+
+  if (!buttonOn) {
+    buttonOn = true;
+    chrome.tabs.executeScript({
+      file: "buttonOn.js",
+    });
+  } else {
+    buttonOn = false;
+    chrome.tabs.executeScript({
+      file: "buttonOff.js",
+    });
+  }
+});
+</script>
     <script src="popup.js"></script>
-    
-  </body>
+   
+ </body>
 </html>
