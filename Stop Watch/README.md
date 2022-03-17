@@ -1,4 +1,4 @@
-# Random Password Generator Extension
+# Stop Watch Extension
 
 ## Aim
 
