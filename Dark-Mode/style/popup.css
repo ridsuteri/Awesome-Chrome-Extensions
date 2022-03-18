@@ -9,7 +9,7 @@ body {
     width: 200px;
 	height: 200px;
 	
-	transition: background 0.2s linear;
+	transition: background 0.5s linear;
 }
 
 .heading{
@@ -42,26 +42,26 @@ body.dark {
 
 .label {
 	background-color: #111;
-	border-radius: 50px;
+	border-radius: 30px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 5px;
 	position: relative;
-	height: 26px;
-	width: 50px;
+	height: 22px;
+	width: 48px;
 	transform: scale(1.5);
 }
 
 .label .ball {
-	background-color: #fff;
+	background-color:cyan;
 	border-radius: 50%;
 	position: absolute;
 	top: 2px;
 	left: 2px;
-	height: 22px;
-	width: 22px;
+	height: 18px;
+	width: 18px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
@@ -72,9 +72,41 @@ body.dark {
 
 
 .fa-moon {
-	color: #f1c40f;
+	color: #ffffff;
 }
 
 .fa-sun {
-	color: #f39c12;
+	color: #FCE570;
+}
+.container{
+  min-height:1vh;
+  background-size:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#range{
+  width: 100%;
+  -webkit-appearance: none;
+  background: #0a85ff;
+  height: 3px;
+  outline: none;
+}
+
+#range::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 15px;
+  height:15px;
+  background: #ffffff;
+  transition: 0.6s ease;
+  border: 1px solid #00FFFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#far{
+	color:aquamarine;
+}
+#fas{
+	color:aquamarine;
 }
