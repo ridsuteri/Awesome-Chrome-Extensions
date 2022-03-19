@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Background Generator",
+	"description": "Generate Beautiful Backgrounds",
+	"version": "1.0",
+	"browser_action": {
+	"default_icon": "pic.PNG",
+	"default_popup": "index.html"
+	}
+}
