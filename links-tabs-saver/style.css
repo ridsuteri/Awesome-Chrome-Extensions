@@ -1,0 +1,35 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    background-color:rgb(252, 245, 235);
+    min-width: 400px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+button {
+    cursor: pointer;
+    background:crimson;
+    color:rgb(252, 245, 235);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#5f9341;
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-top: 5px;
+}
+a {
+    color: #5f9341;
+}

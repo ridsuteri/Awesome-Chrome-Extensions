@@ -1,0 +1,24 @@
+{
+  "name": "Auto Refresher of page",
+  "version": "0.0.1",
+  "manifest_version": 2,
+ 
+  "description": "Automatically refresh the page on a set interval",  
+  "icons" : { 
+    "16": "images/refresh-icon16.png",
+    "48": "images/refresh-icon48.png",
+    "128": "images/refresh-icon128.png" 
+  },
+  
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/refresh-icon.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": ["activeTab", "storage", "tabs", "http://*/", "https://*/"]
+}

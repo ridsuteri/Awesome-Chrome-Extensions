@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/leetcode.css">
+    <script src='../js/jquery.js'></script>
+    <title>Competitive Trainer</title>
+</head>
+<body id="competitiveTrainer">
+    <div class="options-container">
+        <a href="leetcode.html" class="rippler" id="leetcode">
+            <img src="../logos/leetcode.png" alt="Leetcode">
+        </a>
+        <a href="codechef.html" class="rippler" id="codechef">
+            <img src="../logos/codechef.png" alt="Codechef">
+        </a>
+        <a href="codeforces.html" class="rippler" id="codeforces">
+            <img src="../logos/codeforces.png" alt="Codeforces">
+        </a>
+    </div>
+    <div class="body">
+        <h2>Daily challenge question : <span id="date"></span></h2>
+        <p id="daily-con" class="leet-con">
+            Loading...
+        </p>
+    </div>
+    <div class="body">
+        <h2>Solve a random question : </h2>
+        <p class="leet-con">
+            <span>
+                <input type="checkbox" name="diff" id="easy">
+                <label for="easy" class="difficulty Easy">Easy</label>
+            </span>
+            <span>
+                <input type="checkbox" name="diff" id="medium">
+                <label for="medium" class="difficulty Medium">Medium</label>
+            </span>
+            <span>
+                <input type="checkbox" name="diff" id="hard">
+                <label for="hard" class="difficulty Hard">Hard</label>
+            </span>
+        </p>
+        <button class="btn-primary" id="leetCodeRandom">Go!</button>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/leetcode.js"></script>
+</body>
+</html>

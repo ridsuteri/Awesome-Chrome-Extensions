@@ -5,6 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
+<br>
 [![GitHub issues](https://img.shields.io/github/issues/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/issues)
 [![GitHub forks](https://img.shields.io/github/forks/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/network)
 [![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
@@ -12,15 +13,15 @@
 
 Do you want awesome chrome extensions ?
 
-<p align="center"><img src="https://media.giphy.com/media/l4q83E0RjRSGLXBLO/giphy.gif" width = 40%></p>
+<p align="center"><img src="https://media.giphy.com/media/MNmyTin5qt5LSXirxd/giphy.gif" width = 40%></p>
 
 Are you looking for some awesome extensions in which each and every project will teach you an important Javascript Concept? and, on top of that, will give you some cool extensions as well? 
 
-<p align="center"><img src="https://media.giphy.com/media/Uq4XZx6xm8bdVgrv9T/giphy.gif" width = 40%></p>
+<p align="center"><img src="https://media.giphy.com/media/hXDrTueJWAscK3xWQ2/giphy.gif" width = 40%></p>
 
 Do you want to contribute to some Awesome Javascript projects and showcase your Javascript skills through it?🤩
 
-<p align="center"><img src="https://media.giphy.com/media/3oEjI8vagntG7EDxgQ/giphy.gif" width = 40%></p>
+<p align="center"><img src="https://media.giphy.com/media/3ohhweiVB36rAlqVCE/giphy.gif" width = 40%></p>
 
 CONGRATULATIONS, YOU'VE FOUND THE RIGHT REPO!!! 
 
@@ -152,6 +153,20 @@ To maintain a safe and inclusive space for everyone to learn and grow, contribut
   </tr>
 </tbody></table>
 </div>
+
+## Mentors 
+
+<div align="center">
+<table>
+  <tbody><tr>
+   <td ><a href="https://github.com/nerdynikhil"><img alt="" src="https://avatars.githubusercontent.com/nerdynikhil" width="130px;"><br><sub><b> Nikhil Barik</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>
+  <td ><a href="https://github.com/praniti111"><img alt="" src="https://avatars.githubusercontent.com/praniti111" width="130px;"><br><sub><b> Praniti Parmar</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>
+  <td ><a href="https://github.com/omrajsharma"><img alt="" src="https://avatars.githubusercontent.com/omrajsharma" width="130px;"><br><sub><b> Omraj Sharma</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>
+  </tr>
+</tbody></table>
+</div>
+
+
 
 ## Our valuable Contributors👩‍💻👨‍💻 :
 <div align="center">
