@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(239, 239, 252);
+  width: 400px;
+  height: 400px;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+#textField {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 1rem 1.5rem;
+  font-size: 25px;
+  background-color: #333;
+  color: #fff;
+}
+
+.inputButton {
+  padding: 0.2rem;
+  max-width: 90%;
+}
+
+.rowField {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 1.5rem;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 2px;
+  transition: 00.1s ease-in;
+  background-color: #444;
+  border: none;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #333;
+}
+.differnt {
+  background-color: orange;
+  font-size: 27px;
+}
+.differnt:hover {
+  background-color: #fff;
+  color: orange;
+}
+.last-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.last-row button {
+  padding: 1rem;
+}
+
+.calc {
+  border: none;
+  background-color: #fff;
+  color: orange;
+}
+.calc:hover {
+  background-color: orange;
+  color: #fff;
+}
