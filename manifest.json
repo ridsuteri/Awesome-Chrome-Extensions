@@ -1,0 +1,27 @@
+{
+    "manifest_version"  : 2,
+    "name"              : "Shark Tank Theme Site Blocker",
+    "version"           : "0.0.1",
+    "content_scripts"   : [
+        {
+            "matches"   : ["<all_urls>"],
+            "js"        : ["background.js"]
+        }
+    ],
+    "icons"             : { "48": "icons/icon.png", "128": "icons/icon.png" },
+    "browser_action"    : {
+      "default_popup"   : "popup.html",
+      "default_title"   : "Shark Tank Theme Site Blocker"
+    },
+    "permissions"       : [
+      "https://www.youtube.com/*"
+    ],
+    "web_accessible_resources": [
+      "images/bhai-kya-kr-rha-h-tu.png",
+      "images/kamal-ke-bande-ho-yar.png",
+      "images/review.png",
+      "images/oh-my-god.webp",
+      "images/life-barbad.png",
+      "images/mera-khoon-khol-rha-hai-ab.png"
+    ]
+}
