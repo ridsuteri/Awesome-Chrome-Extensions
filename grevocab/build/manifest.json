@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "GRE Vocab",
+  "author": "RiyaBhandari",
+  "version": "1.0.1",
+  "description": "Gives New GRE Vocab Words",
+  "icons" :{
+    "128": "logo.png"
+  },
+  "browser_action":{
+    "default_popup" : "index.html"
+  }
+}
