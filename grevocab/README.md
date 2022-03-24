@@ -35,5 +35,11 @@ Fixes #113
 
 ## Screenshots / Gif 📸
 
+![GREVocabImg](https://user-images.githubusercontent.com/85748264/159781200-ac2d178a-b461-4958-9dbe-d9a813ed0071.PNG)
+
+
+https://user-images.githubusercontent.com/85748264/159781210-25ce6e67-5650-490e-971a-995446db17f2.mp4
+
+
 
 
