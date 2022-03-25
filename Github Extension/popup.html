@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Github Extension</title>
+  </head>
+  <body>
+    <br />
+    <div class="userprofile">
+      <input
+        type="username"
+        name="github"
+        id="github"
+        placeholder="Enter your Github username"
+      />
+      <input type="submit" value="submit" class="submit" />
+    </div>
+    <div class="userprofile">
+      <img src="./logo.png" alt="" id="user_image" class="userimg" />
+      <div>
+        <h4 id="name"></h4>
+        <p id="username"></p>
+      </div>
+    </div>
+    <button type="button" class="collapsible panel-title">Issues</button>
+    <div id="issues"></div>
+    <button type="button" class="collapsible panel-title">
+      Recent Activity
+    </button>
+    <div id="pulls"></div>
+    <button type="button" class="collapsible panel-title">Feed</button>
+    <div id="feeds"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
