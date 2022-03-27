@@ -1,4 +1,4 @@
-<h1 align="center">Awesome Chrome Extensions </h1>
+<h1 align="center">🌐 Awesome Chrome Extensions 🌐</h1>
 
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/graphs/commit-activity)
@@ -11,21 +11,21 @@
 [![GitHub stars](https://img.shields.io/github/stars/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/stargazers)
 [![GitHub License](https://img.shields.io/github/license/ridsuteri/Awesome-Chrome-Extensions)](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/LICENSE)
 
-Do you want awesome chrome extensions ?
+### Do you want awesome chrome extensions ?
 
 <p align="center"><img src="https://media.giphy.com/media/MNmyTin5qt5LSXirxd/giphy.gif" width = 40%></p>
 
-Are you looking for some awesome extensions in which each and every project will teach you an important Javascript Concept? and, on top of that, will give you some cool extensions as well? 
+**Are you looking for some awesome extensions in which each and every project will teach you an important Javascript Concept? and, on top of that, will give you some cool extensions as well?** 
 
 <p align="center"><img src="https://media.giphy.com/media/hXDrTueJWAscK3xWQ2/giphy.gif" width = 40%></p>
 
-Do you want to contribute to some Awesome Javascript projects and showcase your Javascript skills through it?🤩
+**Do you want to contribute to some Awesome Javascript projects and showcase your Javascript skills through it?** 🤩
 
 <p align="center"><img src="https://media.giphy.com/media/3ohhweiVB36rAlqVCE/giphy.gif" width = 40%></p>
 
-CONGRATULATIONS, YOU'VE FOUND THE RIGHT REPO!!! 
+**CONGRATULATIONS, YOU'VE FOUND THE RIGHT REPO!!!** 🥇
 
-Awesome Chrome Extensions contains many awesome extensions, each built using javascript and every extension will teach you some new and important javascript concepts.
+**Awesome Chrome Extensions** contains many awesome extensions, each ***built using javascript*** and every extension will teach you some new and important javascript concepts.
 
 ## Overview
 This repository contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers
@@ -39,7 +39,7 @@ Here's an example image of what an extension looks like:
 
 <p align="center"><img src="https://media.giphy.com/media/l4FGjORgOyZJCzyzm/giphy.gif" width = 40%></p>
 
-If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up:
+If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's **how you will need to set it up:**
 
 - Clone this repository.
 - Find out the extension that excites you.
@@ -51,10 +51,9 @@ If you'd like to use these extensions for yourself, or perhaps use parts of it a
 - You can then turn off Developer Mode.
 - Now, when you open up a new tab, you should see the customized page!
 
-The Main Motive of this project is to make you ❎fall ☑️rise in love with Javascript. You will be in love with the beauty of Javascript.
+The **Main Motive of this project** is to make you ❎fall ☑️rise in love with Javascript. You will be in love with the beauty of Javascript.
 
-So, What are you waiting for?
-
+So, What are you waiting for? 😏
 
 
 # Tech-Stack :
@@ -66,7 +65,7 @@ In order to make a hassle-free environment, I implore you all (_while contributi
 
 Happy Submissions :slightly_smiling_face:
 
-## Contribution Guidelines🏗
+## Contribution Guidelines 🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
 To start contributing, follow the below guidelines: 
@@ -129,7 +128,7 @@ git commit -m "Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`.
+**12.** To create a pull request, click on `**compare and pull requests**`.
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
@@ -138,6 +137,10 @@ git push -u origin <your_branch_name>
 
 **15.** Voila :exclamation: You have made a PR to the Awesome-Chrome-Extensions :boom: . Wait for your submission to be accepted and your PR to be merged.
 
+**16.** **Congratulations!** You've made your first contribution! 🙌🏼
+
+
+## All the best! 🥇
 For further details, click on [CONTRIBUTING.md](https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/CONTRIBUTING.md)
 
 ## Code of Conduct
