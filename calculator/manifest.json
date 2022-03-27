@@ -1,0 +1,16 @@
+{
+    "manifest_version" : 2,
+    "name" : "Calculator",
+    "version" : "1.0.0",
+    "description" : "Calculate numbers",
+    "icons" : {
+        "128" : "img/icons128.png",
+        "48" : "img/icons48.png",
+        "16" : "img/icons16.png"
+    },
+    "browser_action" : {
+        "default_icon" : "img/icons16.png",
+        "default_popup" : "popup.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
