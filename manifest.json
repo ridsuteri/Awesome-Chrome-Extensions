@@ -1,0 +1,12 @@
+{
+    "name": "Income tax Calculator",
+    "version": "1.0.0",
+    "description":"Helps in calculating income tax.",
+    "manifest_version": 1,
+    "browser_action": {
+    "default_icon":"icon.jpeg",
+        "default_popup": "it.html"
+        
+    },
+    "permissions": ["activeTab"]
+}
