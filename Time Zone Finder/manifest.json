@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "TimeZone Finder",
+    "version": "2.0.1",
+    "description": "This is a simple extension that displayes the current timezone at any location.",
+    "author":"Sulagna Dutta Roy",
+    "browser_action": {
+        "default_title":"TimeZone Finder",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts": ["script.js"]
+    }
+}
