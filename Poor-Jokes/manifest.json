@@ -1,12 +1,18 @@
 {
-    "name": "Poor Jokes",
-    "version": "0.0.1",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": "logo.png"
-    },
+    "name": "Poor Jokes Extension",
+    "description": "Generate random joke in every click",
+    "version": "1.0",
+    "manifest_version": 3,
     "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
         "128": "logo.png"
-    }
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+
 }
