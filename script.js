@@ -60,6 +60,11 @@ let projectData = [
     projectImage: "img.png",
     projectUrl: "",
   },
+  {
+    projectName: "rgb to hex convertor",
+    projectImage: "img.png",
+    projectUrl: "",
+  }
 
   
 ];
