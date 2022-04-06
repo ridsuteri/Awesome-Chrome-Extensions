@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
+
+body {
+  width: 500px;
+  height: 580px;
+  font-family: "Poppins";
+  text-align: center;
+  align-items: center;
+}
+
+#issues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
