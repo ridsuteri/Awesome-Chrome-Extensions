@@ -7,7 +7,7 @@
         "default_title": "puzzle game",
         "default_popup": "index.html",
         "default_icon": {
-            "32": ""
+            "32": "pngegg.png"
         }
     }
 }
