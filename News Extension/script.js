@@ -1,5 +1,5 @@
 fetch(
-  "https://newsdata.io/api/1/news?apikey=pub_6258cad616bb55ee634704d44f2a476b74a7&country=in"
+  "https://newsdata.io/api/1/news?apikey=pub_6258cad616bb55ee634704d44f2a476b74a7&country=in&language=en"
 )
   .then((data) => data.json())
   .then((issuesData) => {
@@ -76,7 +76,7 @@ function show() {
   let category = cat.toLowerCase();
   console.log(category);
   fetch(
-    `https://newsdata.io/api/1/news?apikey=pub_6258cad616bb55ee634704d44f2a476b74a7&category=${category}`
+    `https://newsdata.io/api/1/news?apikey=pub_6258cad616bb55ee634704d44f2a476b74a7&category=${category}&language=en`
   )
     .then((data) => data.json())
     .then((issuesData) => {
@@ -155,7 +155,7 @@ function showEle() {
   let country = cat.toLowerCase();
   console.log(country);
   fetch(
-    `https://newsdata.io/api/1/news?apikey=pub_6258cad616bb55ee634704d44f2a476b74a7&country=${country}`
+    `https://newsdata.io/api/1/news?apikey=pub_6258cad616bb55ee634704d44f2a476b74a7&country=${country}&language=en`
   )
     .then((data) => data.json())
     .then((issuesData) => {
