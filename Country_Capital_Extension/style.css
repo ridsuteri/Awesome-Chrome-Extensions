@@ -1,62 +1,25 @@
-form{
-    margin: 50px auto;
-    width: 500px;
-    height: 450px;
-    background-color: black;
-}
 
-label {
-    width: 150px;
-    color: white;
-    margin:  25px 50px 25px 0px;
-    font-size: 1.5em;
-    
-}
-h4{
-    color: white;
-    display: flex;
-    justify-content: center;
+
+h2{
     text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
 }
 
-input#feet{
-    height: 40px;
-    width: 200px;
-    padding-left: 25px;
-    margin-left: 20px;
-    font-size: 1.5em;
-    
-}
 
-h1{
+img{
+    height: 150px;
+    width:250px
+}
+.btn{
+margin-top: 15px;
     text-align: center;
-    color: white;
-    padding-top: 50px;
+    margin-bottom: 5px;
 }
 
-.row{
-    width: 400px;
-    text-align: left;
-    margin: 25px auto;
+p{font-size: 2rem;
+    color:white
 }
-
-#button{
-    background-color: white;
-    border: none;
-    color: black;
-    width: 260px;
-    padding: 5px 15px;
-    line-height: 1.2em;
-    font-size: 1.2em;
-    text-align: center;
-    margin: 50px 120px;
-}
-
-#results{
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-}
-p{
-    color:pink
+div{
+    background-color: teal;
 }

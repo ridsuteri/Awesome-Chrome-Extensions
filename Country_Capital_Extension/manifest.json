@@ -1,9 +1,8 @@
-{"manifest_version": 2 ,
+{"manifest_version": 3 ,
 "name": "Country-Capital",
-"description":"Know about capital of particular country",
+"description":"Know about capital of a particular country",
 "version": "1.0.0" , 
-"browser-action": {"default_popup":"popup.html",
-"default_icon":"logo.png"},
+"action": {"default_popup":"popup.html"},
 "icons":{"128":"logo.png"},
 "permissions":["activeTab"]
 }
