@@ -8,7 +8,7 @@
     ],
     "action": {
         "default_title": "Quick Access Google",
-        "default_popup": "",
+        "default_popup": "popup.html",
         "default_icon": {
             "32": ""
         }
