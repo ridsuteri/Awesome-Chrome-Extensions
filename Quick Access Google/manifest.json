@@ -1,0 +1,16 @@
+{
+    "name": "Quick Access Google",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Quick Access Google Extension ",
+    "permissions": [
+        "management"
+    ],
+    "action": {
+        "default_title": "Quick Access Google",
+        "default_popup": "",
+        "default_icon": {
+            "32": ""
+        }
+    }
+}
