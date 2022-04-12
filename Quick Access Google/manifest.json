@@ -10,7 +10,7 @@
         "default_title": "Quick Access Google",
         "default_popup": "popup.html",
         "default_icon": {
-            "32": ""
+            "32": "img/Apps-Google-Chrome-App-List-icon.png"
         }
     }
 }
