@@ -2,9 +2,16 @@
   "name": "Toxicity Classification Extension",
   "version": "0.0.1",
   "manifest_version": 2,
-  "background": {
-    "scripts": ["script.js"]
-  },
+
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "storage",
+    "tabs"
+  ],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": "logo.png"
@@ -20,8 +27,6 @@
       "run_at": "document_start"
     }
   ],
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
-  },
+  "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest 'unsafe-eval'; object-src 'self'",
   "host_permissions": ["<all_urls>"]
 }
