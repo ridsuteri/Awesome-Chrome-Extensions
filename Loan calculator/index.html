@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Loan Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-heading">
+            <h1>Calculate your loan amount</h1>
+        </div>
+        <!-- INPUTS -->
+        <div class="form-calculator">
+            <form class="grid" id="loan-form">
+                <input type="number" name="loan-amount" id="loan-amount" placeholder="Amount to loan" max=99999999
+                    class="grid-item-1" required />
+                <input type="number" name="percent-amount" id="percent-amount" placeholder="%" step=".001" max=100
+                    class="grid-item-2" required />
+
+
+                <div class="grid-item-3">
+                    <label for="months">Months Term:</label>
+                    <select name="months" id="months-amount">
+                        <option value="12">12</option>
+                        <option value="18">18</option>
+                        <option value="24">24</option>
+                        <option value="36">36</option>
+                        <option value="48">48</option>
+                        <option value="60">60</option>
+                        <option value="72">72</option>
+                        <option value="84">84</option>
+                        <option value="96">96</option>
+                    </select>
+                </div>
+                <button type="submit" id="submit" class="grid-item-4">
+                    Calculate
+                </button>
+            </form>
+        </div>
+
+        <!-- LOADING SPINNER -->
+        <div class="form-loading hide">
+            <div class="loading-spinner">
+                <div class="loading">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESULTS -->
+        <div class="form-results hide">
+            <div class="form-results-row mt-2">
+                Your total sum will be:
+                <span id="amount-total"></span>
+            </div>
+            <div class="form-results-row mt-2">
+                Your mothly payment:
+                <span id="amount-monthly"></span>
+            </div>
+            <div class="form-results-row mt-2">
+                Total interest:
+                <span id="amount-interest"></span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
