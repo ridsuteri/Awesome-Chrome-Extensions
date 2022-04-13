@@ -1,0 +1,25 @@
+
+
+h5{text-align: center;
+   
+    
+    padding-top: 20px;
+}
+
+
+img{
+    height: 150px;
+    width:250px
+}
+.btn{
+margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p{font-size: 2rem;
+    color:white
+}
+div{
+    background-color: rgb(216, 150, 207);
+}
