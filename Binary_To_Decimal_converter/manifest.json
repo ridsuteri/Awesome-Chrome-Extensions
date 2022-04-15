@@ -1,0 +1,6 @@
+{"manifest_version":3,
+    "name":"Binary_To_Decimal",
+    "description":"Convert a binary number to decimal or vice-versa",
+    "version": "1.0.0" , 
+    "action": {"default_popup":"popup.html"},
+    "permissions":["activeTab"]}
