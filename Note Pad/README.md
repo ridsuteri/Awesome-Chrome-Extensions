@@ -21,8 +21,8 @@
 
 ## 📷 Screenshots
 
-![ss1]()
-![ss2]()
+![ss1](./img/1.1.png)
+![ss2](./img/2.2.png)
 
 ## ‎‍💻 Authors
 
