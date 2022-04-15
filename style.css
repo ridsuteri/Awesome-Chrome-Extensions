@@ -102,7 +102,7 @@ h1 {
 
 .projectCard {
   flex: 50%;
-  width: 90%;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 transparent,0 0 transparent,0 0 transparent,0 0 transparent, 0 2px 3px 0 rgba(0,0,0,0.15),0 1px 2px 0 rgba(0,0,0,0.06);
@@ -121,6 +121,12 @@ h1 {
 .projectCard h4{
   font-size: 1.3rem;
   text-align: center;
+}
+
+.projectCardImg {
+  width: 400px;
+  height: 200px;
+  border-radius: 1px;
 }
 
 .project-section{
