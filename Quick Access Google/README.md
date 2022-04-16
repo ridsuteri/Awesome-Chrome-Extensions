@@ -6,6 +6,7 @@
 
 <div align="center">
   Quick Access Google Extension using HTML, CSS and JS.
+    <h2>Works only in Chrome browsers</h2>
 </div>
 
 <br />
