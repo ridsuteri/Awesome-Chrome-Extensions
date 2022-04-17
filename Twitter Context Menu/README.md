@@ -21,8 +21,8 @@
 
 ## 📷 Screenshots
 
-![ss1](./img/Screenshot-2022-04-08%20030523.png)
-![ss2](./img/Screenshot%202022-04-08%20030547.png)
+![ss1](./img/aok.png)
+![ss2](./img/aok2.png)
 
 ## ‎‍💻 Authors
 
