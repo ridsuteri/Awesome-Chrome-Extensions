@@ -1,0 +1,13 @@
+{
+    "name": "Twitter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Twitter",
+    "permissions": ["contextMenus"],
+    "background": {
+        "service_worker": "event.js"
+    },
+    "icons": {
+        "19": ""
+    }
+}
