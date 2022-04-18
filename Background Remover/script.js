@@ -31,10 +31,14 @@ inputText.onchange = function () {
     .then((response) => response.json())
     .then((response) => {
       console.log(response);
-      prediction.innerHTML = "Background Removed";
-      let newUrl = response.response.image_url;
-      console.log(newUrl);
-      download_img.src = newUrl;
+      if (response.error) {
+        prediction.innerHTML = response.message;
+      } else {
+        prediction.innerHTML = "Background Removed";
+        let newUrl = response.response.image_url;
+        console.log(newUrl);
+        download_img.src = newUrl;
+      }
     })
     .catch((err) => console.error(err));
 };
