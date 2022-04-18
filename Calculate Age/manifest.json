@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Age Calculator",
+  "version": "0.0.1",
+  "icons": { "100": "/logo.png" },
+  "browser_action": {
+      "default_popup": "index.html" 
+    }
+}
