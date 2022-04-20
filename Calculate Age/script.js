@@ -14,6 +14,7 @@ var calculate = document.getElementById('calculate'),
           if(todayDate.getDate() >= birthDate.getDate()) {
               return todayDate.getMonth() - birthDate.getMonth();
           }
+        }
           else {
               if((todayDate.getMonth() - 1) >= birthDate.getMonth()) {
                   return (todayDate.getMonth() - 1) - birthDate.getMonth();
@@ -22,7 +23,7 @@ var calculate = document.getElementById('calculate'),
                   return ((todayDate.getMonth() - 1) + 12) - birthDate.getMonth();
               }
           }
-      }
+      
         
     };
     function ageDay() {
