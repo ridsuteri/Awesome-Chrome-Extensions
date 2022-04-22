@@ -6,7 +6,39 @@ h2{
     padding-top: 20px;
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .loader {background-color:rgb(167, 179, 10) ;
+    display: none;
+    top: 500px;
+    left: 50%;
+   
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .loading {background-color:rgb(167, 179, 10) ;
+    border: 5px solid #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top-color: #537001;
+    border-left-color: #537001;
+    animation: spin 1s ease-in;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 img{
     height: 150px;
     width:250px
@@ -20,6 +52,6 @@ margin-top: 15px;
 p{font-size: 2rem;
     color:white
 }
-div{
+div{height: 350px;
     background-color: rgb(167, 179, 10);
 }
