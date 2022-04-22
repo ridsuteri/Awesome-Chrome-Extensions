@@ -5,9 +5,9 @@
     "description": "Control chrome tabs",
     "permissions": ["contextMenus"],
     "background": {
-        "service_worker": ""
+        "service_worker": "event.js"
     },
     "icons": {
-        "19": ""
+        "19": "./img/chrome_logo_PNG33.png"
     }
 }
