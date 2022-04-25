@@ -1,0 +1,41 @@
+html{
+  min-height: 100%;
+  margin: 0;
+ 
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow);
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  font-size: 3.5em;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+}
+h3, h4{
+  font-family: 'Lobster', cursive;
+  font-weight: 900;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}

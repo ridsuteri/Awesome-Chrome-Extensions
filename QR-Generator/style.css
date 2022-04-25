@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.head .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.head .subtitle {
+  letter-spacing: 1.3rem;
+  padding-left: 1rem;
+}
+
+.qr {
+  margin-bottom: 2rem;
+}
+
+.qr img {
+  width: 15rem;
+}
+
+.input {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.65rem 2rem;
+  background: linear-gradient(45deg, #1d2526, #626262);
+  border-radius: 2rem;
+}
+.input .label {
+  font-size: 0.75rem;
+}
+
+.input .text {
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+
+::placeholder {
+  color: #999999;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons .generate,
+.buttons .download {
+  background-color: #2497ff;
+  color: #fff;
+  border: none;
+  width: 48%;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  padding: 0.5rem;
+}

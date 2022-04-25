@@ -1,0 +1,15 @@
+{
+    "name": "Ad Blocker",
+    "version": "2.0.1",
+    "description": "This is a simple extension that blocks the scripts, web browsers etc.",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["script.js"]
+    },
+    "icons": {
+        "16": "Images/Ad logo.png",
+        "48": "Images/Ad logo.png",
+        "128": "Images/Ad logo.png"
+    },
+    "manifest_version":2
+}

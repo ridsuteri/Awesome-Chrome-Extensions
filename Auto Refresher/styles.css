@@ -1,0 +1,46 @@
+#ss_button {
+	background-image: url(images/go.png);
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	border: none;
+	margin-right: 10px;
+}
+
+#d1 {
+	float: left
+}
+
+#d2 {
+	float: left;
+	margin-top: 10px;
+}
+
+button {
+	display: inline;
+	float: left;
+}
+
+input {
+  display: inline-block;
+  width: 3em;
+  position: relative;
+  top: -3em;
+  float: left;
+}
+
+label {
+  display: inline-block;
+  width: 3em;
+  margin-right: .5em;
+  padding-top: 1.5em;
+  float: left;
+}
+
+body {
+	float: left;
+	vertical-align: center
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+}
