@@ -1,0 +1,70 @@
+#competitiveTrainer .options-container a:nth-child(1)::after{
+    content: '';
+    border-bottom: blue 4px solid;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#competitiveTrainer #leetcode{
+    background-color: #d8e7fd61!important;
+}
+
+#competitiveTrainer .body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#competitiveTrainer .link-dec{
+    text-decoration: none;
+    font-weight: 500;
+    color: blue;
+}
+#competitiveTrainer .leet-con{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+#competitiveTrainer .difficulty{
+    font-weight: 600;
+}
+#competitiveTrainer .difficulty{
+    font-weight: 500;
+}
+#competitiveTrainer .difficulty{
+    font-weight: 500;
+}
+#competitiveTrainer .difficulty.Easy{
+    color: green;
+}
+#competitiveTrainer .difficulty.Medium{
+    color: #ffc107;
+}
+#competitiveTrainer .difficulty.Hard{
+    color: red;
+}
+#competitiveTrainer .status{
+    color: orange;
+}
+#competitiveTrainer .btn-primary{
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: calc(100% - 60px);
+}
+#competitiveTrainer .btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 216);
+}
+#competitiveTrainer .loader{
+    height: 28px;
+    transform: scale(3.5);
+}
+#competitiveTrainer .invalidInp{
+    box-shadow: 0px 0px 10px 2px red;
+}

@@ -1,0 +1,101 @@
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+	font-family: arial;
+	font-size: 1.6rem;
+	margin: 0;
+	background: #23494b;
+	color: rgb(125, 196, 231);
+	
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+}
+
+.age-calculate{
+	max-width: 60rem;
+	width: 100%;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding: 3rem;
+	border-radius: 3rem;
+	background: linear-gradient(to bottom, #4266d3 50%, #335454);
+}
+h1{
+	margin: 0 0 2rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 3rem;
+    color:rgb(241, 233, 233);
+    font-family: cursive;
+    margin-bottom: 1.8rem;
+}
+.age-calculate input[type="date"]{
+	width: 60%;
+	display: block;
+	margin: 0 auto 2rem;
+	font-size: 2rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	border:0;
+}
+.age-calculate button{
+	width: 60%;
+  display: block;
+  margin: 0 auto 1rem;
+  font-size: 1.6rem;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  border: 0;
+  background: #290a45;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+#birth_date{
+	font-family: cursive;
+    width: 100%;
+   
+    border: .2rem solid rgb(42, 38, 178);
+    background-color: rgba(243, 243, 235, 0.907);
+}
+#calculate{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bold;
+}
+#calculate:hover{
+  background-color: #2c277d;
+  font-family: cursive;
+}
+
+#calculateAge{
+    margin: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+}
+
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+}

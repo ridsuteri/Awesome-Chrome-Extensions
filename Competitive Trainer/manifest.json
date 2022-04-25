@@ -1,0 +1,19 @@
+{
+    "name": "Competitive trainer",
+    "description": "Overwhelmed by the amount of problems you see everywhere and unable to decide what to solve? Select a random problem and ace!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "html/leetcode.html"
+    },
+    "content_scripts": [
+    {
+        "matches": ["http://*/*","https://*/*"],
+        "css": ["css/main.css"],
+        "js": ["js/jquery.js", "js/main.js"]
+    } ],
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": ["notifications","alarms"]
+}

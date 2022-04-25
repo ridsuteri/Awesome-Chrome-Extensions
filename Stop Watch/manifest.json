@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "STOPWATCH",
+    "version": "0.0.1",
+    "description": "A quick access stopwatch.",
+    "icons":{
+        "128": "clock2.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "clock2.png"
+    },
+    "permissions": ["activeTab"]
+}

@@ -1,0 +1,125 @@
+#competitiveTrainer{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+}
+
+#competitiveTrainer .options-container{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+}
+
+#competitiveTrainer .options-container a{
+    box-shadow: none;
+    padding: 15px!important;
+    margin: 0;
+    height: fit-content;
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s all;
+}
+
+#competitiveTrainer .options-container a:hover{
+    background-color: #d8e7fd61!important;
+    box-shadow: 0px 0px 50px -20px;
+}
+
+#competitiveTrainer .rippler img{
+    width: 50px;
+}
+
+/* Rippler */
+
+#competitiveTrainer a.rippler{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#competitiveTrainer a.rippler.rippler-light:hover{
+    color:#212529;
+    background-color: #e5e5e5;
+}
+  
+#competitiveTrainer a.rippler.rippler-dark:hover{
+    color:white;
+    background-color: #505050;
+}
+
+#competitiveTrainer .rippler{
+    position: relative;
+    display: block;
+    border: none;
+    outline: none;
+    background: #dfdfdf;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 2px;
+    width: auto;
+    height: 3em;
+    margin-right: 0.75em;
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+  
+/* .rippler-light{
+} */
+  
+#competitiveTrainer .rippler-dark{
+    color: white;
+}
+
+#competitiveTrainer .rippler-light{
+    color:#212529;
+}
+
+#competitiveTrainer .ripple{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(75, 153, 255, 0.719);
+  /* background: rgba(180, 180, 180, 0.719); */
+  /* background: rgba(0, 0, 0, 0.288); */
+  /* background: rgba(158, 158, 158, 0.375); */
+  /* background: rgba(0,0,0,.25); */
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  pointer-events: none;
+}
+
+#competitiveTrainer .ripple.show {
+  -webkit-animation: ripple 0.50s ease-out;
+  animation: ripple 0.50s ease-out;
+}
+
+@-webkit-keyframes 
+ripple { to {
+ -webkit-transform: scale(1.5);
+ transform: scale(1.5);
+ opacity: 0;
+}
+
+}
+@keyframes 
+ripple { to {
+ -webkit-transform: scale(1.5);
+ transform: scale(1.5);
+ opacity: 0;
+}
+}
