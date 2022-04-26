@@ -7,7 +7,7 @@ function movies(id){
         {const movieText = movieData.results[i].original_title;
      //   console.log(bookText);
      // let output[i]=document.querySelector(".output"+i);
-     document.querySelector(".output"+i).textContent =`${i+1}. ${movieText}  ` ;}}
+     document.querySelector(".output"+i).textContent =`- ${movieText}  ` ;}}
     })
   }
     
