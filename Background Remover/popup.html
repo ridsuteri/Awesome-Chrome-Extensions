@@ -32,11 +32,31 @@
     </div>
 
     <br />
-    <div>
-      <img id="upload_img" alt="" width="250" height="250" />
+    <img id="upload_img" alt="" width="250" height="250" />
+    <div id="background">
       <img id="download_img" alt="" width="250" height="250" />
     </div>
+    <div class="card">
+      <p id="upload">Enter the url of the Background image</p>
+      <label class="input">
+        <input
+          id="input_download"
+          class="input__field"
+          type="text"
+          placeholder=" "
+        />
+        <span class="input__label">BackgroundImage URL</span>
+      </label>
+      <div>
+        <button id="enterText" class="button" style="background-color: #f1bb4e">
+          Submit
+        </button>
+      </div>
 
+      <p id="prediction"></p>
+
+      <br />
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
