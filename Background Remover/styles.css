@@ -144,3 +144,6 @@ ul.gradient-list > li::before {
 ul.gradient-list > li + li {
   margin-top: 2rem;
 }
+#background {
+  background-size: cover;
+}
