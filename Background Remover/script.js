@@ -2,9 +2,12 @@ const inputText = document.getElementById("input");
 const upload = document.getElementById("upload");
 
 const prediction = document.getElementById("prediction");
-var results = document.getElementById("results");
 var upload_img = document.getElementById("upload_img");
 var download_img = document.getElementById("download_img");
+var background = document.getElementById("background");
+const backgroundText = document.getElementById("input_download");
+let newUrl;
+let bgUrl;
 
 inputText.onchange = function () {
   console.log(inputText.value);
@@ -35,10 +38,23 @@ inputText.onchange = function () {
         prediction.innerHTML = response.message;
       } else {
         prediction.innerHTML = "Background Removed";
-        let newUrl = response.response.image_url;
+        newUrl = response.response.image_url;
         console.log(newUrl);
         download_img.src = newUrl;
       }
     })
     .catch((err) => console.error(err));
 };
+
+backgroundText.onchange = function () {
+  bgUrl = backgroundText.value;
+  upload_img.src = bgUrl;
+  upload.innerHTML = "Background Image URL Entered Successfully!";
+
+  prediction.innerHTML = "Adding new background ...";
+
+  background.style.backgroundImage = `url(${bgUrl})`;
+  download_img.style.border = "none";
+};
+
+//https://avatars.githubusercontent.com/u/72400676?v=4
