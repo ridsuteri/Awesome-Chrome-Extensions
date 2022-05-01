@@ -10,7 +10,7 @@ body{
 }
 nav{
   background: #0082e6;
-  position: fixed;
+  position: absolute;
   height: 80px;
   width: 100%;
 }
