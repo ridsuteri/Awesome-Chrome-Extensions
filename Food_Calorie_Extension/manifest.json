@@ -1,0 +1,9 @@
+{"manifest_version": 3 ,
+    "name": "Food_Calorie",
+    "description":"Know about calories present in your food",
+    "version": "1.0.0" , 
+    "action": {"default_popup":"popup.html"},
+    "icons":{"128":"logo.png"},
+    "permissions":["activeTab"]
+    }
+    

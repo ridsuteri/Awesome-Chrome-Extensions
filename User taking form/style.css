@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+}
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+}
+
+.c {
+    width: 100%;
+}
+
+.d {
+    margin-top: 1.5rem;
+}
+
+.e {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 15rem;
+
+}
+
+.h {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.i {
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: black;
+}
+
+.j {
+    width: 50%;
+    background-color: gray;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.k {
+    background-color: wheat;
+    padding: 1rem;
+    border: 2px sodil black;
+    border-radius: 1rem;
+}
+
+.gf {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: green;
+    ;
+}

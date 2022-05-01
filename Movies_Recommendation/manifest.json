@@ -1,0 +1,8 @@
+{"manifest_version":3,
+    "name":"Movies_Recommendation",
+    "description":"Recommend movies based on user's selected genre",
+    "version": "1.0.0" , 
+    "action": {"default_popup":"popup.html",
+    "default_logo":"movies.png"},
+    "icons":{"128":"movies.png"},
+    "permissions":["activeTab"]}

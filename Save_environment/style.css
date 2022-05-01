@@ -1,0 +1,25 @@
+
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+
+img{
+    height: 150px;
+    width:250px
+}
+.btn{
+margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+li{font-size: 1.5rem;
+    color:white
+}
+div{
+    background-color: rgb(0, 146, 7);
+}
