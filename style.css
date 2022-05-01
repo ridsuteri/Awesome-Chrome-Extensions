@@ -91,14 +91,15 @@ body.light-mode svg {
   cursor: pointer;
 }
 
+
+
+
 h1 {
   text-align: center;
   font-size: 3.5rem;
   padding: 15vh 7vw;
   margin-bottom: -75px;
 }
-
-
 
 .projectCard {
   flex: 50%;
@@ -128,6 +129,9 @@ h1 {
   height: 200px;
   border-radius: 1px;
 }
+
+
+
 
 .project-section{
   width: 90vw;
