@@ -1,0 +1,17 @@
+﻿{
+    "name": "Translator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Translator",
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action": {
+        "default_title": "Translator",
+        "default_popup": "index.html",
+        "default_icon": {
+            "32": ""
+        }
+    }
+}
