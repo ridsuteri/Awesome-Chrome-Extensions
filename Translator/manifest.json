@@ -11,7 +11,7 @@
         "default_title": "Translator",
         "default_popup": "index.html",
         "default_icon": {
-            "32": ""
+            "32": "./img/kindpng_6026265.png"
         }
     }
 }
