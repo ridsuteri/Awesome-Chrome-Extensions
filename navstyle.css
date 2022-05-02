@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Julius+Sans+One&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -5,14 +6,13 @@
   list-style: none;
   box-sizing: border-box;
 }
-body{
-  font-family: montserrat;
-}
 nav{
-  background: #0082e6;
+  background-color: #0B0C10;
   position: absolute;
   height: 80px;
   width: 100%;
+    font-family: 'Julius Sans One',
+    sans-serif;
 }
 label.shadow{
   color: white;
@@ -31,14 +31,13 @@ nav ul li{
   margin: 0 5px;
 }
 nav ul li a{
-  color: white;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
 a.active,a:hover{
-  background: #1b9bff;
+  background: #45A29E;
   transition: .5s;
 }
 .checkbtn{
@@ -86,7 +85,7 @@ a.active,a:hover{
   }
   a:hover,a.active{
     background: none;
-    color: #0082e6;
+    color: white;
   }
   #check:checked ~ ul{
     left: 0;
