@@ -1,18 +1,18 @@
 let projectData = [
   {
     projectName: "Ad Blocker",
-    projectImage: "Ad Blocker/AdBlocker image.png",
+    projectImage: "Ad-Blocker/AdBlockerimage.png",
     projectUrl: "",
   },
   {
     projectName: "Auto Refresher",
-    projectImage: "Auto Refresher/images/example-go.png",
-    projectUrl: "Auto Refresher/popup.html",
+    projectImage: "Auto-Refresher/images/example-go.png",
+    projectUrl: "Auto-Refresher/popup.html",
   },
   {
     projectName: "BMI Calculator",
-    projectImage: "BMI Calculator/BMI Extention Working Images/BMINormal.png",
-    projectUrl: "BMI Calculator/popup.html",
+    projectImage: "BMI-Calculator/BMIExtentionWorkingImages/BMIextention.png",
+    projectUrl: "BMI-Calculator/popup.html",
   },
   {
     projectName: "Binary_To_Decimal_converter",
@@ -21,32 +21,32 @@ let projectData = [
   },
   {
     projectName: "CSS Background Generator",
-    projectImage: "CSS Background Generator/CSS Background Image.png",
-    projectUrl: "CSS Background Generator/index.html",
+    projectImage: "CSS-Background-Generator/CSS-Background-Image.png",
+    projectUrl: "CSS-Background-Generator/index.html",
   },
   {
     projectName: "Calender 2",
-    projectImage: "Calender 2/Dynamic Calender images/Dynamic Calender1.png",
-    projectUrl: "Calender 2/index.html",
+    projectImage: "Calender-2/Dynamic-Calender-images/Dynamic-Calender1.png",
+    projectUrl: "Calender-2/index.html",
   },
   {
     projectName: "Code Launcher",
-    projectImage: "Code Launcher/images/Code Aider image.png",
-    projectUrl: "Code Launcher/popup.html",
+    projectImage: "Code-Launcher/images/Code-Aider-image.png",
+    projectUrl: "Code-Launcher/popup.html",
   },
   {
     projectName: "Coin toss",
-    projectImage: "Coin toss/Coin Toss Images.png",
-    projectUrl: "Coin toss/index.html",
+    projectImage: "Coin-toss/Coin-Toss-Images.png",
+    projectUrl: "Coin-toss/index.html",
   },
   {
     projectName: "Competitive Trainer",
-    projectImage: "Competitive Trainer/Competitive Trainer Image.png",
-    projectUrl: "Competitive Trainer/html/codechef.html",
+    projectImage: "Competitive-Trainer/Competitive-Trainer-Image.png",
+    projectUrl: "Competitive-Trainer/html/codechef.html",
   },
   {
     projectName: "Countdown-timer",
-    projectImage: "Countdown-timer/CountDown Timer  Image.png",
+    projectImage: "Countdown-timer/CountDown-Timer-Image.png",
     projectUrl: "Countdown-timer/index.html",
   },
   {
@@ -61,22 +61,22 @@ let projectData = [
   },
   {
     projectName: "Github Extension",
-    projectImage: "Github Extension/images/img4.jpg",
-    projectUrl: "Github Extension/popup.html",
+    projectImage: "Github-Extension/images/img4.jpg",
+    projectUrl: "Github-Extension/popup.html",
   },
   {
     projectName: "Height Conversion tool",
-    projectImage: "Height Conversion tool/Height Conversion Tool Image.png",
-    projectUrl: "Height Conversion tool/index.html",
+    projectImage: "Height-Conversion-tool/Height-Conversion-Tool-Image.png",
+    projectUrl: "Height-Conversion-tool/index.html",
   },
   {
     projectName: "IT_Income_Tax_Calculator",
-    projectImage: "IT_Income_Tax_Calculator/IT IncomeTax cal Image.png",
+    projectImage: "IT_Income_Tax_Calculator/IT-IncomeTax-cal-Image.png",
     projectUrl: "IT_Income_Tax_Calculator/it.html",
   },
   {
-    projectName: "Links-Launcher",
-    projectImage: "Links-Launcher/Links Launcher Image.png",
+    projectName: "Links Launcher",
+    projectImage: "Links-Launcher/Links-Launcher-Image.png",
     projectUrl: "Links-Launcher/popup.html",
   },
   {
@@ -86,13 +86,13 @@ let projectData = [
   },
   {
     projectName: "List The Bookmarks",
-    projectImage: "List The Bookmarks/List the Bookmarks Images.png",
-    projectUrl: "List The Bookmarks/popup.html",
+    projectImage: "List-The-Bookmarks/List-the-Bookmarks-Images.png",
+    projectUrl: "List-The-Bookmarks/popup.html",
   },
   {
     projectName: "Loan calculator",
-    projectImage: "Loan calculator/Loan Cal Image.png",
-    projectUrl: "Loan calculator/index.html",
+    projectImage: "Loan-calculator/Loan-Cal-Image.png",
+    projectUrl: "Loan-calculator/index.html",
   },
   {
     projectName: "Maths_addition",
@@ -101,14 +101,14 @@ let projectData = [
   },
   {
     projectName: "Motivation_unlimited",
-    projectImage: "Motivation_unlimited/Motivation Unlimited Image.png",
+    projectImage: "Motivation_unlimited/Motivation-Unlimited-Image.png",
     projectUrl: "Motivation_unlimited/popup.html",
   },
 
   {
     projectName: "News Extension",
-    projectImage: "News Extension/images/img0.JPG",
-    projectUrl: "News Extension/popup.html",
+    projectImage: "News-Extension/images/img0.JPG",
+    projectUrl: "News-Extension/popup.html",
   },
   {
     projectName: "Parential",
@@ -117,7 +117,7 @@ let projectData = [
   },
   {
     projectName: "Pinterest_extension",
-    projectImage: "Pinterest_extension/Pinterest Image.jpg",
+    projectImage: "Pinterest_extension/Pinterest-Image.jpg",
     projectUrl: "Pinterest_extension/popup.html",
   },
   {
@@ -132,8 +132,8 @@ let projectData = [
   },
   {
     projectName: "Puzzle Game",
-    projectImage: "Puzzle Game/img/Screenshot 2022-04-08 030547.png",
-    projectUrl: "Puzzle Game/index.html",
+    projectImage: "Puzzle-Game/img/img.png",
+    projectUrl: "Puzzle-Game/index.html",
   },
   {
     projectName: "QR-Generator",
@@ -142,29 +142,29 @@ let projectData = [
   },
   {
     projectName: "Stop Watch",
-    projectImage: "Stop Watch/Stop Watch Image.png",
-    projectUrl: "Stop Watch/popup.html",
+    projectImage: "Stop-Watch/Stop-Watch-Image.png",
+    projectUrl: "Stop-Watch/popup.html",
   },
   {
     projectName: "TIC-TAC-TOE",
-    projectImage: "TIC-TAC-TOE/TICTACTOE Image.png",
+    projectImage: "TIC-TAC-TOE/TICTACTOE-Image.png",
     projectUrl: "TIC-TAC-TOE/double.html",
   },
   {
     projectName: "Time Zone Finder",
-    projectImage: "Time Zone Finder/TimeZone Finder Image.png",
-    projectUrl: "Time Zone Finder/index.html",
+    projectImage: "Time-Zone-Finder/TimeZone-Finder-Image.png",
+    projectUrl: "Time-Zone-Finder/index.html",
   },
   {
     projectName: "To-Do Extension",
-    projectImage: "To-Do Extension/images/workingimage.png",
-    projectUrl: "To-Do Extension/popup.html",
+    projectImage: "To-Do-Extension/images/workingimage.png",
+    projectUrl: "To-Do-Extension/popup.html",
   },
 
   {
     projectName: "Toxicity Classification Extension",
-    projectImage: "Toxicity Classification Extension/images/img0.JPG",
-    projectUrl: "Toxicity Classification Extension/popup.html",
+    projectImage: "Toxicity-Classification-Extension/images/img0.JPG",
+    projectUrl: "Toxicity-Classification-Extension/popup.html",
   },
   {
     projectName: "URL-shortener",
@@ -173,12 +173,12 @@ let projectData = [
   },
   {
     projectName: "Weather app",
-    projectImage: "Weather app/Weather app Image.png",
-    projectUrl: "Weather app/popup.html",
+    projectImage: "Weather-app/Weather-app-Image.png",
+    projectUrl: "Weather-app/popup.html",
   },
   {
     projectName: "calculator",
-    projectImage: "calculator/Calculator Image.png",
+    projectImage: "calculator/Calculator-Image.png",
     projectUrl: "calculator/popup.html",
   },
   {
@@ -199,8 +199,8 @@ let projectData = [
 
   {
     projectName: "rgb to hex convertor",
-    projectImage: "rgb to hex convertor/image/1.png",
-    projectUrl: "rgb to hex convertor/popup.html",
+    projectImage: "rgb-to-hex-convertor/image/1.png",
+    projectUrl: "rgb-to-hex-convertor/popup.html",
   },
   {
     projectName: "Auto Right",

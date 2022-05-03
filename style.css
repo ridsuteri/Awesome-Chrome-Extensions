@@ -1,25 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Julius+Sans+One&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-
-@font-face {
-  font-family: "sans";
-  src: url(font/sans.ttf);
+body{
+  font-family: 'Archivo',
+  sans-serif;
+  background-color: #1A1A1D;
+  color: #45A29E;
 }
-
-body {
-  font-family: "sans";
-}
-
 /* Dark Mode */
-body.dark-mode {
-  background-color: #111;
-  color: #eee;
-}
-body.dark-mode a {
+/* body.dark-mode {
+
+} */
+/* body.dark-mode a {
   color: #111;
 }
 body.dark-mode button {
@@ -50,10 +45,12 @@ body.light-mode h4 {
 body.light-mode svg {
   fill: #151513;
   color: #fff;
-}
+} */
 
 /* Octocat */
-
+.github-corner{
+  color: azure;
+}
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
@@ -81,12 +78,11 @@ body.light-mode svg {
 }
 
 .toggleButton{
-  position: fixed;
-  top: 0;
-  margin: 15.8px 100px 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 3px;
   border: none;
-  border-radius: 50%;
   font-size: 30px;
   cursor: pointer;
 }
@@ -95,51 +91,55 @@ body.light-mode svg {
 
 
 h1 {
+  font-family: 'Julius Sans One',
+  sans-serif;
   text-align: center;
   font-size: 3.5rem;
-  padding: 15vh 7vw;
-  margin-bottom: -75px;
+  padding: 6rem 2rem;
 }
-
 .projectCard {
-  flex: 50%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 transparent,0 0 transparent,0 0 transparent,0 0 transparent, 0 2px 3px 0 rgba(0,0,0,0.15),0 1px 2px 0 rgba(0,0,0,0.06);
-  border-radius: 10px;
+  border: 3px solid #45A29E;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: transform .3s ease-in-out 0s;
+  background-color: #0B0C10;
+  padding: 1rem;
+}
+.projectCard:hover{
+  background-color: #45A29E;
+  transform: scale(1.02);
+}
+.projectCardTitle{
+  color: azure;
+  font-size: 1.1rem;
+}
+.projectCardTitle:hover{
+  background-color: #45A29E;
 }
 
-.projectCard:hover{
+/* .projectCard:hover{
   transform: scale3d(1.05, 1.05, 1);
-  /* border: 1px solid #ffffff; */
   filter: drop-shadow(10px);
   filter: contrast(110%);
   opacity: 90%;
-}
-
-.projectCard h4{
-  font-size: 1.3rem;
-  text-align: center;
-}
-
+} */
 .projectCardImg {
-  width: 400px;
+  width: 320px;
   height: 200px;
-  border-radius: 1px;
+  border-radius: 5px;
 }
-
-
-
 
 .project-section{
-  width: 90vw;
+  /* width: 90vw; */
+  padding: 0 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-  grid-gap: 24px;
-  row-gap: 24px;
-  margin: auto;
+  grid-gap: 1.5rem;
 }
 
 .project-section a{
@@ -155,32 +155,19 @@ h1 {
   margin-bottom: 40px;
 }
 
-.project-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
-.projectCard {
-  position: relative;
-  flex-basis: 30%;
-  background-color: #0082e6;;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 40px;
-}
-
 .search-box {
-    float: right;
-    margin: 10.8px 100px 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-txt[type=text] {
   width: 300px;
   height: 35px;
   border-radius: 25px;
+  background-color: #0B0C10;
+    border: 2px solid #45A29E;
+  color: azure;
   border: none;
   padding: 5px 10px;
 }
@@ -188,9 +175,8 @@ h1 {
 .search-btn{
   height: 35px;
   width: 50px;
-  background-color: #0074d9;
-  color: #f2f2f2;
-  float: right;
+  background-color: #45A29E;
+  color: azure;
   padding: 5px 10px;
   margin-right: 16px;
   margin-left: 5px;
@@ -201,8 +187,8 @@ h1 {
 }
 
 footer {
-  background-color: #19172e;
-  position: fixed;
+  /* background-color: #19172e; */
+  /* position: fixed; */
   text-align: center;
   color: white;
   font-size: 1rem;
@@ -233,7 +219,7 @@ footer a:visited {
   cursor:pointer;
   width:40px;
   height:40px;
-  background-color:#5520b6;
+  background-color: #45A29E;
   border-radius:50%;
 }
 
@@ -248,5 +234,5 @@ footer a:visited {
 }
 
 .scrollToTop:hover {
-  background-color:#5836D8;
+  background-color:#45A29E;
 }
