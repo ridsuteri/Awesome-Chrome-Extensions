@@ -1,0 +1,20 @@
+{
+    "name": "Cookie Editor",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is Cookie Editor",
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "permissions": [
+        "cookies"
+    ],
+    "action": {
+        "default_title": "Cookie Editor",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": ""
+        }
+    }
+}
