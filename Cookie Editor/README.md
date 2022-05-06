@@ -33,7 +33,7 @@ remove cookies
 
 ## 📷 Screenshots
 
-![ss1]()
+![ss1](./img/sscookie.png)
 
 
 ## ‎‍💻 Authors
