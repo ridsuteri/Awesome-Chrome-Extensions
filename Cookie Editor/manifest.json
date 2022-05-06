@@ -1,0 +1,20 @@
+﻿{
+    "name": "Cookie editor",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Cookie editor",
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "permissions": [
+        "cookies"
+    ],
+    "action": {
+        "default_title": "Cookie editor",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "./img/—Pngtree—delicious cartoon cookie illustration_4668743.png"
+        }
+    }
+}
