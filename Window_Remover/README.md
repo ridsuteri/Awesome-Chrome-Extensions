@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="" height="80" src="">
+    <img alt="" height="80" src="./img/add-readme (1).png">
   </a>
 </p>
 <h1 align="center">Window Remover</h1>
@@ -26,6 +26,6 @@
 
 ## 📷 Screenshots
 
-![ss1]()
+![ss1](./img/winR.png)
 
 
