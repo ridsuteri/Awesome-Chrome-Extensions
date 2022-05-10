@@ -1,0 +1,13 @@
+{
+    "name": "Window Remover",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is Window Remover",
+    "action": {
+        "default_title": "Window Remover",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": ""
+        }
+    }
+}
