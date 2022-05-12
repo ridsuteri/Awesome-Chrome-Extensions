@@ -1,0 +1,13 @@
+{
+    "name": "Speech Recognition",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This isSpeech Recognition",
+    "action": {
+        "default_title": "Speech Recognition",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": ""
+        }
+    }
+}
