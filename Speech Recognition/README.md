@@ -29,7 +29,8 @@ Speech Recognition helps you to Covert audio to text not just in english other l
 
 ## 📷 Screenshots
 
-![ss1]()
+![ss1](./img/ss1speech.png)
+![ss2](./img/ss2speech.png)
 
 
 ## ‎‍💻 Authors
