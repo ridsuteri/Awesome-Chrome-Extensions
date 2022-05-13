@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+body {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1em;
+ 
+  background-image: linear-gradient(to right, rgb(241, 241, 171),#f5f5f5 );
+  font: 100%/1.2 "Helvetica Neue";
+  font-weight: 200;
+  height: 130px;
+  width: 1850px;
+  font-family: cursive;
+  
+  
+}
+.colorPicker {
+  margin-top: 1em;
+  font-size: 0.875em;
+  text-align: center;
+  display: inline-table;
+  width: 100%;
+  max-width: 40em;
+  background: #fff;
+  padding: 2px;
+  border-radius: 0.35em;
+  box-shadow: 0 0.5em 1.5em rgba(0,0,0,0.15);
+  
+}
+.colorPicker label {
+  -webkit-tap-highlight-color: rgba(255,255,255,0.5);
+  transition: all 0.2s ease-in-out;
+  display: table-cell;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 0.5em 1em;
+  text-transform: capitalize;
+  letter-spacing: -0.5em;
+  color: transparent;
+  opacity: 0.35;
+  width: 1%;
+  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+}
+.colorPicker label.red {
+  background-color: #ff3e05;
+  -webkit-tap-highlight-color: #ff3e05;
+}
+.colorPicker label.orange {
+  background-color: #ff8d05;
+  -webkit-tap-highlight-color: #ff8d05;
+}
+.colorPicker label.yellow {
+  background-color: #ecca05;
+  -webkit-tap-highlight-color: #ecca05;
+}
+.colorPicker label.green {
+  background-color: #40af04;
+  -webkit-tap-highlight-color: #40af04;
+}
+.colorPicker label.blue {
+  background-color: #057fff;
+  -webkit-tap-highlight-color: #057fff;
+}
+.colorPicker label.indigo {
+  background-color: #7500ca;
+  -webkit-tap-highlight-color: #7500ca;
+}
+.colorPicker label.violet {
+  background-color: #cc6fcc;
+  -webkit-tap-highlight-color: #cc6fcc;
+}
+.colorPicker label:first-of-type {
+  border-radius: 0.25em 0 0 0.25em;
+}
+.colorPicker label:last-of-type {
+  border-radius: 0 0.25em 0.25em 0;
+}
+.colorPicker label:hover {
+  opacity: 1;
+  color: #fff;
+  letter-spacing: normal;
+}
+.colorPicker input {
+  display: none;
+}
+.colorPicker input:checked + label {
+  width: 90%;
+  opacity: 1;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+h1{
+  color: #0566cd;
+}
