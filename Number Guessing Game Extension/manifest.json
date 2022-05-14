@@ -1,6 +1,6 @@
 {
-    "name": "VAT Calculator",
-    "description" : "Calculates Value Added Tax",
+    "name": "Number Guessing Game",
+    "description" : "Guess the number and win the game",
     "version": "0.0.1",
     "manifest_version": 2,
     "browser_action": {
