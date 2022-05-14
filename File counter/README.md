@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="" height="80" src="">
+    <img alt="" height="80" src="./img/pngkit_evaluation-png_2045314.png">
   </a>
 </p>
 <h1 align="center">Cookie Editor</h1>
