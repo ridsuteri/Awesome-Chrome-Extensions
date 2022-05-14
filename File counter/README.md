@@ -2,7 +2,7 @@
     <img alt="" height="80" src="./img/pngkit_evaluation-png_2045314.png">
   </a>
 </p>
-<h1 align="center">Cookie Editor</h1>
+<h1 align="center">File Counter</h1>
 
 <div align="center">
   Get websites files with a single click
