@@ -5,6 +5,7 @@
 <h1 align="center">Cookie Editor</h1>
 
 <div align="center">
+  Get websites files with a single click
 
 </div>
 
