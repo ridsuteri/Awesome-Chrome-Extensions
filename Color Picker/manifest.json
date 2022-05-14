@@ -1,0 +1,8 @@
+{
+    "manifest_version": 2,
+    "name": "Color-Picker-Ex",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_popup": "index.html" 
+      }
+  }
