@@ -31,7 +31,7 @@ File Counter helps you to get all the no of files that exist in a website
 
 ## 📷 Screenshots
 
-![ss1]()
+![ss1](./img/ssfilecount.png)
 
 
 ## ‎‍💻 Authors
