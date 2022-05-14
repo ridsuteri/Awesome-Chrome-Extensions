@@ -21,6 +21,8 @@
 
 ## ⚡️  Introduction
 
+File Counter helps you to get all the no of files that exist in a website
+
 
 ## Tech Stack used:
 * Html

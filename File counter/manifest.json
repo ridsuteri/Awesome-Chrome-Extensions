@@ -15,7 +15,7 @@
         "default_title": "file counter",
         "default_popup": "popup.html",
         "default_icon": {
-            "32": ""
+            "32": "./img/pngkit_evaluation-png_2045314.png"
         }
     }
 }
