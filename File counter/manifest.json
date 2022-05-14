@@ -1,21 +1,21 @@
 ﻿{
-  "name": "Chapter 27 (MV3)",
-  "version": "1.0",
-  "manifest_version": 3,
-  "description": "This is Chapter 27",
-  "permissions": ["scripting"],
-  "host_permissions": [
-    "http://*/*",
-    "https://*/*"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "action": {
-    "default_title": "I am Chapter 27",
-    "default_popup": "popup.html",
-    "default_icon": {
-      "32": "Chapter_27_32.png"
+    "name": "File counter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "File counter",
+    "permissions": ["scripting"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "file counter",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": ""
+        }
     }
-  }
 }
