@@ -1,7 +1,10 @@
-{"manifest_version":3,
-    "name":"Facts Extension",
-    "description":"Know about facts",
-    "version": "1.0.0" , 
-    "action": {"default_popup":"index.html"},
-    "permissions":["activeTab"]
-}
+{
+    "name": "VAT Calculator",
+    "description" : "Calculates Value Added Tax",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+} 
