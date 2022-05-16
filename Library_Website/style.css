@@ -1,0 +1,22 @@
+#btn{
+    border: none;
+    color: black;
+    border-radius: 13px;
+    font-size: 19px;
+    font-family: emoji;
+    padding: 6px 13px;
+    background-color: #f887a5;
+}
+#btn:hover{
+    background-color: #fa3267;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px black;
+}
+.container label{
+    font-family: serif;
+}
+.container{
+    padding:40px 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px  black !important;
+}
