@@ -162,6 +162,7 @@ To maintain a safe and inclusive space for everyone to learn and grow, contribut
 <div align="center">
 <table>
   <tbody><tr>
+    <td ><a href="https://github.com/Akshima-Ghai"><img alt="" src="https://avatars.githubusercontent.com/u/58785998?v=4" width="130px;"><br><sub><b> Akshima Ghai</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>
    <td ><a href="https://github.com/nerdynikhil"><img alt="" src="https://avatars.githubusercontent.com/nerdynikhil" width="130px;"><br><sub><b> Nikhil Barik</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>
   <td ><a href="https://github.com/praniti111"><img alt="" src="https://avatars.githubusercontent.com/praniti111" width="130px;"><br><sub><b> Praniti Parmar</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>
   <td ><a href="https://github.com/omrajsharma"><img alt="" src="https://avatars.githubusercontent.com/omrajsharma" width="130px;"><br><sub><b> Omraj Sharma</b></sub></a><br><a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions/commits?author=ridsuteri" title="Code">💻 </a></td> </a></td>

@@ -1,0 +1,21 @@
+﻿{
+    "name": "File counter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "File counter",
+    "permissions": ["scripting"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "file counter",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "./img/pngkit_evaluation-png_2045314.png"
+        }
+    }
+}

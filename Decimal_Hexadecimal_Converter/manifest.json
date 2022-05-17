@@ -1,0 +1,6 @@
+{"manifest_version":3,
+    "name":"Decimal_Hexadecimal_Converter",
+    "description":"Convert a decimal number to hexadecimal or vice-versa",
+    "version": "1.0.0" , 
+    "action": {"default_popup":"popup.html"},
+    "permissions":["activeTab"]}
