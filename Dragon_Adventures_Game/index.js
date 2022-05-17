@@ -50,7 +50,7 @@ setInterval(() => {
             audio.pause();
         }, 1000);
     }
-    else if (offsetX < 100 && cross) {
+    else if (offsetX < 145 && cross) {
         score += 1;
         updateScore(score);
         cross = false;
