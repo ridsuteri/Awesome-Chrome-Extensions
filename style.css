@@ -11,25 +11,29 @@ body{
   color: #45A29E;
 }
 /* Dark Mode */
-/* body.dark-mode {
+ body.dark-mode {
 
-} */
-/* body.dark-mode a {
+} 
+body.dark-mode a {
   color: #111;
 }
+body.light-mode footer {
+  color: #111;
+  
+}
 body.dark-mode button {
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
   color: #111;
 }
 body.dark-mode h4  {
-  color: #eee;
+  color: rgb(255, 255, 255);
 }
 body.dark-mode svg  {
   fill: #fff;
   color: #151513;
 }
 body.light-mode {
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
   color: #111;
 }
 body.light-mode a {
@@ -37,7 +41,7 @@ body.light-mode a {
 }
 body.light-mode button {
   background-color: #111;
-  color: #eee;
+  color: rgb(255, 255, 255);
 }
 body.light-mode h4 {
   color: #111;
@@ -45,7 +49,7 @@ body.light-mode h4 {
 body.light-mode svg {
   fill: #151513;
   color: #fff;
-} */
+} 
 
 /* Octocat */
 .github-corner{
@@ -78,17 +82,15 @@ body.light-mode svg {
 }
 
 .toggleButton{
-  display: flex;
+  display: absolute;
   align-items: center;
   justify-content: center;
   padding: 3px;
   border: none;
   font-size: 30px;
   cursor: pointer;
+  border-left: 70cm;
 }
-
-
-
 
 h1 {
   font-family: 'Julius Sans One',
@@ -170,7 +172,7 @@ h1 {
   height: 35px;
   border-radius: 25px;
   background-color: #0B0C10;
-    border: 2px solid #45A29E;
+  border: 2px solid #45A29E;
   color: azure;
   border: none;
   padding: 5px 10px;

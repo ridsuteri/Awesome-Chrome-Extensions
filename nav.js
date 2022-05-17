@@ -16,10 +16,10 @@ $(document).ready(function () {
 function toggleDarkLight() {
   var body = document.getElementById("body");
   var button = document.getElementById("toggle");
-  if (button.innerHTML == "🌙") {
-    button.innerHTML = "☀️";
-  } else {
+  if (button.innerHTML == "☀️") {
     button.innerHTML = "🌙";
+  } else {
+    button.innerHTML = "☀️";
   }
 
   var trans = () => {
@@ -30,12 +30,12 @@ function toggleDarkLight() {
   };
 
   var currentClass = body.className;
-  // body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-  if (currentClass == "dark-mode") {
-    trans();
-    body.className = "light-mode";
-  } else {
+  // body.className = currentClass == "light-mode" ? "dark-mode" : "light-mode";
+  if (currentClass == "light-mode") {
     trans();
     body.className = "dark-mode";
+  } else {
+    trans();
+    body.className = "light-mode";
   }
 }
