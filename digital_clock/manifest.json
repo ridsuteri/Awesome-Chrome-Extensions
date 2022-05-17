@@ -4,8 +4,8 @@
     "description": "Digital Clock Animation",
     "manifest_version": 2,
     "browser_action": {
-        "default_popup": "wallclock.html",
+        "default_popup": "index.html",
         "default_icon": "2.png"
     },
     "permissions": ["activeTab"]
-}
+} 

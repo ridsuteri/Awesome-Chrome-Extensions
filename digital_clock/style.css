@@ -1,11 +1,14 @@
+
 body{
-    height: 80vh;
+    height: 100vh;
+    width: 100vw;
     background-image: url("./clock.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 #clock{
    border:  3px solid #ff00ff;
