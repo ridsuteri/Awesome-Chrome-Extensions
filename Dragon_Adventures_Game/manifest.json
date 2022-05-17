@@ -1,0 +1,11 @@
+{
+    "name": "Dragon Adventures",
+    "version": "0.0.1",
+    "description": "Amazing dragon and dinosaur game",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "dragon.png"
+    },
+    "permissions": ["activeTab"]
+} 
