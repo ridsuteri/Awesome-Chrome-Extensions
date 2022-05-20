@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 130vh;
+}
 #btn{
     border: none;
     color: black;
