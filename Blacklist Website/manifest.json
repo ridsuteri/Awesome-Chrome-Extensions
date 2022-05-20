@@ -1,0 +1,25 @@
+{
+    "name": "Blacklist Website",
+    "version": "1.0.0",
+    "description": "Block or Unblock a Website.",
+    "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/",
+        "https://*/"
+    ],
+    "icons": {
+        "16": "images/icon-16x16.png",
+        "48": "images/icon-48x48.png",
+        "128": "images/icon-128x128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/icon-48x48-off.png"
+    },
+    "manifest_version": 2
+}
