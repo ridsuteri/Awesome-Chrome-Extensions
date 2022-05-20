@@ -1,0 +1,33 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./clock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#clock{
+   border:  3px solid #ff00ff;
+   text-align: center;
+   border-radius: 5px;
+   color: white;
+   font-size: 75px;
+   padding: 60px;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
+}
+h1{
+    font-size: 70px;
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+#clock:hover{
+    background-color: #ff00ff;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 12px 6px #ff00ff;
+    
+}
