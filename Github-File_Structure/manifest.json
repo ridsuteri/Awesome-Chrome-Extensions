@@ -1,0 +1,39 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    
+      "name": "File Structure",
+      "version": "7.1.0",
+      "description": "GitHub on steroids",
+      "homepage_url": "https://www.octotree.io",
+      "author": "Team Octotree",
+      "manifest_version": 2,
+      "minimum_chrome_version": "60",
+      "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "browser_action": {
+        "default_icon": "icons/icon128.png",
+        "browser_style": true
+      },
+      "permissions": [
+        "https://api.github.com/*",
+        "https://www.octotree.io/*",
+        "storage", "contextMenus", "activeTab"
+      ],
+      "optional_permissions": ["http://*/*", "https://*/*", "webNavigation"],
+      "web_accessible_resources": ["*.woff2", "*.png", "*.gif", "*.svg"],
+      "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+      },
+      "content_scripts": [
+        {
+          "run_at": "document_start",
+          "matches": ["https://github.com/*"],
+          "js": ["content.js"],
+          "css": ["content.css"]
+        }
+      ]
+    }
