@@ -1,0 +1,11 @@
+{
+    "name": "Snake Game",
+    "version": "0.0.1",
+    "description": "Amazing game where we have to make snake eat the food and prevent from colliding.",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "permissions": ["activeTab"]
+} 
