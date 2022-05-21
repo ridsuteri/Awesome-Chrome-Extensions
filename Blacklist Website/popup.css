@@ -1,0 +1,103 @@
+body {
+  width: 256px;
+  margin: 12px 24px 16px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #7f8c8d;
+  -webkit-font-smoothing: anti-aliased;
+}
+.title {
+  font-size: 24px;
+  color: #2c3e50;
+}
+.buttons {
+  display: flex;
+}
+.buttons > button.state-on {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+}
+.buttons > button.state-on.is-active,
+.buttons > button.state-on:hover {
+  border: 1px solid #e74c3c;
+  background: #e74c3c;
+  color: #fff;
+}
+.buttons > button.state-on:active {
+  border: 1px solid #e74c3c;
+  background: #e43725;
+  color: #fff;
+}
+.buttons > button.state-on:focus {
+  box-shadow: 0 0 0 2px #f29f97;
+}
+.buttons > button.state-off {
+  border: 1px solid #7f8c8d;
+  color: #7f8c8d;
+}
+.buttons > button.state-off.is-active,
+.buttons > button.state-off:hover {
+  border: 1px solid #7f8c8d;
+  background: #7f8c8d;
+  color: #fff;
+}
+.buttons > button.state-off:active {
+  border: 1px solid #7f8c8d;
+  background: #727f80;
+  color: #fff;
+}
+.buttons > button.state-off:focus {
+  box-shadow: 0 0 0 2px #b5bcbd;
+}
+button {
+  background: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  border-radius: 4px;
+  border: 0;
+  margin-right: 8px;
+  padding: 6px 24px;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+button.state-save {
+  background: #2c3e50;
+  color: #fff;
+  width: 100%;
+  padding: 8px 24px;
+}
+button.state-save:active {
+  background: #233140;
+}
+button.state-save:focus {
+  box-shadow: 0 0 0 2px #507192;
+}
+.sites {
+  margin: 16px 0 0;
+  box-sizing: border-box;
+}
+.sites p {
+  font-weight: 500;
+}
+.sites p,
+.sites textarea {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+.sites textarea {
+  width: 100%;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border: 0;
+  background: #ecf0f1;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #2c3e50;
+  box-sizing: border-box;
+  resize: none;
+}
