@@ -1,4 +1,5 @@
 
+
 function convert(num){const type= document.getElementById("type");
 const typeData=type.value;
 output=document.querySelector(".output");
@@ -22,4 +23,5 @@ else{let f=((num*9)/5)+32;
   const output=document.querySelector(".output");
   output.textContent= " "; 
     });
+
 
