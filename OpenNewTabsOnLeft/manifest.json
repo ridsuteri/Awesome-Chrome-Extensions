@@ -1,0 +1,23 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0a1"
+    }
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Open new tabs on the left",
+    "default_popup": "tabs.html"
+  },
+  "description": "To open new tabs on the left-hand side of the active tab, instead of the right.",
+  "homepage_url": "https://github.com/oktak",
+  "manifest_version": 2,
+  "name": "Open New Tabs On Left",
+  "permissions": [
+    "tabs"
+  ],
+  "version": "1.0"
+}
