@@ -113,14 +113,19 @@ h1 {
   background-color: #0B0C10;
   padding: 1rem;
 }
+
 .projectCard:hover{
   background-color: #45A29E;
   transform: scale(1.02);
 }
+
 .projectCardTitle{
   color: azure;
   font-size: 1.1rem;
+  padding-bottom: 3%;
+  
 }
+
 .projectCardTitle:hover{
   background-color: #45A29E;
 }
@@ -139,7 +144,6 @@ h1 {
 
 
 
-
 .project-section{
   /* width: 90vw; */
   padding: 0 2rem;
@@ -150,6 +154,25 @@ h1 {
 
 .project-section a{
   text-decoration: none;
+}
+
+.project-section button{
+  background-color: white;
+  color: black;
+  border: 2px solid #45A29E; /* Green */
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+.project-section button:hover{
+  background-color: black; /* Green */
+  color: white;
+  transform: scale(1.10);
 }
 
 .body {

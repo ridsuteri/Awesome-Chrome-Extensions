@@ -1,0 +1,11 @@
+{
+    "name": "Cosmix Library",
+    "version": "0.0.1",
+    "description": "We can add out books along with author and type, we can search our book according to type",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "nn.png"
+    },
+    "permissions": ["activeTab"]
+}
