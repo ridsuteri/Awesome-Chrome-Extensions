@@ -1,7 +1,7 @@
 {
 "manifest_version":2 ,
     "name": "Word Typing",
-    "description":"Tyep The Word Check the points!!",
+    "description":"Type The Word Check the points!!",
     "version": "1.0.0" ,
     "background" : {
         "page" : "index.html",
