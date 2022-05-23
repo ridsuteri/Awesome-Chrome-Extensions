@@ -5,8 +5,8 @@
 const { agent, open, i18n, getOption, setOption, promisify, sendMessage } =
   Utils
 
-const baseUrl = 'https://www.wappalyzer.com'
-const utm = '?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer'
+const baseUrl = 'https://www.GSSoC.com'
+const utm = '?utm_source=popup&utm_medium=extension&utm_campaign=GSSoC'
 
 const footers = [
   {
@@ -16,7 +16,7 @@ const footers = [
     buttonLink: `${baseUrl}/lists/${utm}`,
   },
   {
-    heading: 'Connect Wappalyzer to your CRM',
+    heading: 'Connect GSSoC to your CRM',
     body: 'See the technology stacks of your leads without leaving your CRM. Connect to HubSpot, Pipedrive and many others.',
     buttonText: 'See all apps',
     buttonLink: `${baseUrl}/apps/${utm}`,
@@ -34,7 +34,7 @@ const footers = [
     buttonLink: `${baseUrl}/api/${utm}`,
   },
   {
-    heading: 'Wappalyzer for businesses',
+    heading: 'GSSoC for businesses',
     body: 'Sign up for a plan to get monthly credits to spend on any product, including lead lists and technology lookups.',
     buttonText: 'Compare plans',
     buttonLink: `${baseUrl}/pricing/${utm}`,
@@ -139,7 +139,7 @@ function getCsv() {
 
   const csv = [`"${columns.join('","')}"`]
 
-  const filename = `wappalyzer${
+  const filename = `GSSoC${
     hostname ? `_${hostname.replace('.', '-')}` : ''
   }.csv`
 
@@ -582,7 +582,7 @@ const Popup = {
         pinsActive: document.querySelectorAll('.category__pin--active'),
       }
 
-      el.link.href = `https://www.wappalyzer.com/technologies/${categorySlug}/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer`
+      el.link.href = `https://www.GSSoC.com/technologies/${categorySlug}/?utm_source=popup&utm_medium=extension&utm_campaign=GSSoC`
       el.link.dataset.i18n = `categoryName${id}`
 
       if (pinnedCategory === id) {
@@ -622,7 +622,7 @@ const Popup = {
 
           el.iconImage.src = `../images/icons/${icon}`
 
-          el.link.href = `https://www.wappalyzer.com/technologies/${categorySlug}/${slug}/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer`
+          el.link.href = `https://www.GSSoC.com/technologies/${categorySlug}/${slug}/?utm_source=popup&utm_medium=extension&utm_campaign=GSSoC`
           el.name.textContent = name
 
           if (confidence < 100) {
@@ -709,7 +709,7 @@ const Popup = {
 
     try {
       const response = await fetch(
-        `https://api.wappalyzer.com/v2/plus/${encodeURIComponent(url)}`,
+        `https://api.GSSoC.com/v2/plus/${encodeURIComponent(url)}`,
         {
           method: 'GET',
           headers: {

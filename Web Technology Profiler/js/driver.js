@@ -1,6 +1,6 @@
 'use strict'
 /* eslint-env browser */
-/* globals chrome, Wappalyzer, Utils */
+/* globals chrome, GSSoC, Utils */
 
 const {
   setTechnologies,
@@ -9,13 +9,13 @@ const {
   analyzeManyToMany,
   resolve,
   getTechnology,
-} = Wappalyzer
+} = GSSoC
 const { agent, promisify, getOption, setOption, open, globEscape } = Utils
 
 const expiry = 1000 * 60 * 60 * 24
 
 const hostnameIgnoreList =
-  /\b((local|dev(elop(ment)?)?|sandbox|stag(e|ing)?|preprod|production|preview|test(ing)?|[^a-z]demo(shop)?|cache)[.-]|dev\d|localhost|((wappalyzer|google|bing|baidu|microsoft|duckduckgo|facebook|adobe|twitter|reddit|yahoo|wikipedia|amazon|amazonaws|youtube|stackoverflow|github|stackexchange|w3schools|twitch)\.)|(live|office|herokuapp|shopifypreview)\.com|\.local|\.test|\.netlify\.app|web\.archive\.org|zoom\.us|^([0-9.]+|[\d.]+)$|^([a-f0-9:]+:+)+[a-f0-9]+$)/
+  /\b((local|dev(elop(ment)?)?|sandbox|stag(e|ing)?|preprod|production|preview|test(ing)?|[^a-z]demo(shop)?|cache)[.-]|dev\d|localhost|((GSSoC|google|bing|baidu|microsoft|duckduckgo|facebook|adobe|twitter|reddit|yahoo|wikipedia|amazon|amazonaws|youtube|stackoverflow|github|stackexchange|w3schools|twitch)\.)|(live|office|herokuapp|shopifypreview)\.com|\.local|\.test|\.netlify\.app|web\.archive\.org|zoom\.us|^([0-9.]+|[\d.]+)$|^([a-f0-9:]+:+)+[a-f0-9]+$)/
 
 const xhrDebounce = []
 
@@ -25,9 +25,9 @@ const scriptsPending = []
 
 function getRequiredTechnologies(name, categoryId) {
   return name
-    ? Wappalyzer.requires.find(({ name: _name }) => _name === name).technologies
+    ? GSSoC.requires.find(({ name: _name }) => _name === name).technologies
     : categoryId
-    ? Wappalyzer.categoryRequires.find(
+    ? GSSoC.categoryRequires.find(
         ({ categoryId: _categoryId }) => _categoryId === categoryId
       ).technologies
     : undefined
@@ -118,11 +118,11 @@ const Driver = {
 
     if (previous === null) {
       open(
-        'https://www.wappalyzer.com/installed/?utm_source=installed&utm_medium=extension&utm_campaign=wappalyzer'
+        'https://www.GSSoC.com/installed/?utm_source=installed&utm_medium=extension&utm_campaign=GSSoC'
       )
     } else if (version !== previous && upgradeMessage) {
       open(
-        `https://www.wappalyzer.com/upgraded/?utm_source=upgraded&utm_medium=extension&utm_campaign=wappalyzer`,
+        `https://www.GSSoC.com/upgraded/?utm_source=upgraded&utm_medium=extension&utm_campaign=GSSoC`,
         false
       )
     }
@@ -183,7 +183,7 @@ const Driver = {
    * Get all categories
    */
   getCategories() {
-    return Wappalyzer.categories
+    return GSSoC.categories
   },
 
   /**
@@ -220,7 +220,7 @@ const Driver = {
   analyzeJs(url, js, requires, categoryRequires) {
     const technologies =
       getRequiredTechnologies(requires, categoryRequires) ||
-      Wappalyzer.technologies
+      GSSoC.technologies
 
     return Driver.onDetect(
       url,
@@ -244,7 +244,7 @@ const Driver = {
   analyzeDom(url, dom, requires, categoryRequires) {
     const technologies =
       getRequiredTechnologies(requires, categoryRequires) ||
-      Wappalyzer.technologies
+      GSSoC.technologies
 
     return Driver.onDetect(
       url,
@@ -515,11 +515,11 @@ const Driver = {
    * Get all technologies
    */
   getTechnologies() {
-    return Wappalyzer.technologies
+    return GSSoC.technologies
   },
 
   /**
-   * Check if Wappalyzer has been disabled for the domain
+   * Check if GSSoC has been disabled for the domain
    */
   async isDisabledDomain(url) {
     try {
@@ -645,10 +645,10 @@ const Driver = {
     })
 
     const requires = [
-      ...Wappalyzer.requires.filter(({ name }) =>
+      ...GSSoC.requires.filter(({ name }) =>
         resolved.some(({ name: _name }) => _name === name)
       ),
-      ...Wappalyzer.categoryRequires.filter(({ categoryId }) =>
+      ...GSSoC.categoryRequires.filter(({ categoryId }) =>
         resolved.some(({ categories }) =>
           categories.some(({ id }) => id === categoryId)
         )
@@ -834,7 +834,7 @@ const Driver = {
 
               if (matches) {
                 agent = matches[1].toLowerCase()
-              } else if (agent === '*' || agent === 'wappalyzer') {
+              } else if (agent === '*' || agent === 'GSSoC') {
                 matches = /^Disallow:\s*(.+)$/i.exec(line.trim())
 
                 if (matches) {
@@ -901,7 +901,7 @@ const Driver = {
   },
 
   /**
-   * Anonymously send identified technologies to wappalyzer.com
+   * Anonymously send identified technologies to GSSoC.com
    * This function can be disabled in the extension settings
    */
   async ping() {
@@ -947,7 +947,7 @@ const Driver = {
       const count = Object.keys(urls).length
 
       if (count && (count >= 25 || Driver.lastPing < Date.now() - expiry)) {
-        await Driver.post('https://api.wappalyzer.com/v2/ping/', {
+        await Driver.post('https://api.GSSoC.com/v2/ping/', {
           version: chrome.runtime.getManifest().version,
           urls,
         })
@@ -958,7 +958,7 @@ const Driver = {
       }
 
       if (Driver.cache.ads.length > 25) {
-        await Driver.post('https://ad.wappalyzer.com/log/wp/', Driver.cache.ads)
+        await Driver.post('https://ad.GSSoC.com/log/wp/', Driver.cache.ads)
 
         Driver.cache.ads = []
       }

@@ -3,16 +3,16 @@
 ;(function () {
   try {
     const onMessage = ({ data }) => {
-      if (!data.wappalyzer || !data.wappalyzer.technologies) {
+      if (!data.GSSoC || !data.GSSoC.technologies) {
         return
       }
 
-      const { technologies } = data.wappalyzer
+      const { technologies } = data.GSSoC
 
       removeEventListener('message', onMessage)
 
       postMessage({
-        wappalyzer: {
+        GSSoC: {
           js: technologies.reduce((technologies, { name, chains }) => {
             chains.forEach((chain, index) => {
               const value = chain

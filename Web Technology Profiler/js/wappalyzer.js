@@ -5,7 +5,7 @@ function toArray(value) {
 }
 
 const benchmarkEnabled =
-  typeof process !== 'undefined' ? !!process.env.WAPPALYZER_BENCHMARK : false
+  typeof process !== 'undefined' ? !!process.env.GSSoC_BENCHMARK : false
 
 let benchmarks = []
 
@@ -67,7 +67,7 @@ function benchmarkSummary() {
   })
 }
 
-const Wappalyzer = {
+const GSSoC = {
   technologies: [],
   categories: [],
   requires: [],
@@ -82,14 +82,14 @@ const Wappalyzer = {
 
   getTechnology: (name) =>
     [
-      ...Wappalyzer.technologies,
-      ...Wappalyzer.requires.map(({ technologies }) => technologies).flat(),
-      ...Wappalyzer.categoryRequires
+      ...GSSoC.technologies,
+      ...GSSoC.requires.map(({ technologies }) => technologies).flat(),
+      ...GSSoC.categoryRequires
         .map(({ technologies }) => technologies)
         .flat(),
     ].find(({ name: _name }) => name === _name),
 
-  getCategory: (id) => Wappalyzer.categories.find(({ id: _id }) => id === _id),
+  getCategory: (id) => GSSoC.categories.find(({ id: _id }) => id === _id),
 
   /**
    * Resolve promises for implied technology.
@@ -127,12 +127,12 @@ const Wappalyzer = {
       return resolved
     }, [])
 
-    Wappalyzer.resolveExcludes(resolved)
-    Wappalyzer.resolveImplies(resolved)
+    GSSoC.resolveExcludes(resolved)
+    GSSoC.resolveImplies(resolved)
 
     const priority = ({ technology: { categories } }) =>
       categories.reduce(
-        (max, id) => Math.max(max, Wappalyzer.getCategory(id).priority),
+        (max, id) => Math.max(max, GSSoC.getCategory(id).priority),
         0
       )
 
@@ -147,7 +147,7 @@ const Wappalyzer = {
         }) => ({
           name,
           slug,
-          categories: categories.map((id) => Wappalyzer.getCategory(id)),
+          categories: categories.map((id) => GSSoC.getCategory(id)),
           confidence,
           version,
           icon,
@@ -202,7 +202,7 @@ const Wappalyzer = {
   resolveExcludes(resolved) {
     resolved.forEach(({ technology }) => {
       technology.excludes.forEach(({ name }) => {
-        const excluded = Wappalyzer.getTechnology(name)
+        const excluded = GSSoC.getTechnology(name)
 
         if (!excluded) {
           throw new Error(`Excluded technology does not exist: ${name}`)
@@ -235,7 +235,7 @@ const Wappalyzer = {
 
       resolved.forEach(({ technology, confidence, lastUrl }) => {
         technology.implies.forEach(({ name, confidence: _confidence }) => {
-          const implied = Wappalyzer.getTechnology(name)
+          const implied = GSSoC.getTechnology(name)
 
           if (!implied) {
             throw new Error(`Implied technology does not exist: ${name}`)
@@ -264,12 +264,12 @@ const Wappalyzer = {
    * Initialize analyzation.
    * @param {*} param0
    */
-  analyze(items, technologies = Wappalyzer.technologies) {
+  analyze(items, technologies = GSSoC.technologies) {
     benchmarks = []
 
-    const oo = Wappalyzer.analyzeOneToOne
-    const om = Wappalyzer.analyzeOneToMany
-    const mm = Wappalyzer.analyzeManyToMany
+    const oo = GSSoC.analyzeOneToOne
+    const om = GSSoC.analyzeOneToMany
+    const mm = GSSoC.analyzeManyToMany
 
     const relations = {
       url: oo,
@@ -314,9 +314,9 @@ const Wappalyzer = {
    * @param {object} data
    */
   setTechnologies(data) {
-    const transform = Wappalyzer.transformPatterns
+    const transform = GSSoC.transformPatterns
 
-    Wappalyzer.technologies = Object.keys(data).reduce((technologies, name) => {
+    GSSoC.technologies = Object.keys(data).reduce((technologies, name) => {
       const {
         cats,
         url,
@@ -348,7 +348,7 @@ const Wappalyzer = {
       technologies.push({
         name,
         categories: cats || [],
-        slug: Wappalyzer.slugify(name),
+        slug: GSSoC.slugify(name),
         url: transform(url),
         xhr: transform(xhr),
         headers: transform(headers),
@@ -399,44 +399,44 @@ const Wappalyzer = {
       return technologies
     }, [])
 
-    Wappalyzer.technologies
+    GSSoC.technologies
       .filter(({ requires }) => requires.length)
       .forEach((technology) =>
         technology.requires.forEach(({ name }) => {
-          if (!Wappalyzer.getTechnology(name)) {
+          if (!GSSoC.getTechnology(name)) {
             throw new Error(`Required technology does not exist: ${name}`)
           }
 
-          Wappalyzer.requires[name] = Wappalyzer.requires[name] || []
+          GSSoC.requires[name] = GSSoC.requires[name] || []
 
-          Wappalyzer.requires[name].push(technology)
+          GSSoC.requires[name].push(technology)
         })
       )
 
-    Wappalyzer.requires = Object.keys(Wappalyzer.requires).map((name) => ({
+    GSSoC.requires = Object.keys(GSSoC.requires).map((name) => ({
       name,
-      technologies: Wappalyzer.requires[name],
+      technologies: GSSoC.requires[name],
     }))
 
-    Wappalyzer.technologies
+    GSSoC.technologies
       .filter(({ requiresCategory }) => requiresCategory.length)
       .forEach((technology) =>
         technology.requiresCategory.forEach(({ id }) => {
-          Wappalyzer.categoryRequires[id] =
-            Wappalyzer.categoryRequires[id] || []
+          GSSoC.categoryRequires[id] =
+            GSSoC.categoryRequires[id] || []
 
-          Wappalyzer.categoryRequires[id].push(technology)
+          GSSoC.categoryRequires[id].push(technology)
         })
       )
 
-    Wappalyzer.categoryRequires = Object.keys(Wappalyzer.categoryRequires).map(
+    GSSoC.categoryRequires = Object.keys(GSSoC.categoryRequires).map(
       (id) => ({
         categoryId: parseInt(id, 10),
-        technologies: Wappalyzer.categoryRequires[id],
+        technologies: GSSoC.categoryRequires[id],
       })
     )
 
-    Wappalyzer.technologies = Wappalyzer.technologies.filter(
+    GSSoC.technologies = GSSoC.technologies.filter(
       ({ requires, requiresCategory }) =>
         !requires.length && !requiresCategory.length
     )
@@ -447,13 +447,13 @@ const Wappalyzer = {
    * @param {Object} data
    */
   setCategories(data) {
-    Wappalyzer.categories = Object.keys(data)
+    GSSoC.categories = Object.keys(data)
       .reduce((categories, id) => {
         const category = data[id]
 
         categories.push({
           id: parseInt(id, 10),
-          slug: Wappalyzer.slugify(category.name),
+          slug: GSSoC.slugify(category.name),
           ...category,
         })
 
@@ -483,7 +483,7 @@ const Wappalyzer = {
     const parsed = Object.keys(patterns).reduce((parsed, key) => {
       parsed[caseSensitive ? key : key.toLowerCase()] = toArray(
         patterns[key]
-      ).map((pattern) => Wappalyzer.parsePattern(pattern, isRegex))
+      ).map((pattern) => GSSoC.parsePattern(pattern, isRegex))
 
       return parsed
     }, {})
@@ -500,7 +500,7 @@ const Wappalyzer = {
       return Object.keys(pattern).reduce(
         (parsed, key) => ({
           ...parsed,
-          [key]: Wappalyzer.parsePattern(pattern[key]),
+          [key]: GSSoC.parsePattern(pattern[key]),
         }),
         {}
       )
@@ -565,7 +565,7 @@ const Wappalyzer = {
             value,
             match: matches[0],
           },
-          version: Wappalyzer.resolveVersion(pattern, value),
+          version: GSSoC.resolveVersion(pattern, value),
         })
       }
 
@@ -599,7 +599,7 @@ const Wappalyzer = {
               value,
               match: matches[0],
             },
-            version: Wappalyzer.resolveVersion(pattern, value),
+            version: GSSoC.resolveVersion(pattern, value),
           })
         }
 
@@ -643,7 +643,7 @@ const Wappalyzer = {
                 value,
                 match: matches[0],
               },
-              version: Wappalyzer.resolveVersion(pattern, value),
+              version: GSSoC.resolveVersion(pattern, value),
             })
           }
 
@@ -657,5 +657,5 @@ const Wappalyzer = {
 }
 
 if (typeof module !== 'undefined') {
-  module.exports = Wappalyzer
+  module.exports = GSSoC
 }

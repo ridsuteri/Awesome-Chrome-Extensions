@@ -9,13 +9,13 @@ function inject(src, id, message) {
 
     script.onload = () => {
       const onMessage = ({ data }) => {
-        if (!data.wappalyzer || !data.wappalyzer[id]) {
+        if (!data.GSSoC || !data.GSSoC[id]) {
           return
         }
 
         window.removeEventListener('message', onMessage)
 
-        resolve(data.wappalyzer[id])
+        resolve(data.GSSoC[id])
 
         script.remove()
       }
@@ -23,7 +23,7 @@ function inject(src, id, message) {
       window.addEventListener('message', onMessage)
 
       window.postMessage({
-        wappalyzer: message,
+        GSSoC: message,
       })
     }
 

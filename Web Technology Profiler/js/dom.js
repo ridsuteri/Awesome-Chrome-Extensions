@@ -3,11 +3,11 @@
 ;(function () {
   try {
     const onMessage = ({ data }) => {
-      if (!data.wappalyzer || !data.wappalyzer.technologies) {
+      if (!data.GSSoC || !data.GSSoC.technologies) {
         return
       }
 
-      const { technologies } = data.wappalyzer
+      const { technologies } = data.GSSoC
 
       const toScalar = (value) =>
         typeof value === 'string' || typeof value === 'number' ? value : !!value
@@ -15,7 +15,7 @@
       removeEventListener('message', onMessage)
 
       postMessage({
-        wappalyzer: {
+        GSSoC: {
           dom: technologies.reduce((technologies, { name, dom }) => {
             try {
               Object.keys(dom).forEach((selector) => {
