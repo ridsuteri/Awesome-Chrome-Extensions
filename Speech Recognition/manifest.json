@@ -1,0 +1,13 @@
+{
+    "name": "Speech Recognition",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This isSpeech Recognition",
+    "action": {
+        "default_title": "Speech Recognition",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "./img/kisspng-speech-recognition-human-voice-technology-plain-te-5af8480eab18d6.6293122015262208147008.png"
+        }
+    }
+}

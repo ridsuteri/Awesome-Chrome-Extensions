@@ -1,0 +1,13 @@
+{
+    "name": "puzzle game",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is puzzle game",
+    "action": {
+        "default_title": "puzzle game",
+        "default_popup": "index.html",
+        "default_icon": {
+            "32": "pngegg.png"
+        }
+    }
+}
