@@ -1,0 +1,12 @@
+{
+    "name": "Meditate your way",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "source.html"
+    },
+    "icons": {
+      "128": "yoga.png",
+      "48": "yogas.png"
+    }
+  }
