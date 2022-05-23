@@ -1,0 +1,1 @@
+export {cssstats: require('./stats/truncate.json')}
