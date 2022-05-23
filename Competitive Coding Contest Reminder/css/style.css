@@ -1,0 +1,31 @@
+.dark-btn {
+  margin-top: 10px !important;
+  margin-right: 20px !important;
+  /* margin: 20px !important; */
+  font-size: large !important;
+}
+
+.nav-color {
+  background-color: #121212 !important;
+}
+
+.value {
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+.section {
+  background-color: red !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+a { color: inherit !important} 
+
+.page-footer{
+  padding: 0px !important;
+}
+
+
+a:hover {
+  color: white !important;
+}
