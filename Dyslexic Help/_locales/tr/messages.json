@@ -1,15 +1,15 @@
 {
 	"appName": {
 		"message": "Chrome için OpenDislexic",
-		"description": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin."
+		"description": "DyslexicHelp yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin."
 	},
 	"appTitle": {
 		"message": "AçıkDisleksik",
-		"description": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin."
+		"description": "DyslexicHelp yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin",
-		"description": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin"
+		"message": "DyslexicHelp yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin",
+		"description": "DyslexicHelp yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin"
 	},
 	"options": {
 		"message": "Seçenekler"
@@ -57,7 +57,7 @@
 		"message": "OpenDislexic'i takip edin"
 	},
 	"followDyslexicToolTip": {
-		"message": "OpenDyslexic'i Twitter'da takip edin"
+		"message": "DyslexicHelp'i Twitter'da takip edin"
 	},
 	"followAbbie": {
 		"message": "OpenDislexic'i destekleyin"
@@ -66,7 +66,7 @@
 		"message": "Çok yakında"
 	},
 	"followAbbieToolTip": {
-		"message": "OpenDyslexic'in yaratıcısını destekleyin."
+		"message": "DyslexicHelp'in yaratıcısını destekleyin."
 	},
 	"followRobertJames": {
 		"message": "Robert James'i takip edin"
@@ -119,7 +119,7 @@
 	"helperbird": {
 		"message": "Helperbird'ü Keşfet"
 	},
-	"OpenDyslexic": {
+	"DyslexicHelp": {
 		"message": "OpenDislexic'i keşfedin"
 	},
 	"on": {

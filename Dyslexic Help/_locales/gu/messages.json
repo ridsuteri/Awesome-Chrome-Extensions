@@ -57,10 +57,10 @@
 		"message": "અનુસરો"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter પર OpenDyslexic ને અનુસરો"
+		"message": "Twitter પર DyslexicHelp ને અનુસરો"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic આધાર આપે છે"
+		"message": "DyslexicHelp આધાર આપે છે"
 	},
 	"comingSoon": {
 		"message": "ટૂક સમયમાં આવી રહ્યું છે"
@@ -119,7 +119,7 @@
 	"helperbird": {
 		"message": "હેલ્પબર્ડ શોધો"
 	},
-	"OpenDyslexic": {
+	"DyslexicHelp": {
 		"message": "ઓપનડિલેક્સિક શોધો"
 	},
 	"on": {

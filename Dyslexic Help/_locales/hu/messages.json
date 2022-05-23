@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic for Chrome",
-		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével."
+		"message": "DyslexicHelp for Chrome",
+		"description": "Oldalak formázása az DyslexicHelp betűtípus és az alacsony kontrasztú súgó segítségével."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével."
+		"message": "DyslexicHelp",
+		"description": "Oldalak formázása az DyslexicHelp betűtípus és az alacsony kontrasztú súgó segítségével."
 	},
 	"appDescription": {
-		"message": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével",
-		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével"
+		"message": "Oldalak formázása az DyslexicHelp betűtípus és az alacsony kontrasztú súgó segítségével",
+		"description": "Oldalak formázása az DyslexicHelp betűtípus és az alacsony kontrasztú súgó segítségével"
 	},
 	"options": {
 		"message": "Opciók"
@@ -54,19 +54,19 @@
 		"message": "Forráskód"
 	},
 	"followDyslexic": {
-		"message": "Kövesse az OpenDyslexic alkalmazást"
+		"message": "Kövesse az DyslexicHelp alkalmazást"
 	},
 	"followDyslexicToolTip": {
-		"message": "Kövesse az OpenDyslexic alkalmazást a Twitteren"
+		"message": "Kövesse az DyslexicHelp alkalmazást a Twitteren"
 	},
 	"followAbbie": {
-		"message": "Támogatja az OpenDyslexic alkalmazást"
+		"message": "Támogatja az DyslexicHelp alkalmazást"
 	},
 	"comingSoon": {
 		"message": "Hamarosan"
 	},
 	"followAbbieToolTip": {
-		"message": "Támogassa az OpenDyslexic készítőjét."
+		"message": "Támogassa az DyslexicHelp készítőjét."
 	},
 	"followRobertJames": {
 		"message": "Kövesse Robert James-t"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Fedezze fel a Helperbird-et"
 	},
-	"OpenDyslexic": {
-		"message": "Fedezze fel az OpenDyslexic alkalmazást"
+	"DyslexicHelp": {
+		"message": "Fedezze fel az DyslexicHelp alkalmazást"
 	},
 	"on": {
 		"message": "Tovább"

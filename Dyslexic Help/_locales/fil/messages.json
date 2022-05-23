@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic para sa Chrome",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan."
+		"message": "DyslexicHelp para sa Chrome",
+		"description": "I-format ang mga pahina gamit ang DyslexicHelp font at mababang tulong ng kaibahan."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan."
+		"message": "DyslexicHelp",
+		"description": "I-format ang mga pahina gamit ang DyslexicHelp font at mababang tulong ng kaibahan."
 	},
 	"appDescription": {
-		"message": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan"
+		"message": "I-format ang mga pahina gamit ang DyslexicHelp font at mababang tulong ng kaibahan",
+		"description": "I-format ang mga pahina gamit ang DyslexicHelp font at mababang tulong ng kaibahan"
 	},
 	"options": {
 		"message": "Mga pagpipilian"
@@ -54,19 +54,19 @@
 		"message": "Source Code"
 	},
 	"followDyslexic": {
-		"message": "Sundin ang OpenDyslexic"
+		"message": "Sundin ang DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sundin ang OpenDyslexic sa Twitter"
+		"message": "Sundin ang DyslexicHelp sa Twitter"
 	},
 	"followAbbie": {
-		"message": "Suportahan ang OpenDyslexic"
+		"message": "Suportahan ang DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Malapit na"
 	},
 	"followAbbieToolTip": {
-		"message": "Suportahan ang tagalikha ng OpenDyslexic."
+		"message": "Suportahan ang tagalikha ng DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Sundin si Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Tuklasin ang Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Tuklasin ang OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Tuklasin ang DyslexicHelp"
 	},
 	"on": {
 		"message": "Sa"

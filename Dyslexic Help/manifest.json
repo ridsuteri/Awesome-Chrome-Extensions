@@ -5,7 +5,7 @@
 	"version": "12.0.0",
 	"manifest_version": 2,
 	"description": "__MSG_appDescription__",
-	"homepage_url": "https://opendyslexic.org",
+	"homepage_url": "https://DyslexicHelp.org",
 	"icons": {
 		"128": "images/icons/icon-128.png"
 	},
@@ -35,13 +35,13 @@
 	"offline_enabled": true,
 	"content_security_policy": "script-src 'self'; object-src 'self';",
 	"web_accessible_resources": [
-		"/fonts/opendyslexic/OpenDyslexic-Bold.otf",
-		"/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf",
-		"/fonts/opendyslexic/OpenDyslexic-Italic.otf",
-		"/fonts/opendyslexic/OpenDyslexic-Regular.otf",
-		"/fonts/opendyslexic/OpenDyslexicMono-Regular.otf",
-		"/styles/core/opendyslexic-regular.css",
-		"/styles/core/opendyslexic-bold.css",
-		"/styles/core/opendyslexic-italic.css"
+		"/fonts/DyslexicHelp/DyslexicHelp-Bold.otf",
+		"/fonts/DyslexicHelp/DyslexicHelp-BoldItalic.otf",
+		"/fonts/DyslexicHelp/DyslexicHelp-Italic.otf",
+		"/fonts/DyslexicHelp/DyslexicHelp-Regular.otf",
+		"/fonts/DyslexicHelp/DyslexicHelpMono-Regular.otf",
+		"/styles/core/DyslexicHelp-regular.css",
+		"/styles/core/DyslexicHelp-bold.css",
+		"/styles/core/DyslexicHelp-italic.css"
 	]
 }

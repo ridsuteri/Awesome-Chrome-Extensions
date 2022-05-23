@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic per a Chrome",
-		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast."
+		"message": "DyslexicHelp per a Chrome",
+		"description": "Formateu pàgines mitjançant el tipus de lletra DyslexicHelp i ajuda de baix contrast."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast."
+		"message": "DyslexicHelp",
+		"description": "Formateu pàgines mitjançant el tipus de lletra DyslexicHelp i ajuda de baix contrast."
 	},
 	"appDescription": {
-		"message": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast",
-		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast"
+		"message": "Formateu pàgines mitjançant el tipus de lletra DyslexicHelp i ajuda de baix contrast",
+		"description": "Formateu pàgines mitjançant el tipus de lletra DyslexicHelp i ajuda de baix contrast"
 	},
 	"options": {
 		"message": "Opcions"
@@ -54,19 +54,19 @@
 		"message": "Codi font"
 	},
 	"followDyslexic": {
-		"message": "Seguiu OpenDyslexic"
+		"message": "Seguiu DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Seguiu OpenDyslexic a Twitter"
+		"message": "Seguiu DyslexicHelp a Twitter"
 	},
 	"followAbbie": {
-		"message": "Suport a OpenDyslexic"
+		"message": "Suport a DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Pròximament"
 	},
 	"followAbbieToolTip": {
-		"message": "Donar suport al creador d’OpenDyslexic."
+		"message": "Donar suport al creador d’DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Segueix Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Descobriu Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Descobriu OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Descobriu DyslexicHelp"
 	},
 	"on": {
 		"message": "Encès"

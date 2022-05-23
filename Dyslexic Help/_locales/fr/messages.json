@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic pour Chrome",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+		"message": "DyslexicHelp pour Chrome",
+		"description": "Formatez les pages à l'aide de la police DyslexicHelp et de l'aide à faible contraste."
 	},
 	"appTitle": {
 		"message": "OuvertDyslexique",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+		"description": "Formatez les pages à l'aide de la police DyslexicHelp et de l'aide à faible contraste."
 	},
 	"appDescription": {
-		"message": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste"
+		"message": "Formatez les pages à l'aide de la police DyslexicHelp et de l'aide à faible contraste",
+		"description": "Formatez les pages à l'aide de la police DyslexicHelp et de l'aide à faible contraste"
 	},
 	"options": {
 		"message": "Options"
@@ -54,19 +54,19 @@
 		"message": "Code source"
 	},
 	"followDyslexic": {
-		"message": "Suivre OpenDyslexic"
+		"message": "Suivre DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Suivez OpenDyslexic sur Twitter"
+		"message": "Suivez DyslexicHelp sur Twitter"
 	},
 	"followAbbie": {
-		"message": "Soutenir OpenDyslexic"
+		"message": "Soutenir DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Bientôt disponible"
 	},
 	"followAbbieToolTip": {
-		"message": "Soutenez le créateur d'OpenDyslexic."
+		"message": "Soutenez le créateur d'DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Suivez Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Découvrez Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Découvrez OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Découvrez DyslexicHelp"
 	},
 	"on": {
 		"message": "Au"

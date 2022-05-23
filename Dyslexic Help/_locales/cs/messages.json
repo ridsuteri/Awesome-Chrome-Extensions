@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic pro Chrome",
-		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem."
+		"message": "DyslexicHelp pro Chrome",
+		"description": "Formátujte stránky pomocí písma DyslexicHelp a nápovědy s nízkým kontrastem."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem."
+		"message": "DyslexicHelp",
+		"description": "Formátujte stránky pomocí písma DyslexicHelp a nápovědy s nízkým kontrastem."
 	},
 	"appDescription": {
-		"message": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem",
-		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem"
+		"message": "Formátujte stránky pomocí písma DyslexicHelp a nápovědy s nízkým kontrastem",
+		"description": "Formátujte stránky pomocí písma DyslexicHelp a nápovědy s nízkým kontrastem"
 	},
 	"options": {
 		"message": "Možnosti"
@@ -54,19 +54,19 @@
 		"message": "Zdrojový kód"
 	},
 	"followDyslexic": {
-		"message": "Postupujte podle OpenDyslexic"
+		"message": "Postupujte podle DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sledujte OpenDyslexic na Twitteru"
+		"message": "Sledujte DyslexicHelp na Twitteru"
 	},
 	"followAbbie": {
-		"message": "Podpora OpenDyslexic"
+		"message": "Podpora DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Již brzy"
 	},
 	"followAbbieToolTip": {
-		"message": "Podpořte tvůrce OpenDyslexic."
+		"message": "Podpořte tvůrce DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Sledujte Roberta Jamese"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Objevte Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Objevte OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Objevte DyslexicHelp"
 	},
 	"on": {
 		"message": "Na"

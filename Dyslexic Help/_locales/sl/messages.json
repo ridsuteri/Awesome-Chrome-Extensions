@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic za Chrome",
-		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom."
+		"message": "DyslexicHelp za Chrome",
+		"description": "Formatirajte strani s pomočjo pisave DyslexicHelp in pomoči z nizkim kontrastom."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom."
+		"message": "DyslexicHelp",
+		"description": "Formatirajte strani s pomočjo pisave DyslexicHelp in pomoči z nizkim kontrastom."
 	},
 	"appDescription": {
-		"message": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom",
-		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom"
+		"message": "Formatirajte strani s pomočjo pisave DyslexicHelp in pomoči z nizkim kontrastom",
+		"description": "Formatirajte strani s pomočjo pisave DyslexicHelp in pomoči z nizkim kontrastom"
 	},
 	"options": {
 		"message": "Opcije"
@@ -54,19 +54,19 @@
 		"message": "Izvorna koda"
 	},
 	"followDyslexic": {
-		"message": "Sledite OpenDyslexic"
+		"message": "Sledite DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sledite OpenDyslexic na Twitterju"
+		"message": "Sledite DyslexicHelp na Twitterju"
 	},
 	"followAbbie": {
-		"message": "Podpira OpenDyslexic"
+		"message": "Podpira DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Prihaja kmalu"
 	},
 	"followAbbieToolTip": {
-		"message": "Podprite ustvarjalca OpenDyslexic."
+		"message": "Podprite ustvarjalca DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Sledite Robertu Jamesu"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Odkrijte Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Odkrijte OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Odkrijte DyslexicHelp"
 	},
 	"on": {
 		"message": "Vklopljeno"

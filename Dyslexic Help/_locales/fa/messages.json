@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic برای Chrome",
-		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید."
+		"message": "DyslexicHelp برای Chrome",
+		"description": "با استفاده از قلم DyslexicHelp و کنتراست کم ، صفحات را قالب بندی کنید."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید."
+		"message": "DyslexicHelp",
+		"description": "با استفاده از قلم DyslexicHelp و کنتراست کم ، صفحات را قالب بندی کنید."
 	},
 	"appDescription": {
-		"message": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید",
-		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید"
+		"message": "با استفاده از قلم DyslexicHelp و کنتراست کم ، صفحات را قالب بندی کنید",
+		"description": "با استفاده از قلم DyslexicHelp و کنتراست کم ، صفحات را قالب بندی کنید"
 	},
 	"options": {
 		"message": "گزینه ها"
@@ -54,19 +54,19 @@
 		"message": "کد منبع"
 	},
 	"followDyslexic": {
-		"message": "OpenDyslexic را دنبال کنید"
+		"message": "DyslexicHelp را دنبال کنید"
 	},
 	"followDyslexicToolTip": {
-		"message": "OpenDyslexic را در توییتر دنبال کنید"
+		"message": "DyslexicHelp را در توییتر دنبال کنید"
 	},
 	"followAbbie": {
-		"message": "از OpenDyslexic پشتیبانی کنید"
+		"message": "از DyslexicHelp پشتیبانی کنید"
 	},
 	"comingSoon": {
 		"message": "به زودی"
 	},
 	"followAbbieToolTip": {
-		"message": "از سازنده OpenDyslexic پشتیبانی کنید."
+		"message": "از سازنده DyslexicHelp پشتیبانی کنید."
 	},
 	"followRobertJames": {
 		"message": "رابرت جیمز را دنبال کنید"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Helperbird را کشف کنید"
 	},
-	"OpenDyslexic": {
-		"message": "OpenDyslexic را کشف کنید"
+	"DyslexicHelp": {
+		"message": "DyslexicHelp را کشف کنید"
 	},
 	"on": {
 		"message": "بر"

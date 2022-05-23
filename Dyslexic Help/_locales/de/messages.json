@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic für Chrome",
-		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
+		"message": "DyslexicHelp für Chrome",
+		"description": "Formatieren Sie Seiten mit der DyslexicHelp-Schriftart und der Hilfe mit niedrigem Kontrast."
 	},
 	"appTitle": {
 		"message": "OpenLegastheniker",
-		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
+		"description": "Formatieren Sie Seiten mit der DyslexicHelp-Schriftart und der Hilfe mit niedrigem Kontrast."
 	},
 	"appDescription": {
-		"message": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast contrast",
-		"description": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast contrast"
+		"message": "Formatieren von Seiten mit der DyslexicHelp-Schriftart und Hilfe mit geringem Kontrast contrast",
+		"description": "Formatieren von Seiten mit der DyslexicHelp-Schriftart und Hilfe mit geringem Kontrast contrast"
 	},
 	"options": {
 		"message": "Optionen"
@@ -54,19 +54,19 @@
 		"message": "Quellcode"
 	},
 	"followDyslexic": {
-		"message": "Folgen Sie OpenDyslexic"
+		"message": "Folgen Sie DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Folgen Sie OpenDyslexic auf Twitter"
+		"message": "Folgen Sie DyslexicHelp auf Twitter"
 	},
 	"followAbbie": {
-		"message": "Unterstützen Sie OpenDyslexic"
+		"message": "Unterstützen Sie DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Kommt bald"
 	},
 	"followAbbieToolTip": {
-		"message": "Unterstützen Sie den Schöpfer von OpenDyslexic."
+		"message": "Unterstützen Sie den Schöpfer von DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Folgen Sie Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Helperbird entdecken"
 	},
-	"OpenDyslexic": {
-		"message": "Entdecken Sie OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Entdecken Sie DyslexicHelp"
 	},
 	"on": {
 		"message": "Auf"

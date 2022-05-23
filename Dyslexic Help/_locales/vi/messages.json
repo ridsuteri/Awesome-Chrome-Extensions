@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic dành cho Chrome",
-		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"message": "DyslexicHelp dành cho Chrome",
+		"description": "Định dạng trang bằng cách sử dụng phông chữ DyslexicHelp và trợ giúp độ tương phản thấp."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"message": "DyslexicHelp",
+		"description": "Định dạng trang bằng cách sử dụng phông chữ DyslexicHelp và trợ giúp độ tương phản thấp."
 	},
 	"appDescription": {
-		"message": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp",
-		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp"
+		"message": "Định dạng trang bằng cách sử dụng phông chữ DyslexicHelp và trợ giúp độ tương phản thấp",
+		"description": "Định dạng trang bằng cách sử dụng phông chữ DyslexicHelp và trợ giúp độ tương phản thấp"
 	},
 	"options": {
 		"message": "Tùy chọn"
@@ -54,19 +54,19 @@
 		"message": "Mã nguồn"
 	},
 	"followDyslexic": {
-		"message": "Theo OpenDyslexic"
+		"message": "Theo DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Theo dõi OpenDyslexic trên Twitter"
+		"message": "Theo dõi DyslexicHelp trên Twitter"
 	},
 	"followAbbie": {
-		"message": "Hỗ trợ OpenDyslexic"
+		"message": "Hỗ trợ DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Sắp có"
 	},
 	"followAbbieToolTip": {
-		"message": "Hỗ trợ người tạo OpenDyslexic."
+		"message": "Hỗ trợ người tạo DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Theo Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Khám phá Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Khám phá OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Khám phá DyslexicHelp"
 	},
 	"on": {
 		"message": "Trên"

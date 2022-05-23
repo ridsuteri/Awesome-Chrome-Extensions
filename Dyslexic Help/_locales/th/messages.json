@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic สำหรับ Chrome",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "DyslexicHelp สำหรับ Chrome",
+		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ DyslexicHelp และวิธีใช้คอนทราสต์ต่ำ"
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "DyslexicHelp",
+		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ DyslexicHelp และวิธีใช้คอนทราสต์ต่ำ"
 	},
 	"appDescription": {
-		"message": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "จัดรูปแบบหน้าโดยใช้ฟอนต์ DyslexicHelp และวิธีใช้คอนทราสต์ต่ำ",
+		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ DyslexicHelp และวิธีใช้คอนทราสต์ต่ำ"
 	},
 	"options": {
 		"message": "ตัวเลือก"
@@ -54,19 +54,19 @@
 		"message": "รหัสแหล่งที่มา"
 	},
 	"followDyslexic": {
-		"message": "ติดตาม OpenDyslexic"
+		"message": "ติดตาม DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "ติดตาม OpenDyslexic บน Twitter"
+		"message": "ติดตาม DyslexicHelp บน Twitter"
 	},
 	"followAbbie": {
-		"message": "สนับสนุน OpenDyslexic"
+		"message": "สนับสนุน DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "เร็ว ๆ นี้"
 	},
 	"followAbbieToolTip": {
-		"message": "สนับสนุนผู้สร้าง OpenDyslexic"
+		"message": "สนับสนุนผู้สร้าง DyslexicHelp"
 	},
 	"followRobertJames": {
 		"message": "ติดตามโรเบิร์ตเจมส์"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "ค้นพบ Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "ค้นพบ OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "ค้นพบ DyslexicHelp"
 	},
 	"on": {
 		"message": "บน"

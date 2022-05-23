@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic для Chrome",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+		"message": "DyslexicHelp для Chrome",
+		"description": "Форматування сторінок за допомогою шрифту DyslexicHelp та довідки з низьким контрастом."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+		"message": "DyslexicHelp",
+		"description": "Форматування сторінок за допомогою шрифту DyslexicHelp та довідки з низьким контрастом."
 	},
 	"appDescription": {
-		"message": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом"
+		"message": "Форматування сторінок за допомогою шрифту DyslexicHelp та довідки з низьким контрастом",
+		"description": "Форматування сторінок за допомогою шрифту DyslexicHelp та довідки з низьким контрастом"
 	},
 	"options": {
 		"message": "Варіанти"
@@ -54,19 +54,19 @@
 		"message": "Вихідний код"
 	},
 	"followDyslexic": {
-		"message": "Дотримуйтесь OpenDyslexic"
+		"message": "Дотримуйтесь DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Слідкуйте за OpenDyslexic у Twitter"
+		"message": "Слідкуйте за DyslexicHelp у Twitter"
 	},
 	"followAbbie": {
-		"message": "Підтримка OpenDyslexic"
+		"message": "Підтримка DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Незабаром"
 	},
 	"followAbbieToolTip": {
-		"message": "Підтримка творця OpenDyslexic."
+		"message": "Підтримка творця DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Слідуйте за Робертом Джеймсом"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Відкрийте Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Відкрийте для себе OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Відкрийте для себе DyslexicHelp"
 	},
 	"on": {
 		"message": "Увімкнено"

@@ -57,7 +57,7 @@
 		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് പിന്തുടരുക"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter- ൽ OpenDyslexic പിന്തുടരുക"
+		"message": "Twitter- ൽ DyslexicHelp പിന്തുടരുക"
 	},
 	"followAbbie": {
 		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് പിന്തുണയ്‌ക്കുക"
@@ -119,7 +119,7 @@
 	"helperbird": {
 		"message": "ഹെൽപ്പർബേർഡ് കണ്ടെത്തുക"
 	},
-	"OpenDyslexic": {
+	"DyslexicHelp": {
 		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് കണ്ടെത്തുക"
 	},
 	"on": {

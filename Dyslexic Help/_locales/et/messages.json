@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "Chrome'i jaoks mõeldud OpenDyslexic",
-		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil."
+		"message": "Chrome'i jaoks mõeldud DyslexicHelp",
+		"description": "Vormindage lehed DyslexicHelpu fondi ja madala kontrastsusega abi abil."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil."
+		"message": "DyslexicHelp",
+		"description": "Vormindage lehed DyslexicHelpu fondi ja madala kontrastsusega abi abil."
 	},
 	"appDescription": {
-		"message": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil",
-		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil"
+		"message": "Vormindage lehed DyslexicHelpu fondi ja madala kontrastsusega abi abil",
+		"description": "Vormindage lehed DyslexicHelpu fondi ja madala kontrastsusega abi abil"
 	},
 	"options": {
 		"message": "Valikud"
@@ -54,19 +54,19 @@
 		"message": "Lähtekood"
 	},
 	"followDyslexic": {
-		"message": "Järgige OpenDyslexicut"
+		"message": "Järgige DyslexicHelput"
 	},
 	"followDyslexicToolTip": {
-		"message": "Jälgige OpenDyslexicut Twitteris"
+		"message": "Jälgige DyslexicHelput Twitteris"
 	},
 	"followAbbie": {
-		"message": "Toetage OpenDyslexicut"
+		"message": "Toetage DyslexicHelput"
 	},
 	"comingSoon": {
 		"message": "Tulekul"
 	},
 	"followAbbieToolTip": {
-		"message": "Toetage OpenDyslexicu loojat."
+		"message": "Toetage DyslexicHelpu loojat."
 	},
 	"followRobertJames": {
 		"message": "Järgige Robert Jamesit"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Avastage Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Avastage OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Avastage DyslexicHelp"
 	},
 	"on": {
 		"message": "Peal"

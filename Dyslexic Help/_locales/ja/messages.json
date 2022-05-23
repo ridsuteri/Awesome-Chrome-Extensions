@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "Chrome用OpenDyslexic",
-		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "Chrome用DyslexicHelp",
+		"description": "DyslexicHelpフォントと低コントラストのヘルプを使用してページをフォーマットします。"
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "DyslexicHelp",
+		"description": "DyslexicHelpフォントと低コントラストのヘルプを使用してページをフォーマットします。"
 	},
 	"appDescription": {
-		"message": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットする",
-		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットする"
+		"message": "DyslexicHelpフォントと低コントラストのヘルプを使用してページをフォーマットする",
+		"description": "DyslexicHelpフォントと低コントラストのヘルプを使用してページをフォーマットする"
 	},
 	"options": {
 		"message": "オプション"
@@ -54,19 +54,19 @@
 		"message": "ソースコード"
 	},
 	"followDyslexic": {
-		"message": "OpenDyslexicをフォローする"
+		"message": "DyslexicHelpをフォローする"
 	},
 	"followDyslexicToolTip": {
-		"message": "TwitterでOpenDyslexicをフォローする"
+		"message": "TwitterでDyslexicHelpをフォローする"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexicをサポートする"
+		"message": "DyslexicHelpをサポートする"
 	},
 	"comingSoon": {
 		"message": "近日公開"
 	},
 	"followAbbieToolTip": {
-		"message": "OpenDyslexicの作成者をサポートします。"
+		"message": "DyslexicHelpの作成者をサポートします。"
 	},
 	"followRobertJames": {
 		"message": "ロバートジェームスに従ってください"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Helperbirdを発見する"
 	},
-	"OpenDyslexic": {
-		"message": "OpenDyslexicを発見する"
+	"DyslexicHelp": {
+		"message": "DyslexicHelpを発見する"
 	},
 	"on": {
 		"message": "オン"

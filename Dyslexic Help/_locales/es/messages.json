@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic para Chrome",
-		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"message": "DyslexicHelp para Chrome",
+		"description": "Formatee las páginas con la fuente DyslexicHelp y la ayuda de bajo contraste."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"message": "DyslexicHelp",
+		"description": "Formatee las páginas con la fuente DyslexicHelp y la ayuda de bajo contraste."
 	},
 	"appDescription": {
-		"message": "Dar formato a las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste",
-		"description": "Dar formato a las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste"
+		"message": "Dar formato a las páginas con la fuente DyslexicHelp y la ayuda de bajo contraste",
+		"description": "Dar formato a las páginas con la fuente DyslexicHelp y la ayuda de bajo contraste"
 	},
 	"options": {
 		"message": "Opciones"
@@ -54,19 +54,19 @@
 		"message": "Código fuente"
 	},
 	"followDyslexic": {
-		"message": "Seguir OpenDyslexic"
+		"message": "Seguir DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Siga OpenDyslexic en Twitter"
+		"message": "Siga DyslexicHelp en Twitter"
 	},
 	"followAbbie": {
-		"message": "Soporte OpenDyslexic"
+		"message": "Soporte DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Próximamente, en breve, pronto"
 	},
 	"followAbbieToolTip": {
-		"message": "Apoya al creador de OpenDyslexic."
+		"message": "Apoya al creador de DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Sigue a Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Descubrir Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Descubra OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Descubra DyslexicHelp"
 	},
 	"on": {
 		"message": "En"

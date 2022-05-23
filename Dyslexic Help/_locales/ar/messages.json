@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic لمتصفح Chrome",
-		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض."
+		"message": "DyslexicHelp لمتصفح Chrome",
+		"description": "تنسيق الصفحات باستخدام خط DyslexicHelp وتعليمات التباين المنخفض."
 	},
 	"appTitle": {
 		"message": "مفتوح",
-		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض."
+		"description": "تنسيق الصفحات باستخدام خط DyslexicHelp وتعليمات التباين المنخفض."
 	},
 	"appDescription": {
-		"message": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض",
-		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض"
+		"message": "تنسيق الصفحات باستخدام خط DyslexicHelp وتعليمات التباين المنخفض",
+		"description": "تنسيق الصفحات باستخدام خط DyslexicHelp وتعليمات التباين المنخفض"
 	},
 	"options": {
 		"message": "خيارات"
@@ -54,19 +54,19 @@
 		"message": "مصدر الرمز"
 	},
 	"followDyslexic": {
-		"message": "اتبع OpenDyslexic"
+		"message": "اتبع DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "تابع OpenDyslexic على Twitter"
+		"message": "تابع DyslexicHelp على Twitter"
 	},
 	"followAbbie": {
-		"message": "دعم OpenDyslexic"
+		"message": "دعم DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "قريبا"
 	},
 	"followAbbieToolTip": {
-		"message": "دعم منشئ OpenDyslexic."
+		"message": "دعم منشئ DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "اتبع روبرت جيمس"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "اكتشف Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "اكتشف OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "اكتشف DyslexicHelp"
 	},
 	"on": {
 		"message": "على"

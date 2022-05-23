@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic för Chrome",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast."
+		"message": "DyslexicHelp för Chrome",
+		"description": "Formatera sidor med hjälp av DyslexicHelp-teckensnitt och hjälp med låg kontrast."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast."
+		"message": "DyslexicHelp",
+		"description": "Formatera sidor med hjälp av DyslexicHelp-teckensnitt och hjälp med låg kontrast."
 	},
 	"appDescription": {
-		"message": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast"
+		"message": "Formatera sidor med hjälp av DyslexicHelp-teckensnitt och hjälp med låg kontrast",
+		"description": "Formatera sidor med hjälp av DyslexicHelp-teckensnitt och hjälp med låg kontrast"
 	},
 	"options": {
 		"message": "alternativ"
@@ -54,19 +54,19 @@
 		"message": "Källkod"
 	},
 	"followDyslexic": {
-		"message": "Följ OpenDyslexic"
+		"message": "Följ DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Följ OpenDyslexic på Twitter"
+		"message": "Följ DyslexicHelp på Twitter"
 	},
 	"followAbbie": {
-		"message": "Stöd OpenDyslexic"
+		"message": "Stöd DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Kommer snart"
 	},
 	"followAbbieToolTip": {
-		"message": "Stöd skaparen av OpenDyslexic."
+		"message": "Stöd skaparen av DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Följ Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Upptäck Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Upptäck OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Upptäck DyslexicHelp"
 	},
 	"on": {
 		"message": "På"

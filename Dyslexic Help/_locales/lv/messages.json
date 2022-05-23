@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic pārlūkam Chrome",
-		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu."
+		"message": "DyslexicHelp pārlūkam Chrome",
+		"description": "Formatējiet lapas, izmantojot fontu DyslexicHelp un palīdzību ar zemu kontrastu."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu."
+		"message": "DyslexicHelp",
+		"description": "Formatējiet lapas, izmantojot fontu DyslexicHelp un palīdzību ar zemu kontrastu."
 	},
 	"appDescription": {
-		"message": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu",
-		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu"
+		"message": "Formatējiet lapas, izmantojot fontu DyslexicHelp un palīdzību ar zemu kontrastu",
+		"description": "Formatējiet lapas, izmantojot fontu DyslexicHelp un palīdzību ar zemu kontrastu"
 	},
 	"options": {
 		"message": "Iespējas"
@@ -54,19 +54,19 @@
 		"message": "Avota kods"
 	},
 	"followDyslexic": {
-		"message": "Sekojiet OpenDyslexic"
+		"message": "Sekojiet DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sekojiet OpenDyslexic vietnē Twitter"
+		"message": "Sekojiet DyslexicHelp vietnē Twitter"
 	},
 	"followAbbie": {
-		"message": "Atbalstiet OpenDyslexic"
+		"message": "Atbalstiet DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Drīzumā"
 	},
 	"followAbbieToolTip": {
-		"message": "Atbalstiet OpenDyslexic veidotāju."
+		"message": "Atbalstiet DyslexicHelp veidotāju."
 	},
 	"followRobertJames": {
 		"message": "Seko Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Atklājiet Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Atklājiet OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Atklājiet DyslexicHelp"
 	},
 	"on": {
 		"message": "Ieslēgts"

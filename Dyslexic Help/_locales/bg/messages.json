@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic за Chrome",
-		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст."
+		"message": "DyslexicHelp за Chrome",
+		"description": "Форматирайте страници с помощта на шрифта DyslexicHelp и помощ с нисък контраст."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст."
+		"message": "DyslexicHelp",
+		"description": "Форматирайте страници с помощта на шрифта DyslexicHelp и помощ с нисък контраст."
 	},
 	"appDescription": {
-		"message": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст",
-		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст"
+		"message": "Форматирайте страници с помощта на шрифта DyslexicHelp и помощ с нисък контраст",
+		"description": "Форматирайте страници с помощта на шрифта DyslexicHelp и помощ с нисък контраст"
 	},
 	"options": {
 		"message": "Настроики"
@@ -54,19 +54,19 @@
 		"message": "Програмен код"
 	},
 	"followDyslexic": {
-		"message": "Следвайте OpenDyslexic"
+		"message": "Следвайте DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Следвайте OpenDyslexic в Twitter"
+		"message": "Следвайте DyslexicHelp в Twitter"
 	},
 	"followAbbie": {
-		"message": "Поддръжка на OpenDyslexic"
+		"message": "Поддръжка на DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Очаквайте скоро"
 	},
 	"followAbbieToolTip": {
-		"message": "Подкрепете създателя на OpenDyslexic."
+		"message": "Подкрепете създателя на DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Следвайте Робърт Джеймс"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Открийте Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Открийте OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Открийте DyslexicHelp"
 	},
 	"on": {
 		"message": "На"

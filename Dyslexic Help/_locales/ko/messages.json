@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "Chrome 용 OpenDyslexic",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"message": "Chrome 용 DyslexicHelp",
+		"description": "DyslexicHelp 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"message": "DyslexicHelp",
+		"description": "DyslexicHelp 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정"
+		"message": "DyslexicHelp 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정",
+		"description": "DyslexicHelp 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정"
 	},
 	"options": {
 		"message": "옵션"
@@ -54,19 +54,19 @@
 		"message": "소스 코드"
 	},
 	"followDyslexic": {
-		"message": "OpenDyslexic 팔로우"
+		"message": "DyslexicHelp 팔로우"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter에서 OpenDyslexic 팔로우"
+		"message": "Twitter에서 DyslexicHelp 팔로우"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic 지원"
+		"message": "DyslexicHelp 지원"
 	},
 	"comingSoon": {
 		"message": "곧 출시"
 	},
 	"followAbbieToolTip": {
-		"message": "OpenDyslexic의 제작자를 지원하십시오."
+		"message": "DyslexicHelp의 제작자를 지원하십시오."
 	},
 	"followRobertJames": {
 		"message": "Robert James 팔로우"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Helperbird 살펴보기"
 	},
-	"OpenDyslexic": {
-		"message": "OpenDyslexic 알아보기"
+	"DyslexicHelp": {
+		"message": "DyslexicHelp 알아보기"
 	},
 	"on": {
 		"message": "의 위에"

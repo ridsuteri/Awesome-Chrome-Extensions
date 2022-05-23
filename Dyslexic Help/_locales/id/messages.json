@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic untuk Chrome",
-		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
+		"message": "DyslexicHelp untuk Chrome",
+		"description": "Format halaman menggunakan font DyslexicHelp dan bantuan kontras rendah."
 	},
 	"appTitle": {
 		"message": "Disleksia Terbuka",
-		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
+		"description": "Format halaman menggunakan font DyslexicHelp dan bantuan kontras rendah."
 	},
 	"appDescription": {
-		"message": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah",
-		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah"
+		"message": "Format halaman menggunakan font DyslexicHelp dan bantuan kontras rendah",
+		"description": "Format halaman menggunakan font DyslexicHelp dan bantuan kontras rendah"
 	},
 	"options": {
 		"message": "Pilihan"
@@ -54,19 +54,19 @@
 		"message": "Kode sumber"
 	},
 	"followDyslexic": {
-		"message": "Ikuti OpenDyslexic"
+		"message": "Ikuti DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Ikuti OpenDyslexic di Twitter"
+		"message": "Ikuti DyslexicHelp di Twitter"
 	},
 	"followAbbie": {
-		"message": "Mendukung OpenDyslexic"
+		"message": "Mendukung DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Segera akan datang"
 	},
 	"followAbbieToolTip": {
-		"message": "Dukung pencipta OpenDyslexic."
+		"message": "Dukung pencipta DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Ikuti Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Temukan Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Temukan OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Temukan DyslexicHelp"
 	},
 	"on": {
 		"message": "Di"

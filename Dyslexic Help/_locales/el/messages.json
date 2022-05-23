@@ -1,15 +1,15 @@
 {
 	"appName": {
-		"message": "OpenDyslexic για Chrome",
-		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"message": "DyslexicHelp για Chrome",
+		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά DyslexicHelp και τη βοήθεια χαμηλής αντίθεσης."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"message": "DyslexicHelp",
+		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά DyslexicHelp και τη βοήθεια χαμηλής αντίθεσης."
 	},
 	"appDescription": {
-		"message": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης",
-		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης"
+		"message": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά DyslexicHelp και τη βοήθεια χαμηλής αντίθεσης",
+		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά DyslexicHelp και τη βοήθεια χαμηλής αντίθεσης"
 	},
 	"options": {
 		"message": "Επιλογές"
@@ -54,19 +54,19 @@
 		"message": "Πηγαίος κώδικας"
 	},
 	"followDyslexic": {
-		"message": "Ακολουθήστε το OpenDyslexic"
+		"message": "Ακολουθήστε το DyslexicHelp"
 	},
 	"followDyslexicToolTip": {
-		"message": "Ακολουθήστε το OpenDyslexic στο Twitter"
+		"message": "Ακολουθήστε το DyslexicHelp στο Twitter"
 	},
 	"followAbbie": {
-		"message": "Υποστήριξη OpenDyslexic"
+		"message": "Υποστήριξη DyslexicHelp"
 	},
 	"comingSoon": {
 		"message": "Ερχομαι συντομα"
 	},
 	"followAbbieToolTip": {
-		"message": "Υποστηρίξτε τον δημιουργό του OpenDyslexic."
+		"message": "Υποστηρίξτε τον δημιουργό του DyslexicHelp."
 	},
 	"followRobertJames": {
 		"message": "Ακολουθήστε τον Robert James"
@@ -119,8 +119,8 @@
 	"helperbird": {
 		"message": "Ανακαλύψτε το Helperbird"
 	},
-	"OpenDyslexic": {
-		"message": "Ανακαλύψτε το OpenDyslexic"
+	"DyslexicHelp": {
+		"message": "Ανακαλύψτε το DyslexicHelp"
 	},
 	"on": {
 		"message": "Επί"
