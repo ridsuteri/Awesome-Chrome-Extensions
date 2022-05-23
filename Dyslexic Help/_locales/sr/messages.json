@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "ОпенДислекиц за Цхроме",
+		"description": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту."
+	},
+	"appTitle": {
+		"message": "ОпенДислекиц",
+		"description": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту."
+	},
+	"appDescription": {
+		"message": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту",
+		"description": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту"
+	},
+	"options": {
+		"message": "Опције"
+	},
+	"settings": {
+		"message": "Подешавања"
+	},
+	"selectedFontLabel": {
+		"message": "Изабрани фонт за употребу."
+	},
+	"enableFontLabel": {
+		"message": "Омогући"
+	},
+	"googleDocsLabel": {
+		"message": "Гоогле документи"
+	},
+	"googleDocsTooltip": {
+		"message": "Омогућите потпуну подршку за Гоогле документе."
+	},
+	"fontColorSetting": {
+		"message": "Боја"
+	},
+	"fontColorLabel": {
+		"message": "Фонт"
+	},
+	"fontColorTooltip": {
+		"message": "Промените боју фонта."
+	},
+	"backgroundColorLabel": {
+		"message": "Позадина"
+	},
+	"backgroundColorTooltip": {
+		"message": "Промените боју позадине."
+	},
+	"personalSetting": {
+		"message": "Лични"
+	},
+	"socialSetting": {
+		"message": "Друштвени"
+	},
+	"codeSetting": {
+		"message": "Изворни код"
+	},
+	"followDyslexic": {
+		"message": "Пратите ОпенДислекиц"
+	},
+	"followDyslexicToolTip": {
+		"message": "Пратите ОпенДислекиц на Твиттеру"
+	},
+	"followAbbie": {
+		"message": "Подршка ОпенДислекиц"
+	},
+	"comingSoon": {
+		"message": "Долази ускоро"
+	},
+	"followAbbieToolTip": {
+		"message": "Подржите творца ОпенДислекиц-а."
+	},
+	"followRobertJames": {
+		"message": "Пратите Роберта Јамеса"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Пратите одржаватеља ове апликације."
+	},
+	"whatsNew": {
+		"message": "Шта је ново"
+	},
+	"firefox": {
+		"message": "Верзија Фирефок-а"
+	},
+	"firefoxText": {
+		"message": "Користите Фирефок? Преузмите га данас."
+	},
+	"title_fonts": {
+		"message": "Фонтови"
+	},
+	"supportlSetting": {
+		"message": "Подршка"
+	},
+	"featureTint": {
+		"message": "Омогући преклапање"
+	},
+	"supportToolTipTwo": {
+		"message": "Имате проблем? Обратите се подршци."
+	},
+	"reviews": {
+		"message": "Коментара"
+	},
+	"review": {
+		"message": "Преглед"
+	},
+	"style": {
+		"message": "Стил"
+	},
+	"supportToolTip": {
+		"message": "Оставите или прочитајте критике"
+	},
+	"websiteLabel": {
+		"message": "Веб сајт"
+	},
+	"websiteTooltip": {
+		"message": "Веб локација за подршку."
+	},
+	"saved": {
+		"message": "Сачувано"
+	},
+	"helperbird": {
+		"message": "Откријте Хелпербирд"
+	},
+	"OpenDyslexic": {
+		"message": "Откријте ОпенДислекиц"
+	},
+	"on": {
+		"message": "на"
+	},
+	"off": {
+		"message": "Ван"
+	}
+}

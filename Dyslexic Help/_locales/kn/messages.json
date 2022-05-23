@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "Chrome ಗಾಗಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್",
+		"description": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
+	},
+	"appTitle": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್",
+		"description": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
+	},
+	"appDescription": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ",
+		"description": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ"
+	},
+	"options": {
+		"message": "ಆಯ್ಕೆಗಳು"
+	},
+	"settings": {
+		"message": "ಸಂಯೋಜನೆಗಳು"
+	},
+	"selectedFontLabel": {
+		"message": "ಬಳಸಲು ಫಾಂಟ್ ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ."
+	},
+	"enableFontLabel": {
+		"message": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+	},
+	"googleDocsLabel": {
+		"message": "Google ಡಾಕ್ಸ್"
+	},
+	"googleDocsTooltip": {
+		"message": "ಪೂರ್ಣ Google ಡಾಕ್ಸ್ ಬೆಂಬಲವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
+	},
+	"fontColorSetting": {
+		"message": "ಬಣ್ಣ"
+	},
+	"fontColorLabel": {
+		"message": "ಫಾಂಟ್"
+	},
+	"fontColorTooltip": {
+		"message": "ಫಾಂಟ್ ಬಣ್ಣವನ್ನು ಬದಲಾಯಿಸಿ."
+	},
+	"backgroundColorLabel": {
+		"message": "ಹಿನ್ನೆಲೆ"
+	},
+	"backgroundColorTooltip": {
+		"message": "ಹಿನ್ನೆಲೆ ಬಣ್ಣವನ್ನು ಬದಲಾಯಿಸಿ."
+	},
+	"personalSetting": {
+		"message": "ವೈಯಕ್ತಿಕ"
+	},
+	"socialSetting": {
+		"message": "ಸಾಮಾಜಿಕ"
+	},
+	"codeSetting": {
+		"message": "ಮೂಲ ಕೋಡ್"
+	},
+	"followDyslexic": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನುಸರಿಸಿ"
+	},
+	"followDyslexicToolTip": {
+		"message": "ಟ್ವಿಟ್ಟರ್ನಲ್ಲಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನುಸರಿಸಿ"
+	},
+	"followAbbie": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ"
+	},
+	"comingSoon": {
+		"message": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ"
+	},
+	"followAbbieToolTip": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಸೃಷ್ಟಿಕರ್ತನನ್ನು ಬೆಂಬಲಿಸಿ."
+	},
+	"followRobertJames": {
+		"message": "ರಾಬರ್ಟ್ ಜೇಮ್ಸ್ ಅವರನ್ನು ಅನುಸರಿಸಿ"
+	},
+	"followRobertJamesToolTip": {
+		"message": "ಈ ಅಪ್ಲಿಕೇಶನ್‌ನ ನಿರ್ವಹಣೆಯನ್ನು ಅನುಸರಿಸಿ."
+	},
+	"whatsNew": {
+		"message": "ಹೊಸತೇನಿದೆ"
+	},
+	"firefox": {
+		"message": "ಫೈರ್ಫಾಕ್ಸ್ ಆವೃತ್ತಿ"
+	},
+	"firefoxText": {
+		"message": "ಫೈರ್‌ಫಾಕ್ಸ್ ಬಳಸುವುದೇ? ಇಂದು ಅದನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+	},
+	"title_fonts": {
+		"message": "ಫಾಂಟ್‌ಗಳು"
+	},
+	"supportlSetting": {
+		"message": "ಬೆಂಬಲ"
+	},
+	"featureTint": {
+		"message": "ಓವರ್‌ಲೇ ಸಕ್ರಿಯಗೊಳಿಸಿ"
+	},
+	"supportToolTipTwo": {
+		"message": "ಸಮಸ್ಯೆ ಇದೆಯೇ? ಸಂಪರ್ಕ ಬೆಂಬಲ."
+	},
+	"reviews": {
+		"message": "ವಿಮರ್ಶೆಗಳು"
+	},
+	"review": {
+		"message": "ಸಮೀಕ್ಷೆ"
+	},
+	"style": {
+		"message": "ಶೈಲಿ"
+	},
+	"supportToolTip": {
+		"message": "ವಿಮರ್ಶೆಗಳನ್ನು ಬಿಡಿ ಅಥವಾ ಓದಿ"
+	},
+	"websiteLabel": {
+		"message": "ಜಾಲತಾಣ"
+	},
+	"websiteTooltip": {
+		"message": "ಬೆಂಬಲ ವೆಬ್‌ಸೈಟ್."
+	},
+	"saved": {
+		"message": "ಉಳಿಸಲಾಗಿದೆ"
+	},
+	"helperbird": {
+		"message": "ಸಹಾಯವಾಣಿ ಅನ್ವೇಷಿಸಿ"
+	},
+	"OpenDyslexic": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನ್ವೇಷಿಸಿ"
+	},
+	"on": {
+		"message": "ಆನ್"
+	},
+	"off": {
+		"message": "ಆರಿಸಿ"
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic untuk Chrome",
+		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+	},
+	"appDescription": {
+		"message": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah",
+		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah"
+	},
+	"options": {
+		"message": "Pilihan"
+	},
+	"settings": {
+		"message": "Tetapan"
+	},
+	"selectedFontLabel": {
+		"message": "Fon Terpilih untuk digunakan."
+	},
+	"enableFontLabel": {
+		"message": "Aktifkan"
+	},
+	"googleDocsLabel": {
+		"message": "Dokumen Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Dayakan sokongan Dokumen Google sepenuhnya."
+	},
+	"fontColorSetting": {
+		"message": "Warna"
+	},
+	"fontColorLabel": {
+		"message": "Fon"
+	},
+	"fontColorTooltip": {
+		"message": "Tukar warna fon."
+	},
+	"backgroundColorLabel": {
+		"message": "Latar belakang"
+	},
+	"backgroundColorTooltip": {
+		"message": "Tukar warna latar belakang."
+	},
+	"personalSetting": {
+		"message": "Peribadi"
+	},
+	"socialSetting": {
+		"message": "Sosial"
+	},
+	"codeSetting": {
+		"message": "Kod sumber"
+	},
+	"followDyslexic": {
+		"message": "Ikuti OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Ikuti OpenDyslexic di Twitter"
+	},
+	"followAbbie": {
+		"message": "Sokong OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Akan datang"
+	},
+	"followAbbieToolTip": {
+		"message": "Sokong pencipta OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Ikuti Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Ikuti penyelenggara aplikasi ini."
+	},
+	"whatsNew": {
+		"message": "Apa yang baru"
+	},
+	"firefox": {
+		"message": "Versi Firefox"
+	},
+	"firefoxText": {
+		"message": "Gunakan Firefox? Muat turunnya hari ini."
+	},
+	"title_fonts": {
+		"message": "Fon"
+	},
+	"supportlSetting": {
+		"message": "Sokongan"
+	},
+	"featureTint": {
+		"message": "Dayakan Hamparan"
+	},
+	"supportToolTipTwo": {
+		"message": "Mengalami masalah? Hubungi sokongan."
+	},
+	"reviews": {
+		"message": "Ulasan"
+	},
+	"review": {
+		"message": "Kaji semula"
+	},
+	"style": {
+		"message": "Gaya"
+	},
+	"supportToolTip": {
+		"message": "Tinggalkan atau baca ulasan"
+	},
+	"websiteLabel": {
+		"message": "Laman web"
+	},
+	"websiteTooltip": {
+		"message": "Laman web sokongan."
+	},
+	"saved": {
+		"message": "Disimpan"
+	},
+	"helperbird": {
+		"message": "Cari Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Cari OpenDyslexic"
+	},
+	"on": {
+		"message": "Dihidupkan"
+	},
+	"off": {
+		"message": "Mati"
+	}
+}

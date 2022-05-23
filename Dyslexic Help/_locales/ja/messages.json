@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "Chrome用OpenDyslexic",
+		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットします。"
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットします。"
+	},
+	"appDescription": {
+		"message": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットする",
+		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットする"
+	},
+	"options": {
+		"message": "オプション"
+	},
+	"settings": {
+		"message": "設定"
+	},
+	"selectedFontLabel": {
+		"message": "使用するフォントを選択しました。"
+	},
+	"enableFontLabel": {
+		"message": "有効にする"
+	},
+	"googleDocsLabel": {
+		"message": "Googleドキュメント"
+	},
+	"googleDocsTooltip": {
+		"message": "Googleドキュメントの完全サポートを有効にします。"
+	},
+	"fontColorSetting": {
+		"message": "色"
+	},
+	"fontColorLabel": {
+		"message": "フォント"
+	},
+	"fontColorTooltip": {
+		"message": "フォントの色を変更します。"
+	},
+	"backgroundColorLabel": {
+		"message": "バックグラウンド"
+	},
+	"backgroundColorTooltip": {
+		"message": "背景色を変更します。"
+	},
+	"personalSetting": {
+		"message": "個人"
+	},
+	"socialSetting": {
+		"message": "ソーシャル"
+	},
+	"codeSetting": {
+		"message": "ソースコード"
+	},
+	"followDyslexic": {
+		"message": "OpenDyslexicをフォローする"
+	},
+	"followDyslexicToolTip": {
+		"message": "TwitterでOpenDyslexicをフォローする"
+	},
+	"followAbbie": {
+		"message": "OpenDyslexicをサポートする"
+	},
+	"comingSoon": {
+		"message": "近日公開"
+	},
+	"followAbbieToolTip": {
+		"message": "OpenDyslexicの作成者をサポートします。"
+	},
+	"followRobertJames": {
+		"message": "ロバートジェームスに従ってください"
+	},
+	"followRobertJamesToolTip": {
+		"message": "このアプリのメンテナに従ってください。"
+	},
+	"whatsNew": {
+		"message": "新機能"
+	},
+	"firefox": {
+		"message": "Firefoxバージョン"
+	},
+	"firefoxText": {
+		"message": "Firefoxを使用しますか？今すぐダウンロードしてください。"
+	},
+	"title_fonts": {
+		"message": "フォント"
+	},
+	"supportlSetting": {
+		"message": "サポート"
+	},
+	"featureTint": {
+		"message": "オーバーレイを有効にする"
+	},
+	"supportToolTipTwo": {
+		"message": "問題がありますか？サポート問い合わせ先。"
+	},
+	"reviews": {
+		"message": "レビュー"
+	},
+	"review": {
+		"message": "レビュー"
+	},
+	"style": {
+		"message": "スタイル"
+	},
+	"supportToolTip": {
+		"message": "レビューを残すか読む"
+	},
+	"websiteLabel": {
+		"message": "ウェブサイト"
+	},
+	"websiteTooltip": {
+		"message": "サポートWebサイト。"
+	},
+	"saved": {
+		"message": "保存しました"
+	},
+	"helperbird": {
+		"message": "Helperbirdを発見する"
+	},
+	"OpenDyslexic": {
+		"message": "OpenDyslexicを発見する"
+	},
+	"on": {
+		"message": "オン"
+	},
+	"off": {
+		"message": "オフ"
+	}
+}

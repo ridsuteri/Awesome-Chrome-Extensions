@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic pārlūkam Chrome",
+		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu."
+	},
+	"appDescription": {
+		"message": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu",
+		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu"
+	},
+	"options": {
+		"message": "Iespējas"
+	},
+	"settings": {
+		"message": "Iestatījumi"
+	},
+	"selectedFontLabel": {
+		"message": "Atlasīts izmantojamais fonts."
+	},
+	"enableFontLabel": {
+		"message": "Iespējot"
+	},
+	"googleDocsLabel": {
+		"message": "Google dokumenti"
+	},
+	"googleDocsTooltip": {
+		"message": "Iespējojiet pilnīgu Google dokumentu atbalstu."
+	},
+	"fontColorSetting": {
+		"message": "Krāsa"
+	},
+	"fontColorLabel": {
+		"message": "Fonts"
+	},
+	"fontColorTooltip": {
+		"message": "Mainiet fonta krāsu."
+	},
+	"backgroundColorLabel": {
+		"message": "Priekšvēsture"
+	},
+	"backgroundColorTooltip": {
+		"message": "Mainiet fona krāsu."
+	},
+	"personalSetting": {
+		"message": "Personiski"
+	},
+	"socialSetting": {
+		"message": "Sociālais"
+	},
+	"codeSetting": {
+		"message": "Avota kods"
+	},
+	"followDyslexic": {
+		"message": "Sekojiet OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Sekojiet OpenDyslexic vietnē Twitter"
+	},
+	"followAbbie": {
+		"message": "Atbalstiet OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Drīzumā"
+	},
+	"followAbbieToolTip": {
+		"message": "Atbalstiet OpenDyslexic veidotāju."
+	},
+	"followRobertJames": {
+		"message": "Seko Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Sekojiet šīs lietotnes uzturētājam."
+	},
+	"whatsNew": {
+		"message": "Kas jauns"
+	},
+	"firefox": {
+		"message": "Firefox versija"
+	},
+	"firefoxText": {
+		"message": "Vai izmantot Firefox? Lejupielādējiet to šodien."
+	},
+	"title_fonts": {
+		"message": "Fonti"
+	},
+	"supportlSetting": {
+		"message": "Atbalsts"
+	},
+	"featureTint": {
+		"message": "Iespējot pārklājumu"
+	},
+	"supportToolTipTwo": {
+		"message": "Vai jums ir problēma? Sazinieties ar atbalsta dienestu."
+	},
+	"reviews": {
+		"message": "Atsauksmes"
+	},
+	"review": {
+		"message": "Pārskatīšana"
+	},
+	"style": {
+		"message": "Stils"
+	},
+	"supportToolTip": {
+		"message": "Atstājiet vai lasiet atsauksmes"
+	},
+	"websiteLabel": {
+		"message": "Vietne"
+	},
+	"websiteTooltip": {
+		"message": "Atbalsta vietne."
+	},
+	"saved": {
+		"message": "Saglabāts"
+	},
+	"helperbird": {
+		"message": "Atklājiet Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Atklājiet OpenDyslexic"
+	},
+	"on": {
+		"message": "Ieslēgts"
+	},
+	"off": {
+		"message": "Izslēgts"
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic για Chrome",
+		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+	},
+	"appDescription": {
+		"message": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης",
+		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης"
+	},
+	"options": {
+		"message": "Επιλογές"
+	},
+	"settings": {
+		"message": "Ρυθμίσεις"
+	},
+	"selectedFontLabel": {
+		"message": "Επιλεγμένη γραμματοσειρά για χρήση."
+	},
+	"enableFontLabel": {
+		"message": "επιτρέπω"
+	},
+	"googleDocsLabel": {
+		"message": "Έγγραφα Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Ενεργοποιήστε την πλήρη υποστήριξη των Εγγράφων Google."
+	},
+	"fontColorSetting": {
+		"message": "Χρώμα"
+	},
+	"fontColorLabel": {
+		"message": "Γραμματοσειρά"
+	},
+	"fontColorTooltip": {
+		"message": "Αλλάξτε το χρώμα της γραμματοσειράς."
+	},
+	"backgroundColorLabel": {
+		"message": "Ιστορικό"
+	},
+	"backgroundColorTooltip": {
+		"message": "Αλλάξτε το χρώμα φόντου."
+	},
+	"personalSetting": {
+		"message": "Προσωπικός"
+	},
+	"socialSetting": {
+		"message": "Κοινωνικός"
+	},
+	"codeSetting": {
+		"message": "Πηγαίος κώδικας"
+	},
+	"followDyslexic": {
+		"message": "Ακολουθήστε το OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Ακολουθήστε το OpenDyslexic στο Twitter"
+	},
+	"followAbbie": {
+		"message": "Υποστήριξη OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Ερχομαι συντομα"
+	},
+	"followAbbieToolTip": {
+		"message": "Υποστηρίξτε τον δημιουργό του OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Ακολουθήστε τον Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Ακολουθήστε τον συντηρητή αυτής της εφαρμογής."
+	},
+	"whatsNew": {
+		"message": "Τι νέο υπάρχει"
+	},
+	"firefox": {
+		"message": "Έκδοση Firefox"
+	},
+	"firefoxText": {
+		"message": "Χρησιμοποιήστε τον Firefox; Κατεβάστε το σήμερα."
+	},
+	"title_fonts": {
+		"message": "Γραμματοσειρές"
+	},
+	"supportlSetting": {
+		"message": "Υποστήριξη"
+	},
+	"featureTint": {
+		"message": "Ενεργοποίηση επικάλυψης"
+	},
+	"supportToolTipTwo": {
+		"message": "Αντιμετωπίζετε κάποιο πρόβλημα; Επικοινωνήστε με την υποστήριξη."
+	},
+	"reviews": {
+		"message": "Κριτικές"
+	},
+	"review": {
+		"message": "Ανασκόπηση"
+	},
+	"style": {
+		"message": "Στυλ"
+	},
+	"supportToolTip": {
+		"message": "Αφήστε ή διαβάστε κριτικές"
+	},
+	"websiteLabel": {
+		"message": "Δικτυακός τόπος"
+	},
+	"websiteTooltip": {
+		"message": "Ιστοσελίδα υποστήριξης."
+	},
+	"saved": {
+		"message": "Αποθηκεύτηκε"
+	},
+	"helperbird": {
+		"message": "Ανακαλύψτε το Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Ανακαλύψτε το OpenDyslexic"
+	},
+	"on": {
+		"message": "Επί"
+	},
+	"off": {
+		"message": "Μακριά από"
+	}
+}

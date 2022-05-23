@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic dành cho Chrome",
+		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+	},
+	"appDescription": {
+		"message": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp",
+		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp"
+	},
+	"options": {
+		"message": "Tùy chọn"
+	},
+	"settings": {
+		"message": "Cài đặt"
+	},
+	"selectedFontLabel": {
+		"message": "Đã chọn Phông chữ để sử dụng."
+	},
+	"enableFontLabel": {
+		"message": "Kích hoạt"
+	},
+	"googleDocsLabel": {
+		"message": "Google Tài liệu"
+	},
+	"googleDocsTooltip": {
+		"message": "Bật hỗ trợ đầy đủ của Google Tài liệu."
+	},
+	"fontColorSetting": {
+		"message": "Màu sắc"
+	},
+	"fontColorLabel": {
+		"message": "Nét chữ"
+	},
+	"fontColorTooltip": {
+		"message": "Thay đổi màu phông chữ."
+	},
+	"backgroundColorLabel": {
+		"message": "Lý lịch"
+	},
+	"backgroundColorTooltip": {
+		"message": "Thay đổi màu nền."
+	},
+	"personalSetting": {
+		"message": "Cá nhân"
+	},
+	"socialSetting": {
+		"message": "Xã hội"
+	},
+	"codeSetting": {
+		"message": "Mã nguồn"
+	},
+	"followDyslexic": {
+		"message": "Theo OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Theo dõi OpenDyslexic trên Twitter"
+	},
+	"followAbbie": {
+		"message": "Hỗ trợ OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Sắp có"
+	},
+	"followAbbieToolTip": {
+		"message": "Hỗ trợ người tạo OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Theo Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Theo dõi người bảo trì ứng dụng này."
+	},
+	"whatsNew": {
+		"message": "Có gì mới"
+	},
+	"firefox": {
+		"message": "Phiên bản Firefox"
+	},
+	"firefoxText": {
+		"message": "Sử dụng Firefox? Tải xuống ngay hôm nay."
+	},
+	"title_fonts": {
+		"message": "Phông chữ"
+	},
+	"supportlSetting": {
+		"message": "Ủng hộ"
+	},
+	"featureTint": {
+		"message": "Bật lớp phủ"
+	},
+	"supportToolTipTwo": {
+		"message": "Bạn gặp sự cố? Liên hệ hỗ trợ."
+	},
+	"reviews": {
+		"message": "Nhận xét"
+	},
+	"review": {
+		"message": "Ôn tập"
+	},
+	"style": {
+		"message": "Phong cách"
+	},
+	"supportToolTip": {
+		"message": "Để lại hoặc đọc các bài đánh giá"
+	},
+	"websiteLabel": {
+		"message": "Trang mạng"
+	},
+	"websiteTooltip": {
+		"message": "Trang web hỗ trợ."
+	},
+	"saved": {
+		"message": "Đã lưu"
+	},
+	"helperbird": {
+		"message": "Khám phá Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Khám phá OpenDyslexic"
+	},
+	"on": {
+		"message": "Trên"
+	},
+	"off": {
+		"message": "Tắt"
+	}
+}

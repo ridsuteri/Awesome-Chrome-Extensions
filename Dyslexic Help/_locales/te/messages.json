@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "Chrome కోసం ఓపెన్ డైస్లెక్సిక్",
+		"description": "OpenDyslexic ఫాంట్ మరియు తక్కువ కాంట్రాస్ట్ సహాయాన్ని ఉపయోగించి పేజీలను ఫార్మాట్ చేయండి."
+	},
+	"appTitle": {
+		"message": "ఓపెన్ డైస్లెక్సిక్",
+		"description": "OpenDyslexic ఫాంట్ మరియు తక్కువ కాంట్రాస్ట్ సహాయాన్ని ఉపయోగించి పేజీలను ఫార్మాట్ చేయండి."
+	},
+	"appDescription": {
+		"message": "OpenDyslexic ఫాంట్ మరియు తక్కువ కాంట్రాస్ట్ సహాయాన్ని ఉపయోగించి పేజీలను ఫార్మాట్ చేయండి",
+		"description": "OpenDyslexic ఫాంట్ మరియు తక్కువ కాంట్రాస్ట్ సహాయాన్ని ఉపయోగించి పేజీలను ఫార్మాట్ చేయండి"
+	},
+	"options": {
+		"message": "ఎంపికలు"
+	},
+	"settings": {
+		"message": "సెట్టింగులు"
+	},
+	"selectedFontLabel": {
+		"message": "ఉపయోగించడానికి ఎంచుకున్న ఫాంట్."
+	},
+	"enableFontLabel": {
+		"message": "ప్రారంభించండి"
+	},
+	"googleDocsLabel": {
+		"message": "Google డాక్స్"
+	},
+	"googleDocsTooltip": {
+		"message": "పూర్తి Google డాక్స్ మద్దతును ప్రారంభించండి."
+	},
+	"fontColorSetting": {
+		"message": "రంగు"
+	},
+	"fontColorLabel": {
+		"message": "ఫాంట్"
+	},
+	"fontColorTooltip": {
+		"message": "ఫాంట్ రంగును మార్చండి."
+	},
+	"backgroundColorLabel": {
+		"message": "నేపథ్య"
+	},
+	"backgroundColorTooltip": {
+		"message": "నేపథ్య రంగును మార్చండి."
+	},
+	"personalSetting": {
+		"message": "వ్యక్తిగత"
+	},
+	"socialSetting": {
+		"message": "సామాజిక"
+	},
+	"codeSetting": {
+		"message": "మూల కోడ్"
+	},
+	"followDyslexic": {
+		"message": "ఓపెన్‌డిస్లెక్సిక్‌ను అనుసరించండి"
+	},
+	"followDyslexicToolTip": {
+		"message": "ట్విట్టర్‌లో ఓపెన్‌డిస్లెక్సిక్‌ను అనుసరించండి"
+	},
+	"followAbbie": {
+		"message": "ఓపెన్‌డిస్లెక్సిక్‌కు మద్దతు ఇవ్వండి"
+	},
+	"comingSoon": {
+		"message": "త్వరలో"
+	},
+	"followAbbieToolTip": {
+		"message": "OpenDyslexic సృష్టికర్తకు మద్దతు ఇవ్వండి."
+	},
+	"followRobertJames": {
+		"message": "రాబర్ట్ జేమ్స్ ను అనుసరించండి"
+	},
+	"followRobertJamesToolTip": {
+		"message": "ఈ అనువర్తనం యొక్క నిర్వహణను అనుసరించండి."
+	},
+	"whatsNew": {
+		"message": "కొత్తది ఏమిటి"
+	},
+	"firefox": {
+		"message": "ఫైర్‌ఫాక్స్ వెర్షన్"
+	},
+	"firefoxText": {
+		"message": "ఫైర్‌ఫాక్స్ ఉపయోగించాలా? ఈ రోజు డౌన్‌లోడ్ చేసుకోండి."
+	},
+	"title_fonts": {
+		"message": "ఫాంట్లు"
+	},
+	"supportlSetting": {
+		"message": "మద్దతు"
+	},
+	"featureTint": {
+		"message": "అతివ్యాప్తిని ప్రారంభించండి"
+	},
+	"supportToolTipTwo": {
+		"message": "సమస్య ఉందా? సంప్రదింపు మద్దతు."
+	},
+	"reviews": {
+		"message": "సమీక్షలు"
+	},
+	"review": {
+		"message": "సమీక్ష"
+	},
+	"style": {
+		"message": "శైలి"
+	},
+	"supportToolTip": {
+		"message": "సమీక్షలను వదిలివేయండి లేదా చదవండి"
+	},
+	"websiteLabel": {
+		"message": "వెబ్‌సైట్"
+	},
+	"websiteTooltip": {
+		"message": "మద్దతు వెబ్‌సైట్."
+	},
+	"saved": {
+		"message": "సేవ్ చేయబడింది"
+	},
+	"helperbird": {
+		"message": "హెల్పర్బర్డ్ను కనుగొనండి"
+	},
+	"OpenDyslexic": {
+		"message": "ఓపెన్‌డిస్లెక్సిక్‌ను కనుగొనండి"
+	},
+	"on": {
+		"message": "పై"
+	},
+	"off": {
+		"message": "ఆఫ్"
+	}
+}

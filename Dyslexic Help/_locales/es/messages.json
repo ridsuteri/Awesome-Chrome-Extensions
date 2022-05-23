@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic para Chrome",
+		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."
+	},
+	"appDescription": {
+		"message": "Dar formato a las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste",
+		"description": "Dar formato a las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste"
+	},
+	"options": {
+		"message": "Opciones"
+	},
+	"settings": {
+		"message": "Ajustes"
+	},
+	"selectedFontLabel": {
+		"message": "Fuente seleccionada para usar."
+	},
+	"enableFontLabel": {
+		"message": "Permitir"
+	},
+	"googleDocsLabel": {
+		"message": "Documentos de Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Habilite la compatibilidad total con Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Color"
+	},
+	"fontColorLabel": {
+		"message": "Fuente"
+	},
+	"fontColorTooltip": {
+		"message": "Cambia el color de la fuente."
+	},
+	"backgroundColorLabel": {
+		"message": "Fondo"
+	},
+	"backgroundColorTooltip": {
+		"message": "Cambia el color de fondo."
+	},
+	"personalSetting": {
+		"message": "Personal"
+	},
+	"socialSetting": {
+		"message": "Social"
+	},
+	"codeSetting": {
+		"message": "Código fuente"
+	},
+	"followDyslexic": {
+		"message": "Seguir OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Siga OpenDyslexic en Twitter"
+	},
+	"followAbbie": {
+		"message": "Soporte OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Próximamente, en breve, pronto"
+	},
+	"followAbbieToolTip": {
+		"message": "Apoya al creador de OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Sigue a Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Siga al encargado de mantenimiento de esta aplicación."
+	},
+	"whatsNew": {
+		"message": "¿Qué hay de nuevo?"
+	},
+	"firefox": {
+		"message": "Versión de Firefox"
+	},
+	"firefoxText": {
+		"message": "¿Usar Firefox? Descargalo hoy."
+	},
+	"title_fonts": {
+		"message": "Fuentes"
+	},
+	"supportlSetting": {
+		"message": "Apoyo"
+	},
+	"featureTint": {
+		"message": "Habilitar superposición"
+	},
+	"supportToolTipTwo": {
+		"message": "¿Tiene algún problema? Soporte de contacto."
+	},
+	"reviews": {
+		"message": "Reseñas"
+	},
+	"review": {
+		"message": "Revisar"
+	},
+	"style": {
+		"message": "Estilo"
+	},
+	"supportToolTip": {
+		"message": "Deja o lee reseñas"
+	},
+	"websiteLabel": {
+		"message": "Sitio web"
+	},
+	"websiteTooltip": {
+		"message": "Sitio web de soporte."
+	},
+	"saved": {
+		"message": "Salvado"
+	},
+	"helperbird": {
+		"message": "Descubrir Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Descubra OpenDyslexic"
+	},
+	"on": {
+		"message": "En"
+	},
+	"off": {
+		"message": "Apagado"
+	}
+}

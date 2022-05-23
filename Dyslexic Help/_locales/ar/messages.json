@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic لمتصفح Chrome",
+		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض."
+	},
+	"appTitle": {
+		"message": "مفتوح",
+		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض."
+	},
+	"appDescription": {
+		"message": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض",
+		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض"
+	},
+	"options": {
+		"message": "خيارات"
+	},
+	"settings": {
+		"message": "إعدادات"
+	},
+	"selectedFontLabel": {
+		"message": "الخط المحدد المراد استخدامه."
+	},
+	"enableFontLabel": {
+		"message": "ممكن"
+	},
+	"googleDocsLabel": {
+		"message": "مستندات جوجل"
+	},
+	"googleDocsTooltip": {
+		"message": "تفعيل الدعم الكامل لمُحرر مستندات Google."
+	},
+	"fontColorSetting": {
+		"message": "اللون"
+	},
+	"fontColorLabel": {
+		"message": "الخط"
+	},
+	"fontColorTooltip": {
+		"message": "تغيير لون الخط."
+	},
+	"backgroundColorLabel": {
+		"message": "خلفية"
+	},
+	"backgroundColorTooltip": {
+		"message": "تغيير لون الخلفية."
+	},
+	"personalSetting": {
+		"message": "شخصي"
+	},
+	"socialSetting": {
+		"message": "اجتماعي"
+	},
+	"codeSetting": {
+		"message": "مصدر الرمز"
+	},
+	"followDyslexic": {
+		"message": "اتبع OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "تابع OpenDyslexic على Twitter"
+	},
+	"followAbbie": {
+		"message": "دعم OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "قريبا"
+	},
+	"followAbbieToolTip": {
+		"message": "دعم منشئ OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "اتبع روبرت جيمس"
+	},
+	"followRobertJamesToolTip": {
+		"message": "اتبع المشرف على هذا التطبيق."
+	},
+	"whatsNew": {
+		"message": "ما الجديد"
+	},
+	"firefox": {
+		"message": "نسخة Firefox"
+	},
+	"firefoxText": {
+		"message": "هل تستخدم Firefox؟ حمله اليوم."
+	},
+	"title_fonts": {
+		"message": "الخطوط"
+	},
+	"supportlSetting": {
+		"message": "الدعم"
+	},
+	"featureTint": {
+		"message": "تمكين التراكب"
+	},
+	"supportToolTipTwo": {
+		"message": "هل تواجه مشكلة؟ اتصل بالدعم."
+	},
+	"reviews": {
+		"message": "المراجعات"
+	},
+	"review": {
+		"message": "إعادة النظر"
+	},
+	"style": {
+		"message": "أسلوب"
+	},
+	"supportToolTip": {
+		"message": "اترك المراجعات أو اقرأها"
+	},
+	"websiteLabel": {
+		"message": "موقع إلكتروني"
+	},
+	"websiteTooltip": {
+		"message": "موقع الدعم."
+	},
+	"saved": {
+		"message": "تم الحفظ"
+	},
+	"helperbird": {
+		"message": "اكتشف Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "اكتشف OpenDyslexic"
+	},
+	"on": {
+		"message": "على"
+	},
+	"off": {
+		"message": "عن"
+	}
+}

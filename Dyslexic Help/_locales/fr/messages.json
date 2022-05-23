@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic pour Chrome",
+		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+	},
+	"appTitle": {
+		"message": "OuvertDyslexique",
+		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+	},
+	"appDescription": {
+		"message": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste",
+		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste"
+	},
+	"options": {
+		"message": "Options"
+	},
+	"settings": {
+		"message": "Paramètres"
+	},
+	"selectedFontLabel": {
+		"message": "Police sélectionnée à utiliser."
+	},
+	"enableFontLabel": {
+		"message": "Activer"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Activez la prise en charge complète de Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Couleur"
+	},
+	"fontColorLabel": {
+		"message": "Police de caractère"
+	},
+	"fontColorTooltip": {
+		"message": "Changez la couleur de la police."
+	},
+	"backgroundColorLabel": {
+		"message": "Arrière-plan"
+	},
+	"backgroundColorTooltip": {
+		"message": "Changez la couleur de fond."
+	},
+	"personalSetting": {
+		"message": "Personnel"
+	},
+	"socialSetting": {
+		"message": "Social"
+	},
+	"codeSetting": {
+		"message": "Code source"
+	},
+	"followDyslexic": {
+		"message": "Suivre OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Suivez OpenDyslexic sur Twitter"
+	},
+	"followAbbie": {
+		"message": "Soutenir OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Bientôt disponible"
+	},
+	"followAbbieToolTip": {
+		"message": "Soutenez le créateur d'OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Suivez Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Suivez le mainteneur de cette application."
+	},
+	"whatsNew": {
+		"message": "Quoi de neuf"
+	},
+	"firefox": {
+		"message": "Version Firefox"
+	},
+	"firefoxText": {
+		"message": "Utiliser Firefox ? Téléchargez-le aujourd'hui."
+	},
+	"title_fonts": {
+		"message": "Polices"
+	},
+	"supportlSetting": {
+		"message": "Support"
+	},
+	"featureTint": {
+		"message": "Activer la superposition"
+	},
+	"supportToolTipTwo": {
+		"message": "Vous avez un problème ? Contactez le support."
+	},
+	"reviews": {
+		"message": "Commentaires"
+	},
+	"review": {
+		"message": "Revoir"
+	},
+	"style": {
+		"message": "Style"
+	},
+	"supportToolTip": {
+		"message": "Laisser ou lire des avis"
+	},
+	"websiteLabel": {
+		"message": "Site Internet"
+	},
+	"websiteTooltip": {
+		"message": "Site Web d'assistance."
+	},
+	"saved": {
+		"message": "Enregistré"
+	},
+	"helperbird": {
+		"message": "Découvrez Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Découvrez OpenDyslexic"
+	},
+	"on": {
+		"message": "Au"
+	},
+	"off": {
+		"message": "Désactivé"
+	}
+}

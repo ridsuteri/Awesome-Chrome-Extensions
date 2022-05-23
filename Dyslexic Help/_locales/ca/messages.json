@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic per a Chrome",
+		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast."
+	},
+	"appDescription": {
+		"message": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast",
+		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast"
+	},
+	"options": {
+		"message": "Opcions"
+	},
+	"settings": {
+		"message": "Configuració"
+	},
+	"selectedFontLabel": {
+		"message": "Tipus de lletra seleccionat per utilitzar."
+	},
+	"enableFontLabel": {
+		"message": "Activa"
+	},
+	"googleDocsLabel": {
+		"message": "Documents de Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Activeu l'assistència completa de Documents de Google."
+	},
+	"fontColorSetting": {
+		"message": "Color"
+	},
+	"fontColorLabel": {
+		"message": "Font"
+	},
+	"fontColorTooltip": {
+		"message": "Canvieu el color de la lletra."
+	},
+	"backgroundColorLabel": {
+		"message": "Antecedents"
+	},
+	"backgroundColorTooltip": {
+		"message": "Canvieu el color de fons."
+	},
+	"personalSetting": {
+		"message": "Personal"
+	},
+	"socialSetting": {
+		"message": "Social"
+	},
+	"codeSetting": {
+		"message": "Codi font"
+	},
+	"followDyslexic": {
+		"message": "Seguiu OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Seguiu OpenDyslexic a Twitter"
+	},
+	"followAbbie": {
+		"message": "Suport a OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Pròximament"
+	},
+	"followAbbieToolTip": {
+		"message": "Donar suport al creador d’OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Segueix Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Seguiu el manteniment d'aquesta aplicació."
+	},
+	"whatsNew": {
+		"message": "Què hi ha de nou?"
+	},
+	"firefox": {
+		"message": "Versió de Firefox"
+	},
+	"firefoxText": {
+		"message": "Voleu utilitzar Firefox? Descarregueu-lo avui mateix."
+	},
+	"title_fonts": {
+		"message": "Tipus de lletra"
+	},
+	"supportlSetting": {
+		"message": "Suport"
+	},
+	"featureTint": {
+		"message": "Activa la superposició"
+	},
+	"supportToolTipTwo": {
+		"message": "Tens algun problema? Contacte de suport."
+	},
+	"reviews": {
+		"message": "Ressenyes"
+	},
+	"review": {
+		"message": "Revisió"
+	},
+	"style": {
+		"message": "Estil"
+	},
+	"supportToolTip": {
+		"message": "Deixa o llegeix ressenyes"
+	},
+	"websiteLabel": {
+		"message": "Lloc web"
+	},
+	"websiteTooltip": {
+		"message": "Lloc web d'assistència."
+	},
+	"saved": {
+		"message": "Desat"
+	},
+	"helperbird": {
+		"message": "Descobriu Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Descobriu OpenDyslexic"
+	},
+	"on": {
+		"message": "Encès"
+	},
+	"off": {
+		"message": "Desactivat"
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic pro Chrome",
+		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem."
+	},
+	"appDescription": {
+		"message": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem",
+		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem"
+	},
+	"options": {
+		"message": "Možnosti"
+	},
+	"settings": {
+		"message": "Nastavení"
+	},
+	"selectedFontLabel": {
+		"message": "Vybrané písmo k použití."
+	},
+	"enableFontLabel": {
+		"message": "Umožnit"
+	},
+	"googleDocsLabel": {
+		"message": "Google dokumenty"
+	},
+	"googleDocsTooltip": {
+		"message": "Povolte plnou podporu Dokumentů Google."
+	},
+	"fontColorSetting": {
+		"message": "Barva"
+	},
+	"fontColorLabel": {
+		"message": "Písmo"
+	},
+	"fontColorTooltip": {
+		"message": "Změňte barvu písma."
+	},
+	"backgroundColorLabel": {
+		"message": "Pozadí"
+	},
+	"backgroundColorTooltip": {
+		"message": "Změňte barvu pozadí."
+	},
+	"personalSetting": {
+		"message": "Osobní"
+	},
+	"socialSetting": {
+		"message": "Sociální"
+	},
+	"codeSetting": {
+		"message": "Zdrojový kód"
+	},
+	"followDyslexic": {
+		"message": "Postupujte podle OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Sledujte OpenDyslexic na Twitteru"
+	},
+	"followAbbie": {
+		"message": "Podpora OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Již brzy"
+	},
+	"followAbbieToolTip": {
+		"message": "Podpořte tvůrce OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Sledujte Roberta Jamese"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Sledujte správce této aplikace."
+	},
+	"whatsNew": {
+		"message": "Co je nového"
+	},
+	"firefox": {
+		"message": "Verze pro Firefox"
+	},
+	"firefoxText": {
+		"message": "Použít Firefox? Stáhněte si jej ještě dnes."
+	},
+	"title_fonts": {
+		"message": "Písma"
+	},
+	"supportlSetting": {
+		"message": "Podpěra, podpora"
+	},
+	"featureTint": {
+		"message": "Povolit překrytí"
+	},
+	"supportToolTipTwo": {
+		"message": "Máte problém? Kontaktujte podporu."
+	},
+	"reviews": {
+		"message": "Recenze"
+	},
+	"review": {
+		"message": "Posouzení"
+	},
+	"style": {
+		"message": "Styl"
+	},
+	"supportToolTip": {
+		"message": "Zanechte nebo si přečtěte recenze"
+	},
+	"websiteLabel": {
+		"message": "webová stránka"
+	},
+	"websiteTooltip": {
+		"message": "Web podpory."
+	},
+	"saved": {
+		"message": "Uložené"
+	},
+	"helperbird": {
+		"message": "Objevte Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Objevte OpenDyslexic"
+	},
+	"on": {
+		"message": "Na"
+	},
+	"off": {
+		"message": "Vypnuto"
+	}
+}

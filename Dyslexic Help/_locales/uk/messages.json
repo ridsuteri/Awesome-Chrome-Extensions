@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic для Chrome",
+		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+	},
+	"appDescription": {
+		"message": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом",
+		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом"
+	},
+	"options": {
+		"message": "Варіанти"
+	},
+	"settings": {
+		"message": "Налаштування"
+	},
+	"selectedFontLabel": {
+		"message": "Вибраний шрифт для використання."
+	},
+	"enableFontLabel": {
+		"message": "Увімкнути"
+	},
+	"googleDocsLabel": {
+		"message": "Документи Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Увімкніть повну підтримку Документів Google."
+	},
+	"fontColorSetting": {
+		"message": "Колір"
+	},
+	"fontColorLabel": {
+		"message": "Шрифт"
+	},
+	"fontColorTooltip": {
+		"message": "Змініть колір шрифту."
+	},
+	"backgroundColorLabel": {
+		"message": "Передумови"
+	},
+	"backgroundColorTooltip": {
+		"message": "Змініть колір тла."
+	},
+	"personalSetting": {
+		"message": "Особистий"
+	},
+	"socialSetting": {
+		"message": "Соціальна"
+	},
+	"codeSetting": {
+		"message": "Вихідний код"
+	},
+	"followDyslexic": {
+		"message": "Дотримуйтесь OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Слідкуйте за OpenDyslexic у Twitter"
+	},
+	"followAbbie": {
+		"message": "Підтримка OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Незабаром"
+	},
+	"followAbbieToolTip": {
+		"message": "Підтримка творця OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Слідуйте за Робертом Джеймсом"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Слідуйте за супровідником цього додатка."
+	},
+	"whatsNew": {
+		"message": "Що нового"
+	},
+	"firefox": {
+		"message": "Версія Firefox"
+	},
+	"firefoxText": {
+		"message": "Використовувати Firefox? Завантажте його сьогодні."
+	},
+	"title_fonts": {
+		"message": "Шрифти"
+	},
+	"supportlSetting": {
+		"message": "Підтримка"
+	},
+	"featureTint": {
+		"message": "Увімкнути накладання"
+	},
+	"supportToolTipTwo": {
+		"message": "Виникли проблеми? Зверніться до служби підтримки."
+	},
+	"reviews": {
+		"message": "Відгуки"
+	},
+	"review": {
+		"message": "Огляд"
+	},
+	"style": {
+		"message": "Стиль"
+	},
+	"supportToolTip": {
+		"message": "Залишайте або читайте відгуки"
+	},
+	"websiteLabel": {
+		"message": "Веб-сайт"
+	},
+	"websiteTooltip": {
+		"message": "Веб-сайт підтримки."
+	},
+	"saved": {
+		"message": "Збережено"
+	},
+	"helperbird": {
+		"message": "Відкрийте Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Відкрийте для себе OpenDyslexic"
+	},
+	"on": {
+		"message": "Увімкнено"
+	},
+	"off": {
+		"message": "Вимкнено"
+	}
+}

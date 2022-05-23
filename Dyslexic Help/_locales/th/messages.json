@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic สำหรับ Chrome",
+		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+	},
+	"appDescription": {
+		"message": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ",
+		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+	},
+	"options": {
+		"message": "ตัวเลือก"
+	},
+	"settings": {
+		"message": "การตั้งค่า"
+	},
+	"selectedFontLabel": {
+		"message": "ฟอนต์ที่เลือกไว้ใช้งาน"
+	},
+	"enableFontLabel": {
+		"message": "เปิดใช้งาน"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "เปิดใช้งานการสนับสนุน Google เอกสารเต็มรูปแบบ"
+	},
+	"fontColorSetting": {
+		"message": "สี"
+	},
+	"fontColorLabel": {
+		"message": "แบบอักษร"
+	},
+	"fontColorTooltip": {
+		"message": "เปลี่ยนสีแบบอักษร"
+	},
+	"backgroundColorLabel": {
+		"message": "พื้นหลัง"
+	},
+	"backgroundColorTooltip": {
+		"message": "เปลี่ยนสีพื้นหลัง"
+	},
+	"personalSetting": {
+		"message": "ส่วนตัว"
+	},
+	"socialSetting": {
+		"message": "สังคม"
+	},
+	"codeSetting": {
+		"message": "รหัสแหล่งที่มา"
+	},
+	"followDyslexic": {
+		"message": "ติดตาม OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "ติดตาม OpenDyslexic บน Twitter"
+	},
+	"followAbbie": {
+		"message": "สนับสนุน OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "เร็ว ๆ นี้"
+	},
+	"followAbbieToolTip": {
+		"message": "สนับสนุนผู้สร้าง OpenDyslexic"
+	},
+	"followRobertJames": {
+		"message": "ติดตามโรเบิร์ตเจมส์"
+	},
+	"followRobertJamesToolTip": {
+		"message": "ติดตามผู้ดูแลแอพนี้"
+	},
+	"whatsNew": {
+		"message": "มีอะไรใหม่"
+	},
+	"firefox": {
+		"message": "เวอร์ชัน Firefox"
+	},
+	"firefoxText": {
+		"message": "ใช้ไฟร์ฟอกซ์? ดาวน์โหลดได้แล้ววันนี้"
+	},
+	"title_fonts": {
+		"message": "แบบอักษร"
+	},
+	"supportlSetting": {
+		"message": "สนับสนุน"
+	},
+	"featureTint": {
+		"message": "เปิดใช้งานการวางซ้อน"
+	},
+	"supportToolTipTwo": {
+		"message": "มีปัญหา? ติดต่อฝ่ายสนับสนุน"
+	},
+	"reviews": {
+		"message": "ความคิดเห็น"
+	},
+	"review": {
+		"message": "รีวิว"
+	},
+	"style": {
+		"message": "สไตล์"
+	},
+	"supportToolTip": {
+		"message": "ฝากหรืออ่านบทวิจารณ์"
+	},
+	"websiteLabel": {
+		"message": "เว็บไซต์"
+	},
+	"websiteTooltip": {
+		"message": "เว็บไซต์สนับสนุน"
+	},
+	"saved": {
+		"message": "บันทึกแล้ว"
+	},
+	"helperbird": {
+		"message": "ค้นพบ Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "ค้นพบ OpenDyslexic"
+	},
+	"on": {
+		"message": "บน"
+	},
+	"off": {
+		"message": "ปิด"
+	}
+}

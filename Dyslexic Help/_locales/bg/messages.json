@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic за Chrome",
+		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст."
+	},
+	"appDescription": {
+		"message": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст",
+		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст"
+	},
+	"options": {
+		"message": "Настроики"
+	},
+	"settings": {
+		"message": "Настройки"
+	},
+	"selectedFontLabel": {
+		"message": "Избран шрифт за използване."
+	},
+	"enableFontLabel": {
+		"message": "Активиране"
+	},
+	"googleDocsLabel": {
+		"message": "Гугъл документи"
+	},
+	"googleDocsTooltip": {
+		"message": "Активирайте пълната поддръжка на Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Цвят"
+	},
+	"fontColorLabel": {
+		"message": "Шрифт"
+	},
+	"fontColorTooltip": {
+		"message": "Променете цвета на шрифта."
+	},
+	"backgroundColorLabel": {
+		"message": "Заден план"
+	},
+	"backgroundColorTooltip": {
+		"message": "Променете цвета на фона."
+	},
+	"personalSetting": {
+		"message": "Лични"
+	},
+	"socialSetting": {
+		"message": "Социални"
+	},
+	"codeSetting": {
+		"message": "Програмен код"
+	},
+	"followDyslexic": {
+		"message": "Следвайте OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Следвайте OpenDyslexic в Twitter"
+	},
+	"followAbbie": {
+		"message": "Поддръжка на OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Очаквайте скоро"
+	},
+	"followAbbieToolTip": {
+		"message": "Подкрепете създателя на OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Следвайте Робърт Джеймс"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Следвайте поддръжника на това приложение."
+	},
+	"whatsNew": {
+		"message": "Какво ново"
+	},
+	"firefox": {
+		"message": "Версия на Firefox"
+	},
+	"firefoxText": {
+		"message": "Да използвате Firefox? Изтеглете го днес."
+	},
+	"title_fonts": {
+		"message": "Шрифтове"
+	},
+	"supportlSetting": {
+		"message": "поддържа"
+	},
+	"featureTint": {
+		"message": "Активиране на наслагването"
+	},
+	"supportToolTipTwo": {
+		"message": "Имате проблем? Свържете се с екипа за поддръжка."
+	},
+	"reviews": {
+		"message": "Отзиви"
+	},
+	"review": {
+		"message": "Преглед"
+	},
+	"style": {
+		"message": "Стил"
+	},
+	"supportToolTip": {
+		"message": "Оставете или прочетете отзиви"
+	},
+	"websiteLabel": {
+		"message": "Уебсайт"
+	},
+	"websiteTooltip": {
+		"message": "Уебсайт за поддръжка."
+	},
+	"saved": {
+		"message": "Запазено"
+	},
+	"helperbird": {
+		"message": "Открийте Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Открийте OpenDyslexic"
+	},
+	"on": {
+		"message": "На"
+	},
+	"off": {
+		"message": "Изключено"
+	}
+}

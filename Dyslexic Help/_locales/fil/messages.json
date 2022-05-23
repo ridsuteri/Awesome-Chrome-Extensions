@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic para sa Chrome",
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan."
+	},
+	"appDescription": {
+		"message": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan",
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan"
+	},
+	"options": {
+		"message": "Mga pagpipilian"
+	},
+	"settings": {
+		"message": "Mga setting"
+	},
+	"selectedFontLabel": {
+		"message": "Napiling font na gagamitin."
+	},
+	"enableFontLabel": {
+		"message": "Paganahin"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Paganahin ang buong suporta ng Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Kulay"
+	},
+	"fontColorLabel": {
+		"message": "Font"
+	},
+	"fontColorTooltip": {
+		"message": "Baguhin ang kulay ng font."
+	},
+	"backgroundColorLabel": {
+		"message": "Background"
+	},
+	"backgroundColorTooltip": {
+		"message": "Baguhin ang kulay ng background."
+	},
+	"personalSetting": {
+		"message": "Pansarili"
+	},
+	"socialSetting": {
+		"message": "Panlipunan"
+	},
+	"codeSetting": {
+		"message": "Source Code"
+	},
+	"followDyslexic": {
+		"message": "Sundin ang OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Sundin ang OpenDyslexic sa Twitter"
+	},
+	"followAbbie": {
+		"message": "Suportahan ang OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Malapit na"
+	},
+	"followAbbieToolTip": {
+		"message": "Suportahan ang tagalikha ng OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Sundin si Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Sundin ang nagpapanatili ng app na ito."
+	},
+	"whatsNew": {
+		"message": "Ano ang bago"
+	},
+	"firefox": {
+		"message": "Bersyon ng Firefox"
+	},
+	"firefoxText": {
+		"message": "Gumamit ng Firefox? I-download ito ngayon."
+	},
+	"title_fonts": {
+		"message": "Mga font"
+	},
+	"supportlSetting": {
+		"message": "Suporta"
+	},
+	"featureTint": {
+		"message": "Paganahin ang Overlay"
+	},
+	"supportToolTipTwo": {
+		"message": "Nagkakaroon ng isyu? Makipag-ugnay sa suporta."
+	},
+	"reviews": {
+		"message": "Mga pagsusuri"
+	},
+	"review": {
+		"message": "Pagsusuri"
+	},
+	"style": {
+		"message": "Istilo"
+	},
+	"supportToolTip": {
+		"message": "Iwanan o basahin ang mga review"
+	},
+	"websiteLabel": {
+		"message": "Website"
+	},
+	"websiteTooltip": {
+		"message": "Suporta sa website."
+	},
+	"saved": {
+		"message": "Nai-save"
+	},
+	"helperbird": {
+		"message": "Tuklasin ang Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Tuklasin ang OpenDyslexic"
+	},
+	"on": {
+		"message": "Sa"
+	},
+	"off": {
+		"message": "Patay na"
+	}
+}

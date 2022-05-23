@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "ক্রোমের জন্য ওপেনডিস্লেক্সিক",
+		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+	},
+	"appTitle": {
+		"message": "ওপেনডাইলেক্সিক",
+		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+	},
+	"appDescription": {
+		"message": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন",
+		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন"
+	},
+	"options": {
+		"message": "বিকল্পগুলি"
+	},
+	"settings": {
+		"message": "সেটিংস"
+	},
+	"selectedFontLabel": {
+		"message": "ব্যবহার করতে বাছাই করা ফন্ট।"
+	},
+	"enableFontLabel": {
+		"message": "সক্ষম করুন"
+	},
+	"googleDocsLabel": {
+		"message": "Google ডক্স"
+	},
+	"googleDocsTooltip": {
+		"message": "সম্পূর্ণ Google ডক্স সমর্থন সক্ষম করুন।"
+	},
+	"fontColorSetting": {
+		"message": "রঙ"
+	},
+	"fontColorLabel": {
+		"message": "হরফ"
+	},
+	"fontColorTooltip": {
+		"message": "ফন্টের রঙ পরিবর্তন করুন।"
+	},
+	"backgroundColorLabel": {
+		"message": "পটভূমি"
+	},
+	"backgroundColorTooltip": {
+		"message": "পটভূমির রঙ পরিবর্তন করুন।"
+	},
+	"personalSetting": {
+		"message": "ব্যক্তিগত"
+	},
+	"socialSetting": {
+		"message": "সামাজিক"
+	},
+	"codeSetting": {
+		"message": "সোর্স কোড"
+	},
+	"followDyslexic": {
+		"message": "ওপেনডিস্লেক্সিক অনুসরণ করুন"
+	},
+	"followDyslexicToolTip": {
+		"message": "টুইটারে ওপেনডিস্লেক্সিক অনুসরণ করুন"
+	},
+	"followAbbie": {
+		"message": "ওপেনডিস্লেক্সিক সমর্থন করুন"
+	},
+	"comingSoon": {
+		"message": "শীঘ্রই আসছে"
+	},
+	"followAbbieToolTip": {
+		"message": "ওপেনডাইলেক্সিকের স্রষ্টাকে সমর্থন করুন।"
+	},
+	"followRobertJames": {
+		"message": "রবার্ট জেমস অনুসরণ করুন"
+	},
+	"followRobertJamesToolTip": {
+		"message": "এই অ্যাপ্লিকেশনটির রক্ষণাবেক্ষণকারীকে অনুসরণ করুন।"
+	},
+	"whatsNew": {
+		"message": "নতুন কি"
+	},
+	"firefox": {
+		"message": "ফায়ারফক্স সংস্করণ"
+	},
+	"firefoxText": {
+		"message": "ফায়ারফক্স ব্যবহার করবেন? আজ এটি ডাউনলোড করুন।"
+	},
+	"title_fonts": {
+		"message": "হরফ"
+	},
+	"supportlSetting": {
+		"message": "সমর্থন"
+	},
+	"featureTint": {
+		"message": "ওভারলে সক্ষম করুন"
+	},
+	"supportToolTipTwo": {
+		"message": "একটি সমস্যা আছে? যোগাযোগ সমর্থন."
+	},
+	"reviews": {
+		"message": "পর্যালোচনা"
+	},
+	"review": {
+		"message": "পুনঃমূল্যায়ন"
+	},
+	"style": {
+		"message": "স্টাইল"
+	},
+	"supportToolTip": {
+		"message": "ছেড়ে দিন বা রিভিউ পড়ুন"
+	},
+	"websiteLabel": {
+		"message": "ওয়েবসাইট"
+	},
+	"websiteTooltip": {
+		"message": "সমর্থন ওয়েবসাইট।"
+	},
+	"saved": {
+		"message": "সংরক্ষিত"
+	},
+	"helperbird": {
+		"message": "হেল্পবার্ড আবিষ্কার করুন"
+	},
+	"OpenDyslexic": {
+		"message": "ওপেনডিস্লেক্সিক আবিষ্কার করুন"
+	},
+	"on": {
+		"message": "চালু"
+	},
+	"off": {
+		"message": "বন্ধ"
+	}
+}

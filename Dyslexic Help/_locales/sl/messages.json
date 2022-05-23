@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic za Chrome",
+		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom."
+	},
+	"appDescription": {
+		"message": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom",
+		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom"
+	},
+	"options": {
+		"message": "Opcije"
+	},
+	"settings": {
+		"message": "Nastavitve"
+	},
+	"selectedFontLabel": {
+		"message": "Izbrana pisava za uporabo."
+	},
+	"enableFontLabel": {
+		"message": "Omogoči"
+	},
+	"googleDocsLabel": {
+		"message": "Google Dokumenti"
+	},
+	"googleDocsTooltip": {
+		"message": "Omogočite polno podporo za Google Dokumente."
+	},
+	"fontColorSetting": {
+		"message": "Barva"
+	},
+	"fontColorLabel": {
+		"message": "Pisava"
+	},
+	"fontColorTooltip": {
+		"message": "Spremenite barvo pisave."
+	},
+	"backgroundColorLabel": {
+		"message": "Ozadje"
+	},
+	"backgroundColorTooltip": {
+		"message": "Spremenite barvo ozadja."
+	},
+	"personalSetting": {
+		"message": "Osebno"
+	},
+	"socialSetting": {
+		"message": "Socialni"
+	},
+	"codeSetting": {
+		"message": "Izvorna koda"
+	},
+	"followDyslexic": {
+		"message": "Sledite OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Sledite OpenDyslexic na Twitterju"
+	},
+	"followAbbie": {
+		"message": "Podpira OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Prihaja kmalu"
+	},
+	"followAbbieToolTip": {
+		"message": "Podprite ustvarjalca OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Sledite Robertu Jamesu"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Sledite vzdrževalcu te aplikacije."
+	},
+	"whatsNew": {
+		"message": "Kaj je novega"
+	},
+	"firefox": {
+		"message": "Različica Firefox"
+	},
+	"firefoxText": {
+		"message": "Uporabiti Firefox? Prenesite ga še danes."
+	},
+	"title_fonts": {
+		"message": "Pisave"
+	},
+	"supportlSetting": {
+		"message": "Podpora"
+	},
+	"featureTint": {
+		"message": "Omogoči prekrivanje"
+	},
+	"supportToolTipTwo": {
+		"message": "Imate težavo? Obrnite se na podporo."
+	},
+	"reviews": {
+		"message": "Ocene"
+	},
+	"review": {
+		"message": "Pregled"
+	},
+	"style": {
+		"message": "Slog"
+	},
+	"supportToolTip": {
+		"message": "Pustite ali preberite mnenja"
+	},
+	"websiteLabel": {
+		"message": "Spletna stran"
+	},
+	"websiteTooltip": {
+		"message": "Spletno mesto za podporo."
+	},
+	"saved": {
+		"message": "Shranjeno"
+	},
+	"helperbird": {
+		"message": "Odkrijte Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Odkrijte OpenDyslexic"
+	},
+	"on": {
+		"message": "Vklopljeno"
+	},
+	"off": {
+		"message": "Izklopljeno"
+	}
+}

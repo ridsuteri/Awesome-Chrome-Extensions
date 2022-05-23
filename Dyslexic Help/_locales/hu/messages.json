@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic for Chrome",
+		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével."
+	},
+	"appDescription": {
+		"message": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével",
+		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével"
+	},
+	"options": {
+		"message": "Opciók"
+	},
+	"settings": {
+		"message": "Beállítások"
+	},
+	"selectedFontLabel": {
+		"message": "Kiválasztott betűtípus."
+	},
+	"enableFontLabel": {
+		"message": "Engedélyezze"
+	},
+	"googleDocsLabel": {
+		"message": "Google Dokumentumok"
+	},
+	"googleDocsTooltip": {
+		"message": "Engedélyezze a Google Dokumentumok teljes támogatását."
+	},
+	"fontColorSetting": {
+		"message": "Szín"
+	},
+	"fontColorLabel": {
+		"message": "Betűtípus"
+	},
+	"fontColorTooltip": {
+		"message": "Változtassa meg a betű színét."
+	},
+	"backgroundColorLabel": {
+		"message": "Háttér"
+	},
+	"backgroundColorTooltip": {
+		"message": "Változtassa meg a háttér színét."
+	},
+	"personalSetting": {
+		"message": "Személyes"
+	},
+	"socialSetting": {
+		"message": "Társadalmi"
+	},
+	"codeSetting": {
+		"message": "Forráskód"
+	},
+	"followDyslexic": {
+		"message": "Kövesse az OpenDyslexic alkalmazást"
+	},
+	"followDyslexicToolTip": {
+		"message": "Kövesse az OpenDyslexic alkalmazást a Twitteren"
+	},
+	"followAbbie": {
+		"message": "Támogatja az OpenDyslexic alkalmazást"
+	},
+	"comingSoon": {
+		"message": "Hamarosan"
+	},
+	"followAbbieToolTip": {
+		"message": "Támogassa az OpenDyslexic készítőjét."
+	},
+	"followRobertJames": {
+		"message": "Kövesse Robert James-t"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Kövesse az alkalmazás karbantartóját."
+	},
+	"whatsNew": {
+		"message": "Mi az új"
+	},
+	"firefox": {
+		"message": "Firefox verzió"
+	},
+	"firefoxText": {
+		"message": "Firefoxot használ? Töltse le még ma."
+	},
+	"title_fonts": {
+		"message": "Betűtípusok"
+	},
+	"supportlSetting": {
+		"message": "Támogatás"
+	},
+	"featureTint": {
+		"message": "Engedélyezze az átfedést"
+	},
+	"supportToolTipTwo": {
+		"message": "Van valami probléma? Vegye fel a kapcsolatot az ügyfélszolgálattal."
+	},
+	"reviews": {
+		"message": "Vélemények"
+	},
+	"review": {
+		"message": "Felülvizsgálat"
+	},
+	"style": {
+		"message": "Stílus"
+	},
+	"supportToolTip": {
+		"message": "Hagyjon vagy olvassa el az értékeléseket"
+	},
+	"websiteLabel": {
+		"message": "Weboldal"
+	},
+	"websiteTooltip": {
+		"message": "Támogatási webhely."
+	},
+	"saved": {
+		"message": "Mentett"
+	},
+	"helperbird": {
+		"message": "Fedezze fel a Helperbird-et"
+	},
+	"OpenDyslexic": {
+		"message": "Fedezze fel az OpenDyslexic alkalmazást"
+	},
+	"on": {
+		"message": "Tovább"
+	},
+	"off": {
+		"message": "Ki"
+	}
+}

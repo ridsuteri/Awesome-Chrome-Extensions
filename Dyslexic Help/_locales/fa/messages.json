@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic برای Chrome",
+		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید."
+	},
+	"appDescription": {
+		"message": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید",
+		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید"
+	},
+	"options": {
+		"message": "گزینه ها"
+	},
+	"settings": {
+		"message": "تنظیمات"
+	},
+	"selectedFontLabel": {
+		"message": "قلم را برای استفاده انتخاب کرد."
+	},
+	"enableFontLabel": {
+		"message": "فعال کردن"
+	},
+	"googleDocsLabel": {
+		"message": "پرونده های گوگل"
+	},
+	"googleDocsTooltip": {
+		"message": "پشتیبانی کامل Google Docs را فعال کنید."
+	},
+	"fontColorSetting": {
+		"message": "رنگ"
+	},
+	"fontColorLabel": {
+		"message": "قلم"
+	},
+	"fontColorTooltip": {
+		"message": "رنگ قلم را تغییر دهید."
+	},
+	"backgroundColorLabel": {
+		"message": "زمینه"
+	},
+	"backgroundColorTooltip": {
+		"message": "رنگ پس زمینه را تغییر دهید."
+	},
+	"personalSetting": {
+		"message": "شخصی"
+	},
+	"socialSetting": {
+		"message": "اجتماعی"
+	},
+	"codeSetting": {
+		"message": "کد منبع"
+	},
+	"followDyslexic": {
+		"message": "OpenDyslexic را دنبال کنید"
+	},
+	"followDyslexicToolTip": {
+		"message": "OpenDyslexic را در توییتر دنبال کنید"
+	},
+	"followAbbie": {
+		"message": "از OpenDyslexic پشتیبانی کنید"
+	},
+	"comingSoon": {
+		"message": "به زودی"
+	},
+	"followAbbieToolTip": {
+		"message": "از سازنده OpenDyslexic پشتیبانی کنید."
+	},
+	"followRobertJames": {
+		"message": "رابرت جیمز را دنبال کنید"
+	},
+	"followRobertJamesToolTip": {
+		"message": "نگهدارنده این برنامه را دنبال کنید."
+	},
+	"whatsNew": {
+		"message": "چه جدید"
+	},
+	"firefox": {
+		"message": "نسخه فایرفاکس"
+	},
+	"firefoxText": {
+		"message": "از فایرفاکس استفاده می کنید؟ امروز آن را بارگیری کنید."
+	},
+	"title_fonts": {
+		"message": "قلم ها"
+	},
+	"supportlSetting": {
+		"message": "حمایت کردن"
+	},
+	"featureTint": {
+		"message": "Overlay را فعال کنید"
+	},
+	"supportToolTipTwo": {
+		"message": "مشکلی دارید؟ با پشتیبانی تماس بگیرید"
+	},
+	"reviews": {
+		"message": "بررسی ها"
+	},
+	"review": {
+		"message": "مرور"
+	},
+	"style": {
+		"message": "سبک"
+	},
+	"supportToolTip": {
+		"message": "نظرات را بگذارید یا بخوانید"
+	},
+	"websiteLabel": {
+		"message": "سایت اینترنتی"
+	},
+	"websiteTooltip": {
+		"message": "وب سایت پشتیبانی"
+	},
+	"saved": {
+		"message": "ذخیره"
+	},
+	"helperbird": {
+		"message": "Helperbird را کشف کنید"
+	},
+	"OpenDyslexic": {
+		"message": "OpenDyslexic را کشف کنید"
+	},
+	"on": {
+		"message": "بر"
+	},
+	"off": {
+		"message": "خاموش"
+	}
+}

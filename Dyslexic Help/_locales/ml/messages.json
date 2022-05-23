@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "Chrome- നുള്ള ഓപ്പൺ ഡിസ്‌ലെക്‌സിക്",
+		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക."
+	},
+	"appTitle": {
+		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക്",
+		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക."
+	},
+	"appDescription": {
+		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക",
+		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക"
+	},
+	"options": {
+		"message": "ഓപ്ഷനുകൾ"
+	},
+	"settings": {
+		"message": "ക്രമീകരണങ്ങൾ"
+	},
+	"selectedFontLabel": {
+		"message": "ഉപയോഗിക്കാൻ ഫോണ്ട് തിരഞ്ഞെടുത്തു."
+	},
+	"enableFontLabel": {
+		"message": "പ്രവർത്തനക്ഷമമാക്കുക"
+	},
+	"googleDocsLabel": {
+		"message": "Google ഡോക്സ്"
+	},
+	"googleDocsTooltip": {
+		"message": "പൂർണ്ണ Google ഡോക്സ് പിന്തുണ പ്രാപ്തമാക്കുക."
+	},
+	"fontColorSetting": {
+		"message": "നിറം"
+	},
+	"fontColorLabel": {
+		"message": "ഫോണ്ട്"
+	},
+	"fontColorTooltip": {
+		"message": "ഫോണ്ട് നിറം മാറ്റുക."
+	},
+	"backgroundColorLabel": {
+		"message": "പശ്ചാത്തലം"
+	},
+	"backgroundColorTooltip": {
+		"message": "പശ്ചാത്തല വർണ്ണം മാറ്റുക."
+	},
+	"personalSetting": {
+		"message": "വ്യക്തിഗതം"
+	},
+	"socialSetting": {
+		"message": "സാമൂഹിക"
+	},
+	"codeSetting": {
+		"message": "സോഴ്സ് കോഡ്"
+	},
+	"followDyslexic": {
+		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് പിന്തുടരുക"
+	},
+	"followDyslexicToolTip": {
+		"message": "Twitter- ൽ OpenDyslexic പിന്തുടരുക"
+	},
+	"followAbbie": {
+		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് പിന്തുണയ്‌ക്കുക"
+	},
+	"comingSoon": {
+		"message": "ഉടൻ വരുന്നു"
+	},
+	"followAbbieToolTip": {
+		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് സ്രഷ്‌ടാവിനെ പിന്തുണയ്‌ക്കുക."
+	},
+	"followRobertJames": {
+		"message": "റോബർട്ട് ജെയിംസിനെ പിന്തുടരുക"
+	},
+	"followRobertJamesToolTip": {
+		"message": "ഈ അപ്ലിക്കേഷന്റെ പരിപാലകനെ പിന്തുടരുക."
+	},
+	"whatsNew": {
+		"message": "എന്താണ് പുതിയത്"
+	},
+	"firefox": {
+		"message": "ഫയർഫോക്സ് പതിപ്പ്"
+	},
+	"firefoxText": {
+		"message": "ഫയർഫോക്സ് ഉപയോഗിക്കണോ? ഇന്നുതന്നെ ഡൗൺലോഡുചെയ്യുക."
+	},
+	"title_fonts": {
+		"message": "ഫോണ്ടുകൾ"
+	},
+	"supportlSetting": {
+		"message": "പിന്തുണ"
+	},
+	"featureTint": {
+		"message": "ഓവർലേ പ്രവർത്തനക്ഷമമാക്കുക"
+	},
+	"supportToolTipTwo": {
+		"message": "ഒരു പ്രശ്നമുണ്ടോ? കോൺ‌ടാക്റ്റ് പിന്തുണ."
+	},
+	"reviews": {
+		"message": "അവലോകനങ്ങൾ"
+	},
+	"review": {
+		"message": "അവലോകനം"
+	},
+	"style": {
+		"message": "ശൈലി"
+	},
+	"supportToolTip": {
+		"message": "അവലോകനങ്ങൾ ഉപേക്ഷിക്കുക അല്ലെങ്കിൽ വായിക്കുക"
+	},
+	"websiteLabel": {
+		"message": "വെബ്സൈറ്റ്"
+	},
+	"websiteTooltip": {
+		"message": "പിന്തുണാ വെബ്സൈറ്റ്."
+	},
+	"saved": {
+		"message": "സംരക്ഷിച്ചു"
+	},
+	"helperbird": {
+		"message": "ഹെൽപ്പർബേർഡ് കണ്ടെത്തുക"
+	},
+	"OpenDyslexic": {
+		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് കണ്ടെത്തുക"
+	},
+	"on": {
+		"message": "ഓണാണ്"
+	},
+	"off": {
+		"message": "ഓഫാണ്"
+	}
+}

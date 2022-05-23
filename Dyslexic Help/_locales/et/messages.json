@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "Chrome'i jaoks mõeldud OpenDyslexic",
+		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil."
+	},
+	"appDescription": {
+		"message": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil",
+		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil"
+	},
+	"options": {
+		"message": "Valikud"
+	},
+	"settings": {
+		"message": "Seaded"
+	},
+	"selectedFontLabel": {
+		"message": "Kasutamiseks valitud font."
+	},
+	"enableFontLabel": {
+		"message": "Luba"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Lubage Google'i dokumentide täielik tugi."
+	},
+	"fontColorSetting": {
+		"message": "Värv"
+	},
+	"fontColorLabel": {
+		"message": "Font"
+	},
+	"fontColorTooltip": {
+		"message": "Muutke fondi värvi."
+	},
+	"backgroundColorLabel": {
+		"message": "Taust"
+	},
+	"backgroundColorTooltip": {
+		"message": "Muutke taustavärvi."
+	},
+	"personalSetting": {
+		"message": "Isiklik"
+	},
+	"socialSetting": {
+		"message": "Sotsiaalne"
+	},
+	"codeSetting": {
+		"message": "Lähtekood"
+	},
+	"followDyslexic": {
+		"message": "Järgige OpenDyslexicut"
+	},
+	"followDyslexicToolTip": {
+		"message": "Jälgige OpenDyslexicut Twitteris"
+	},
+	"followAbbie": {
+		"message": "Toetage OpenDyslexicut"
+	},
+	"comingSoon": {
+		"message": "Tulekul"
+	},
+	"followAbbieToolTip": {
+		"message": "Toetage OpenDyslexicu loojat."
+	},
+	"followRobertJames": {
+		"message": "Järgige Robert Jamesit"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Järgige selle rakenduse hooldajat."
+	},
+	"whatsNew": {
+		"message": "Mis on uut"
+	},
+	"firefox": {
+		"message": "Firefoxi versioon"
+	},
+	"firefoxText": {
+		"message": "Kas kasutada Firefoxi? Laadige see alla täna."
+	},
+	"title_fonts": {
+		"message": "Fondid"
+	},
+	"supportlSetting": {
+		"message": "Toetus"
+	},
+	"featureTint": {
+		"message": "Luba ülekate"
+	},
+	"supportToolTipTwo": {
+		"message": "Kas teil on probleem? Võtke ühendust tugiteenusega."
+	},
+	"reviews": {
+		"message": "Arvustused"
+	},
+	"review": {
+		"message": "Ülevaade"
+	},
+	"style": {
+		"message": "Stiil"
+	},
+	"supportToolTip": {
+		"message": "Jätke arvustusi või lugege neid"
+	},
+	"websiteLabel": {
+		"message": "Veebisait"
+	},
+	"websiteTooltip": {
+		"message": "Tugiteenuste veebisait."
+	},
+	"saved": {
+		"message": "Salvestatud"
+	},
+	"helperbird": {
+		"message": "Avastage Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Avastage OpenDyslexic"
+	},
+	"on": {
+		"message": "Peal"
+	},
+	"off": {
+		"message": "Väljas"
+	}
+}

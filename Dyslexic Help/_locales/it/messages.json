@@ -1,0 +1,131 @@
+{
+	"appName": {
+		"message": "OpenDyslexic per Chrome",
+		"description": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto."
+	},
+	"appTitle": {
+		"message": "ApriDislessico",
+		"description": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto."
+	},
+	"appDescription": {
+		"message": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto",
+		"description": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto"
+	},
+	"options": {
+		"message": "Opzioni"
+	},
+	"settings": {
+		"message": "impostazioni"
+	},
+	"selectedFontLabel": {
+		"message": "Carattere selezionato da utilizzare."
+	},
+	"enableFontLabel": {
+		"message": "Abilitare"
+	},
+	"googleDocsLabel": {
+		"message": "documenti Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Abilita il supporto completo di Google Documenti."
+	},
+	"fontColorSetting": {
+		"message": "Colore"
+	},
+	"fontColorLabel": {
+		"message": "Font"
+	},
+	"fontColorTooltip": {
+		"message": "Cambia il colore del carattere."
+	},
+	"backgroundColorLabel": {
+		"message": "sfondo"
+	},
+	"backgroundColorTooltip": {
+		"message": "Cambia il colore di sfondo."
+	},
+	"personalSetting": {
+		"message": "Personale"
+	},
+	"socialSetting": {
+		"message": "Sociale"
+	},
+	"codeSetting": {
+		"message": "Codice sorgente"
+	},
+	"followDyslexic": {
+		"message": "Segui OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Segui OpenDyslexic su Twitter"
+	},
+	"followAbbie": {
+		"message": "Supporta OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Prossimamente"
+	},
+	"followAbbieToolTip": {
+		"message": "Sostieni il creatore di OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Segui Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Segui il manutentore di questa app."
+	},
+	"whatsNew": {
+		"message": "Cosa c'è di nuovo?"
+	},
+	"firefox": {
+		"message": "Versione Firefox"
+	},
+	"firefoxText": {
+		"message": "Usi Firefox? Scaricalo oggi."
+	},
+	"title_fonts": {
+		"message": "caratteri"
+	},
+	"supportlSetting": {
+		"message": "Supporto"
+	},
+	"featureTint": {
+		"message": "Abilita sovrapposizione"
+	},
+	"supportToolTipTwo": {
+		"message": "Hai un problema? Contatta il supporto."
+	},
+	"reviews": {
+		"message": "Recensioni"
+	},
+	"review": {
+		"message": "Revisione"
+	},
+	"style": {
+		"message": "Stile"
+	},
+	"supportToolTip": {
+		"message": "Lascia o leggi le recensioni"
+	},
+	"websiteLabel": {
+		"message": "Sito web"
+	},
+	"websiteTooltip": {
+		"message": "Sito web di supporto."
+	},
+	"saved": {
+		"message": "Salvato"
+	},
+	"helperbird": {
+		"message": "Scopri Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Scopri OpenDyslexic"
+	},
+	"on": {
+		"message": "Sopra"
+	},
+	"off": {
+		"message": "spento"
+	}
+}
