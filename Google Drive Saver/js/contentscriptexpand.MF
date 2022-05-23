@@ -1,2 +1,0 @@
-javascript/closure/base.js
-apps/drive/frontend/browser/chrome/extensions/save_to_drive/extension/js/contentscriptexpand.js
