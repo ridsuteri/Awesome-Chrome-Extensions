@@ -13,5 +13,6 @@ Modified some API to migrate from Firefox to Chrome
 - browser.tabs.query({}).then() => chrome.tabs.query({}, callback)
 
 ## Proof of Concept
-
-- [Tweet of video of demo on Firefox](https://twitter.com/ssms54/status/1368744609749241860)
+- https://imgur.com/pJk2yFc
+- https://imgur.com/S1BYgMh
+- https://imgur.com/6GTT6ms
