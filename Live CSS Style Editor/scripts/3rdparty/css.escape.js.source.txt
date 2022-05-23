@@ -1,1 +1,0 @@
-https://raw.githubusercontent.com/mathiasbynens/CSS.escape/v1.5.1/css.escape.js

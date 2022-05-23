@@ -1,1 +1,0 @@
-https://raw.githubusercontent.com/CSSLint/csslint/v1.0.5/dist/csslint.js

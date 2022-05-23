@@ -1,1 +1,0 @@
-https://raw.githubusercontent.com/louisameline/tooltipster-scrollableTip/1.0.0/tooltipster-scrollableTip.js

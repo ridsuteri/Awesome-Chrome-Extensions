@@ -1,3 +1,0 @@
-https://raw.githubusercontent.com/mozilla/source-map/0.6.1/dist/source-map.debug.js
-
-Note: Removed "sourceMappingURL"
