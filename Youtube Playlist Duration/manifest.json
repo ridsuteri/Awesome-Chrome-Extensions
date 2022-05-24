@@ -1,0 +1,25 @@
+{
+  "name": "Youtube Playlist Total Duration",
+  "version": "1.0.0",
+  "description": "Calculating total Duration of Video !!",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*list*", "*://*.youtube.com/playlist*"],
+    "js": ["script.js"]
+
+  }],
+  "background": {
+    "matches": [
+      "https://*.youtube.com/*list*", "https://*.youtube.com/playlist*"
+    ],
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "https://*.youtube.com/*", "webNavigation", "tabs"
+  ],
+
+  "icons": {
+    "128": "logo.png"
+  }
+
+}
