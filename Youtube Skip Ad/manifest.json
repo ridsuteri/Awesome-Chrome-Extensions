@@ -1,0 +1,18 @@
+{
+    "name":"Youtube Skip Ad Skipper",
+    "description": "Automatically skips Youtube ads, if button is visible",
+    "version":"0.1",
+    "author":"Vanshu Hassija",
+    "manifest_version":3,
+    "permissions":[],
+    "action":{},
+    "background":{},
+    "content_scripts":[
+        {
+          "matches": ["*://*.youtube.com/*"],
+          "js":["skipad.js"],
+          "run_at": "document_end",
+          "all_frames": true
+        }
+      ]
+}
