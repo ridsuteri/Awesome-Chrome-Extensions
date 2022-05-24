@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <script src="./fontawesome.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Spotify</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./logo.png" alt="">
+        <span>Spotify</span>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Spotify - The best music player</h1>
+            <div class="songItem">
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">04:05</span><i id="0" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">02:45</span><i id="1" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">02:57</span><i id="2" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">03:10</span><i id="3" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">04:05</span><i id="4" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">03:13</span><i id="5" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">03:15</span><i id="6" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                <div class="songs">
+                    <img src="./covers/1.jpg" alt=""><span>Love me like you do</span><span id="timeStamp">02:53</span><i id="7" class="fa fa-2x fa-play-circle-o miniPlay"></i>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" value="0" name="range" id="range" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa fa-2x fa-step-backward"></i>
+            <i id="masterPlay" class="fa fa-2x fa-pause-circle-o"></i>
+            <i id="next" class="fa fa-2x fa-step-forward"></i>
+        </div>
+        <div class="soundInfo">
+            <img id="gif" src="./playing.gif" width="60px" height="20px" alt="">
+            <span id="myName"></span>
+        </div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/c1c97e61e2.js" crossorigin="anonymous"></script>
+</html>
