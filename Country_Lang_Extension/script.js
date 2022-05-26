@@ -1133,7 +1133,7 @@ arr = [{
   "country_code_name": "uy",
   "lang_code": "es"
 }, {
-  "country_name": "United States",
+  "country_name": "USA",
   "country_code": "1",
   "lang_name": "english",
   "country_code_name": "us",
