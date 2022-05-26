@@ -5,7 +5,7 @@ h2{
     color: rgb(255, 255, 255);
     padding-top: 20px;
 }
-
+html,body{background-color: rgb(54, 214, 147);}
 
 img{
     height: 150px;
@@ -21,5 +21,5 @@ p{font-size: 2rem;
     color:white
 }
 div{
-    background-color: teal;
+    background-color: rgb(54, 214, 147);
 }
