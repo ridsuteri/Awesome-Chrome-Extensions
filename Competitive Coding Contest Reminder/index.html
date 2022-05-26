@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Competitive Contest Reminder</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <script defer src="./js/icons/all.js"></script>
+  </head>
+  <body class="grey darken-4 grey-text text-lighten-2">
+    <div style="width: 400px; height: 400px;">
+    
+      <div class="navbar-fixed">
+      <nav class="nav-color">
+        <div class="nav-wrapper">
+          <ul class="left">
+            <li>
+              <a
+                href="#running"
+                class="grey-text text-lighten-2 waves-effect waves-light"
+                >Currently Running</a
+              >
+            </li>
+            <li>
+              <a
+                href="#in24hr"
+                class="grey-text text-lighten-2 waves-effect waves-light"
+                >Today</a
+              >
+            </li>
+            <li>
+              <a
+                href="#upcoming"
+                class="grey-text text-lighten-2 waves-effect waves-light"
+                >Upcoming</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- dark-light btn -->
+    <div class="switch right dark-btn">
+      <label>
+        <i class="far fa-moon fa-lg"></i>
+        <input type="checkbox" id="dark-btn" />
+        <span class="lever"></span>
+
+        <i class="fas fa-sun fa-lg"></i>
+      </label>
+    </div>
+    <br />
+    <!-- container -->
+    <div class="container">
+      <div class="running scrollspy" id="running">
+        <h3>Currently Running</h3>
+        <!--  -->
+        <!-- light-blue -->
+        <div class="value grey darken-3">
+          <div class="row" id="running-value">
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+      </div>
+
+      <!-- in 24 hr column -->
+      <div class="in-24-hr scrollspy" id="in24hr">
+        <h3>Today</h3>
+        <div class="value grey darken-3">
+          <div class="row" id="in24hr-value">
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+
+          </div>
+        </div>
+        <br />
+      </div>
+      <div class="upcoming scrollspy" id="upcoming">
+        <h3>Upcoming</h3>
+        <div class="value grey darken-3">
+          <div class="row" id="upcoming-value">
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </div>
+    <footer class="page-footer">
+      <div class="footer-copyright grey darken-3">
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+  </div>
+  </body>
+</html>

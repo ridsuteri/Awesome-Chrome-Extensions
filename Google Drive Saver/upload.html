@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/uploadstyle.css">
+  <title id="dialog-title"></title>
+</head>
+<body>
+  <div id="header-container">
+    <span id="product-name" class="jfk-productName"></span>
+    <span id="user-id"></span>
+  </div>
+  <div id="progress-container" class="gdocs-hidden main-container">
+    <span id="progress-text"></span>
+    <span id="percent"></span>
+    <progress id="upload-progress" max="100" value="0"></progress>
+  </div>
+  <div id="results-container" class="gdocs-hidden main-container">
+    <img id="file-icon">
+    <div id="results-text"></div>
+  </div>
+  <div id="rename-container" class="gdocs-hidden main-container">
+    <div id="rename-text"></div>
+    <input id="rename-input" type="text" class="jfk-textinput">
+  </div>
+  <div id="use-browser-action-container" class="gdocs-hidden main-container">
+    <img id="use-browser-action-img" class="use-browser-action-img">
+    <div class="use-browser-action-msg">
+      <div id="use-browser-action-title" class="use-browser-action-title"></div>
+      <div id="use-browser-action-body" class="use-browser-action-body"></div>
+    </div>
+  </div>
+  <div id="error-container" class="gdocs-hidden main-container">
+    <span id="error-text"></span>
+  </div>
+  <div id="button-container">
+    <div id="button-action-container">
+      <div id="close-button" tabindex="0" role="button" class="goog-inline-block jfk-button jfk-button-action gdocs-hidden"></div>
+      <div id="apply-button" tabindex="0" role="button" class="goog-inline-block jfk-button jfk-button-action gdocs-hidden"></div>
+      <div id="cancel-button" tabindex="0" role="button" class="goog-inline-block jfk-button jfk-button-standard"></div>
+    </div>
+    <div id="button-option-container">
+      <div id="rename-button" tabindex="0" role="button" class="goog-inline-block jfk-button jfk-button-standard gdocs-hidden"></div>
+      <div id="trash-button" tabindex="0" role="button" class="goog-inline-block jfk-button jfk-button-standard gdocs-hidden"></div>
+    </div>
+  </div>
+  <script src="js/closuresetup.js"></script>
+  <script src="js/upload_all.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: inner-flex;
+  margin: auto 10px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border: 1px solid lightblue;
+  padding: 10px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 0.9em;
+  font-size: 20px;
+  background: #8c3bff;
+  color: #f9f9f9;
+  border-radius: 1.5em;
+  transition: 0.15s;
+  display: inline-block;
+  position: absolute;
+  bottom: 50px;
+}
