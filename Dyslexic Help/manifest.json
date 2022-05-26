@@ -1,0 +1,47 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"name": "__MSG_appName__",
+	"version": "12.0.0",
+	"manifest_version": 2,
+	"description": "__MSG_appDescription__",
+	"homepage_url": "https://DyslexicHelp.org",
+	"icons": {
+		"128": "images/icons/icon-128.png"
+	},
+	"browser_action": {
+		"default_icon": "images/icons/icon-128.png",
+		"default_popup": "index.html"
+	},
+	"default_locale": "en",
+	"commands": {
+		"toggle-feature-foo": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+5"
+			},
+			"description": "Toggle feature",
+			"global": true
+		}
+	},
+	"permissions": ["activeTab", "storage"],
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
+			"js": ["scripts/content.js"],
+			"exclude_globs": ["*://docs.google.com/*"],
+			"all_frames": true
+		}
+	],
+	"offline_enabled": true,
+	"content_security_policy": "script-src 'self'; object-src 'self';",
+	"web_accessible_resources": [
+		"/fonts/DyslexicHelp/DyslexicHelp-Bold.otf",
+		"/fonts/DyslexicHelp/DyslexicHelp-BoldItalic.otf",
+		"/fonts/DyslexicHelp/DyslexicHelp-Italic.otf",
+		"/fonts/DyslexicHelp/DyslexicHelp-Regular.otf",
+		"/fonts/DyslexicHelp/DyslexicHelpMono-Regular.otf",
+		"/styles/core/DyslexicHelp-regular.css",
+		"/styles/core/DyslexicHelp-bold.css",
+		"/styles/core/DyslexicHelp-italic.css"
+	]
+}

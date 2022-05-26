@@ -1,0 +1,14 @@
+{
+    "name": "Today in History",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": ["https://history.muffinlabs.com/*"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "./icon.jpeg"
+    },
+    "icons": {
+        "128": "./icon.jpeg"
+    },
+    "permissions": ["activeTab"]
+}

@@ -1,0 +1,43 @@
+/*
+ * OnePick CSS. Rules copied from go/onepick, so format does not match
+ * the CSS style guide.
+ */
+.picker-dialog {
+  background: #fff;
+  border: 1px solid #acacac;
+  position: absolute;
+  -webkit-box-shadow: rgba(0, 0, 0, .2) 0 4px 16px;
+  -moz-box-shadow: rgba(0, 0, 0, .2) 0 4px 16px;
+  box-shadow: rgba(0, 0, 0, .2) 0 4px 16px;
+  z-index: 1002;
+  outline: none;
+}
+
+.picker.modal-dialog-content {
+  width: 705px;
+  height: 370px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  border: 0;
+}
+
+.picker.modal-dialog-bg {
+  background: #fff;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1001;
+}
+
+.picker.modal-dialog-title,
+.picker.modal-dialog-buttons {
+  display: none;
+}
+
+.picker-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  overflow: hidden;
+}
