@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html",
+      "default_title": "Text To QR Code"
+   },
+  
+   "description": "Type Text to Generate QR code",
+   "icons": {
+      "48": "logo.png"
+   },
+  
+   "manifest_version": 2,
+   "minimum_chrome_version": "19",
+   "name": "Text ToQR Code Generator",
+   "permissions": [ "tabs", "contextMenus" ],
+   "short_name": "QR Code",
+  
+   "version": "1.0"
+}
