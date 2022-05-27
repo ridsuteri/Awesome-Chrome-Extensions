@@ -1,6 +1,6 @@
 # JSON Parser
 
-- CAn Format teh JSON File.
+- Can Format teh JSON File.
 
 Try On this :
 
