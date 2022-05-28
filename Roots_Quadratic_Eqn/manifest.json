@@ -1,0 +1,6 @@
+{"manifest_version":3,
+    "name":"Roots of quadratic equation",
+    "description":"User will type the coefficients of quadratic equation and on clicking the button will get the roots.",
+    "version": "1.0.0" , 
+    "action": {"default_popup":"popup.html"},
+    "permissions":["activeTab"]}

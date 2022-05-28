@@ -1,0 +1,6 @@
+@custom-media --primer-viewportRange-narrow-viewport (max-width: calc(48rem - 0.02px));
+@custom-media --primer-viewportRange-narrowLandscape-viewport (max-width: calc(63.25rem - 0.02px) and (max-height: calc(34rem - 0.02px)) and (orientation: landscape));
+@custom-media --primer-viewportRange-regular-viewport (min-width: 48rem);
+@custom-media --primer-viewportRange-wide-viewport (min-width: 90rem);
+@custom-media --primer-viewportRange-portrait-viewport (orientation: portrait);
+@custom-media --primer-viewportRange-landscape-viewport (orientation: landscape);
