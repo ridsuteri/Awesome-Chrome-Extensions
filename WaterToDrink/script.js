@@ -33,7 +33,7 @@ function updateBigcup(){
     }
     else{
         percentage.style.visibility = 'visible'
-        percentage.style.height = `${fullcups/totalcups*250}px`
+        percentage.style.height = `${fullcups/totalcups*170}px`
         percentage.innerText = `${fullcups/totalcups*100}%`
     }
 
