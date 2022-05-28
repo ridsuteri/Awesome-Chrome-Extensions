@@ -1,0 +1,7 @@
+{"manifest_version": 3 ,
+"name": "Country_Currency",
+"description":"Know about currency of a particular country",
+"version": "1.0.0" , 
+"action": {"default_popup":"popup.html"},
+"permissions":["activeTab"]
+}

@@ -1,0 +1,20 @@
+{
+"manifest_version":2 ,
+    "name": "Competitve Contest Reminder",
+    "description":"See the Competitve Contest Reminder",
+    "version": "1.0.0" ,
+    "background" : {
+        "page" : "index.html",
+        "script": "./js/script.js"
+      },
+    "browser_action":{
+        "default_title" : "Competitve Contest Reminder",
+        "default_popup":"index.html"
+    },
+    "icons":{"128":"logo.png"},
+
+    "permissions":["activeTab","storage"],
+
+    "options_page": "index.html"   
+
+}

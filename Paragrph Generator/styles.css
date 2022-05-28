@@ -1,0 +1,80 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  
+  background-color: #fff;
+	background-size:  8px 8px, 8px 8px;
+	background-position: center, center;
+	background-image: linear-gradient(#ebf4f9 1px, transparent 1px),linear-gradient(90deg, #ebf4f9 1px, transparent 1px);
+}
+
+h3 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: hsl(205, 86%, 17%);
+  line-height: 1.25;
+  margin: 0.75rem 0;
+  letter-spacing: 0.25rem;
+  text-align: center;
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paraAmountNum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: 1.25rem;
+  color: hsl(205, 86%, 17%);
+}
+input {
+  padding: 0.25rem 0.5rem;
+
+  width: 4rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: transparent;
+  color: #222;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  border: 2px solid #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+}
+.btn:hover {
+  color: #fff;
+  background: #222;
+}
+
+.result {
+  width:80vw;
+  margin: 1rem auto;
+}

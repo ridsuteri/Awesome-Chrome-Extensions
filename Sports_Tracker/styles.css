@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

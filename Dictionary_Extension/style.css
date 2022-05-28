@@ -1,0 +1,23 @@
+h5{text-align: center;
+   
+    
+    padding-top: 20px;
+   margin-bottom: 20px !important;
+}
+html,body{background-color: rgb(230, 79, 79);}
+
+.btn{
+margin-top: 15px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+
+p{font-size: 2rem;
+    color:white !important;
+}
+div{
+    background-color: rgb(230, 79, 79);
+}
