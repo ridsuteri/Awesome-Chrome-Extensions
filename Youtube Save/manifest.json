@@ -1,0 +1,24 @@
+{
+  "background": {
+    "scripts": ["js/jquery.min.js", "js/background.js"]
+   },
+  "manifest_version": 2,
+
+  "name": "Youtube Playlist Save",
+
+  "content_scripts": [
+    {
+      "matches": ["http://youtube.com/*", "https://youtube.com/*", "http://www.youtube.com/*", "https://www.youtube.com/*"],
+      "js": ["js/playNextVid.js"]
+    }
+  ],
+
+  "description": "Save Youtube videos in chrome.",
+  "version": "1.0.0",
+  "icons": {"48": "logo.png"},
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "storage", "http://youtube.com/*", "https://youtube.com/*", "http://www.youtube.com/*", "https://www.youtube.com/*"]
+}
