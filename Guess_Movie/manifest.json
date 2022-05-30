@@ -1,0 +1,6 @@
+{"manifest_version":3,
+    "name":"Guess Movie",
+    "description":"Guess the movie name",
+    "version": "1.0.0" , 
+    "action": {"default_popup":"popup.html"},
+    "permissions":["activeTab"]}
