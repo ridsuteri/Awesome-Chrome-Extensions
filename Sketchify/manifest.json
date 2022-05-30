@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Sketchefy",
+    "version": "1.0",
+
+    "description": "Sketchboard for all websites in the devtools panel .",
+    "action": {
+      "default_icon": {             
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_title": "Sketchefy"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "devtools_page": "devtools.html",
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline'  https://maxcdn.bootstrapcdn.com;"
+    },
+    "background": {
+      "service_worker": "background-wrapper.js"
+    },
+    "host_permissions":["https://sketchpad.pro/advanced.html/*"]
+  }

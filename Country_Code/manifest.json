@@ -1,0 +1,8 @@
+{"manifest_version": 3 ,
+"name": "Country-Code",
+"description":"Know about country code of a particular country",
+"version": "1.0.0" , 
+"action": {"default_popup":"popup.html"},
+"icons":{"128":"logo.png"},
+"permissions":["activeTab"]
+}

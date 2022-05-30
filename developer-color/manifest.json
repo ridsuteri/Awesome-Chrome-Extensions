@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "developer-color",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+        "128": "devLogo.png"
+    }
+}
