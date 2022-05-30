@@ -1,0 +1,25 @@
+
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    padding-top: 20px;
+}
+
+
+img{
+    height: 150px;
+    width:250px
+}
+.btn{
+margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p{font-size: 2rem;
+    color:white
+}
+div,html,body{
+    background-color: rgb(223, 205, 45);
+}
