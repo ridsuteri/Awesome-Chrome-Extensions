@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Covid-19",
+  "version": "1.0",
+  "action": {
+    "default_icon": "bermuda-663.png"
+},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
