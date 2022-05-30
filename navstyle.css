@@ -83,6 +83,15 @@ a.active,a:hover{
   nav ul li a{
     font-size: 20px;
   }
+  label.shadow{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-align: left;
+    transition: all .5s;
+  }
   a:hover,a.active{
     background: none;
     color: white;
