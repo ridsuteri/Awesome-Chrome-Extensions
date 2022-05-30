@@ -1,0 +1,25 @@
+h5{text-align: center;
+   
+    color: white;
+    padding-top: 20px;
+}
+
+
+.btn{margin-left: 2rem;
+    margin-right: 2rem;
+margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p{font-size: 1.5rem;
+    color:white
+}
+div,html,body{
+    background-color: rgb(186, 91, 199);
+}
+
+img{
+    height: 300px;
+    width:400px
+}
