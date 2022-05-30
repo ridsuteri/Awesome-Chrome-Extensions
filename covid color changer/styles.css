@@ -1,0 +1,34 @@
+.colors {
+  animation: colors 800ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+  0% {
+    color: orangered;
+  }
+
+  15% {
+    color: orchid;
+  }
+
+  30% {
+    color: skyblue;
+  }
+
+  45% {
+    color: green;
+  }
+
+  60% {
+    color: yellowgreen;
+  }
+
+  75% {
+    color: red;
+  }
+
+  90% {
+    color: yellow;
+  }
+}
