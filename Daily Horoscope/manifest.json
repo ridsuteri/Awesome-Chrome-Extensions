@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Daily Horoscope",
+    "description": "Daily horoscope when you open a new tab",
+    "version": "1.0.0",
+    "permissions": [
+        "storage"
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "popup.html"
+    },
+    "icons":{"128":"logo.png"},
+    "options_ui": {
+        "page": "popup2.html",
+        "chrome_style": false,
+        "open_in_tab": true
+    },
+    "options_page": "popup2.html",
+    "web_accessible_resources": [
+        "app/*",
+        "options/*",
+        "images/*"
+    ]
+}

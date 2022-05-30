@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <title>New Tab</title>
+        <style>
+            body {
+                font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+                font-size: 100%;
+                color:#ffffff;
+                background-color: black;
+                background-image: url("bg.jpg");
+                background-size: cover;
+            }
+            #horoscope {
+                text-align:justify;
+                max-width:600px;
+                margin:auto;
+                margin-top:120px;
+                padding-right:60px;
+                padding-left:60px;
+            }
+            #title {
+                font-size: 200%;
+                font-weight: bold;
+                margin-bottom:20px;
+            }
+            #text {
+                font-size:160%;
+            }
+            #footer {
+                width:95%;
+                position: fixed;
+                bottom: 12px;
+                text-align:right;
+            }
+            #options_link {
+                text-decoration:none;
+                color:gray;
+                font-size:40px;
+            }
+        </style>
+
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="horoscope">
+                <div id="title"></div>
+                <div id="text"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="#" id="options_link">?</a>
+        </div>
+    </body>
+</html>
+
