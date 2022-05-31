@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Password Strength Background",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}

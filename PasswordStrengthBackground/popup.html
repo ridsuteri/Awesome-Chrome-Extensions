@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous"  />
+    <link rel="stylesheet" href="PasswordStrengthBackground.css">
+
+    <title>Password Strength Background</title>
+</head>
+<body>
+    <div class="background" id="background"></div>
+    <div class="bg-white rounded p-10 text-center shadow-md">
+        <h1 class="text-3xl" >Password Strength Background</h1>
+        <p class="text-sm text-gray-700">Change the password to see the effect</p>
+        <div class="my-4 text-left">
+            <label for="name" class="text-gray-900">Name:</label>
+            <input type="text" class="border block w-full p-2 mt-2 rounded" id="name" placeholder="Enter Name"/>
+        </div>
+        <div class="my-4 text-left">
+            <label for="password" class="text-gray-900">Password:</label>
+            <input type="password" class="border block w-full p-2 mt-2 rounded" id="password" placeholder="Enter Password"/>
+        </div>
+
+        <button class="bg-black text-white py-2 mt-4 inline-block w-full rounded" type="submit">
+            Submit
+        </button>
+    </div>
+    <script src="PasswordStrengthBackground.js"></script>
+</body>
+</html>
