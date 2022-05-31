@@ -1,0 +1,8 @@
+{"manifest_version": 3 ,
+"name": "Search Country By Capital",
+"description":"Search Country By Capital",
+"version": "1.0.0" , 
+"action": {"default_popup":"popup.html"},
+"icons":{"128":"logo.png"},
+"permissions":["activeTab"]
+}
