@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Redirect Link Checker",
+  "description":"Check all the Links of the Website",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "notifications",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "data/logo.png"
+  },
+  "action": {},
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "web_accessible_resources": [{
+    "resources": ["index.html"],
+    "matches": ["*://*/*"]
+  }]
+}

@@ -1,0 +1,150 @@
+:root {
+  --bg-dark: #f1f1f1;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+thead {
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+}
+body[data-2xx=false] tr[data-code="2"] {
+  display: none;
+}
+body[data-3xx=false] tr[data-code="3"] {
+  display: none;
+}
+body[data-4xx=false] tr[data-code="4"] {
+  display: none;
+}
+body[data-5xx=false] tr[data-code="5"] {
+  display: none;
+}
+body[data-nxx=false] tr[data-code]:not([data-code="2"]):not([data-code="3"]):not([data-code="4"]):not([data-code="5"]) {
+  display: none;
+}
+
+th {
+  text-align: left;
+  font-weight: normal;
+  background-color: var(--bg-dark);
+  padding: 3px 15px;
+}
+th span {
+  color: #fff;
+  padding: 0 15px;
+  font-size: 80%;
+  float: right;
+}
+#valid-counter {
+  background-color: rgb(0, 138, 30);
+}
+#broken-counter {
+  background-color: rgb(138, 0, 0);
+}
+#skip-counter {
+  background-color: #9152ff;
+}
+td {
+  padding: 3px;
+}
+th,
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+td:first-of-type span {
+  display: inline-block;
+  text-align: center;
+}
+td:last-of-type {
+  text-align: right;
+}
+td:first-of-type span,
+button,
+input[type=text],
+input[type=button] {
+  background-color: var(--bg-dark);
+  border: none;
+  font-size: 90%;
+  padding: 8px;
+  min-width: 30px;
+  cursor: pointer;
+  outline: none;
+}
+button:active,
+input[type=button]:active {
+  opacity: 0.5;
+}
+button * {
+  pointer-events: none;
+}
+#filters label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+#settings label {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+#brokens,
+#skips,
+#valids {
+  overflow-y: scroll;
+}
+#brokens {
+  flex: 2;
+}
+#valids {
+  flex: 2;
+}
+#skips {
+  flex: 1;
+}
+#progress {
+  width: 100%;
+  background-color: var(--bg-dark);
+}
+#progress > div {
+  height: 3px;
+  background-color: rgb(0, 138, 30);
+  width: 0%;
+}
+fieldset {
+  border: solid 1px var(--bg-dark);
+}
+legend {
+  font-size: 90%;
+  padding: 0 10px;
+}
+#buttons {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: flex-end;
+  margin: 5px;
+}
+#settings {
+  display: flex;
+  white-space: nowrap;
+  flex-flow: wrap;
+}
+#settings input[type=text] {
+  flex: 1;
+}
