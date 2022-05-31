@@ -1,0 +1,25 @@
+{
+  "name": "File Size Viewer / Downloader GIthub",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Download github Contents and See File Size",
+  "icons": {
+    "48": "logo.png"
+  },
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html",
+    "default_title": "File Size/Download Github"
+  },
+  "permissions": ["*://*.github.com/*", "storage", "webRequest", "webNavigation"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
