@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Change Theme Github",
+    "short_name": "Change Theme Github",
+    "description": "A Dark theme for GitHub ",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "app/popup.html"
+    },
+    "background": {
+        "scripts": [
+            "app/vendor.js",
+            "app/background.bundle.js",
+            "app/background.js"
+        ]
+    },
+    "content_scripts": [],
+    "permissions": [
+        "storage",
+        "<all_urls>"
+    ],
+    "optional_permissions": [],
+    "icons": {
+        "128": "logo.png"
+    }
+}
