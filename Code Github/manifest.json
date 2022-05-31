@@ -1,0 +1,30 @@
+{
+  "name": "GitHub Code",
+  "version": "1.0.0",
+  "description": "code folding in GitHub.",
+  "manifest_version": 2,
+  "minimum_chrome_version": "49",
+  "short_name": "Github Code",
+  "permissions": [
+    "tabs",
+    "*://github.com/*",
+    "*://bbgithub.dev.bloomberg.com/*"
+    
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "content_scripts": [{
+    "run_at" : "document_end",
+    "matches": [
+      "*://github.com/*"
+    ],
+    "css": [
+      "style.css"
+    ]
+  }]
+}
