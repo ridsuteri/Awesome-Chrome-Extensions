@@ -1,0 +1,29 @@
+{
+  "name": "YouTube Theme",
+  "description": "Change Youtube Theme",
+  "default_locale": "en",
+  "version": "0.4.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "cookies",
+    "alarms",
+    "idle"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "icons": {
+    "128": "data/icons/128.png"
+  },
+  "action": {},
+  "content_scripts": [{
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["data/inject.js"],
+      "run_at": "document_start",
+      "all_frames": true
+  }]
+}

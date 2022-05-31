@@ -1,0 +1,66 @@
+body {
+  font-size: 13px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 10px;
+  min-width: unset;
+}
+textarea {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+}
+button,
+input[type=submit],
+input[type=button] {
+  height: 24px;
+  color: #444;
+  background-image: linear-gradient(rgb(237, 237, 237), rgb(237, 237, 237) 38%, rgb(222, 222, 222));
+  box-shadow: rgba(0, 0, 0, 0.08) 0 1px 0, rgba(255, 255, 255, 0.75) 0 1px 2px inset;
+  text-shadow: rgb(240, 240, 240) 0 1px 0;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+}
+input[type=button]:disabled {
+  opacity: 0.5;
+}
+td:last-child {
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  grid-gap: 5px;
+}
+.table > label,
+.table > span {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.table > *:nth-child(4n + 1) {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.table input[type=checkbox] {
+  align-self: center;
+  justify-self: center;
+}
+
+#schedule-container {
+  display: grid;
+  align-items: center;
+  justify-content: end;
+  grid-template-columns: min-content min-content min-content;
+  grid-gap: 5px;
+}
+
+#explore[data-loaded=true] {
+  margin-top: 20px !important;
+}

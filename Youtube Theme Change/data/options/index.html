@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark Theme for YouTube :: Options Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <form>
+    <div class="table">
+      <span>Background Color</span>
+      <input type="color" id="background-color">
+      <span>Text Color</span>
+      <input type="color" id="text-color">
+      <span>Border Color</span>
+      <input type="color" id="border-color">
+      <span>Toolbar Color</span>
+      <input type="color" id="toolbar-color">
+      <label for="faqs">Open FAQs page on updates</label>
+      <input type="checkbox" id="faqs">
+      <label for="schedule">Scheduled On and Off (<span id="state">Disabled</span>)</label>
+      <input type="checkbox" id="schedule">
+    </div>
+    <div id="schedule-container">
+      <input type="time" id="day-time" required> - <input type="time" id="night-time" required>
+    </div>
+
+    <div id=explore></div>
+
+    <h4>Custom <a href="https://www.w3schools.com/Css/">CSS</a> rules:</h4>
+    <textarea id="custom-css" rows="6" placeholder="These CSS rules will be appended to the default dark theme"></textarea>
+
+    <p>
+      <input type="button" id="support" value="Support Development">
+      <input type="button" id="reset" value="Reset"> - <input type="submit" id="save" value="Save Options">
+      <span id="status"></span>
+    </p>
+  </form>
+
+  <script src="index.js"></script>
+  <script defer src="matched/matched.js"></script>
+</body>
+</html>
