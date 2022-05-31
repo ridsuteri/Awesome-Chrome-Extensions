@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Julius+Sans+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Archivo',
+  sans-serif;
+  background-color: #1A1A1D;
+  color: #45A29E;
+}
+/* Dark Mode */
+ body.dark-mode {
+
+} 
+body.dark-mode a {
+  color: #111;
+}
+body.light-mode footer {
+  color: #111;
+  
+}
+body.dark-mode button {
+  background-color: rgb(255, 255, 255);
+  color: #111;
+}
+body.dark-mode h4  {
+  color: rgb(255, 255, 255);
+}
+body.dark-mode svg  {
+  fill: #fff;
+  color: #151513;
+}
+body.light-mode {
+  background-color: rgb(255, 255, 255);
+  color: #111;
+}
+body.light-mode a {
+  color: #111;
+}
+body.light-mode button {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+}
+body.light-mode h4 {
+  color: #111;
+}
+body.light-mode svg {
+  fill: #151513;
+  color: #fff;
+} 
+
+/* Octocat */
+.github-corner{
+  color: azure;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+.toggleButton{
+  display: absolute;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  border-left: 70cm;
+}
+
+h1 {
+  font-family: 'Julius Sans One',
+  sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 6rem 1rem 1rem 1rem;
+}
+h2 {
+  font-family: 'Julius Sans One',
+  sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+
+}
+h3{
+  font-family: 'Julius Sans One',
+  sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 1rem;
+
+}
+h4{
+  font-family: 'Julius Sans One',
+  ;
+  text-align: left;
+  font-size: 1rem;
+  padding: 1rem;
+
+}
+p{
+    font-family: 'Julius Sans One',
+    ;
+    text-align: left;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+
+.body {
+  padding: 0px 40px;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 40px;
+}
+
+
+footer {
+  /* background-color: #19172e; */
+  /* position: fixed; */
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  line-height: 3vh;
+  margin-top: 30px;
+}
+
+footer a:visited {
+  color: white;
+
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.scrollToTop {
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  cursor:pointer;
+  width:40px;
+  height:40px;
+  background-color: #45A29E;
+  border-radius:50%;
+}
+
+.scrollToTop span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-8px;
+  margin-top:-12px;
+  border:8px solid transparent;
+  border-bottom-color:white;
+}
+
+.scrollToTop:hover {
+  background-color:#45A29E;
+}
