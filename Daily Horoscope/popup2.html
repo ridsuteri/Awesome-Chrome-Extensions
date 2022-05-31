@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Options</title>
+        <style>
+            body {
+                font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+                font-size: 100%;
+                color:#ffffff;
+                background-color: black;
+                background-image: url("bg.jpg");
+                background-size: cover;
+            }
+            #options {
+                text-align:left;
+                max-width:600px;
+                margin:auto;
+                margin-top:120px;
+                padding-right:60px;
+                padding-left:60px;
+            }
+            #title {
+                font-size: 200%;
+                font-weight: bold;
+            }
+            #return_link {
+                font-size:50%;
+                color: aliceblue;
+            }
+            #settings {
+                font-size:160%;
+                margin-top:80px;
+                margin-bottom:80px;
+            }
+            #update_status {
+                /*margin-top:10px;*/
+                font-size:80%;
+                color:rgb(160,160,160);
+            }
+            #about {
+                font-size:100%;
+            }
+            a {
+                color:rgb(170,170,170);
+                font-weight:bold;
+            }
+        </style>
+
+        <script src="script2.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="options">
+                <div id="title">
+                    Options  <a href="#" id="return_link">Back to Horoscope</a>
+                </div>
+                <div id="settings">
+                    Name: <input id="name" placeholder="Your Name" /> 
+                    <br />
+                    Birthday: <input id="birthday" placeholder="MM/DD/YYYY"/> 
+                    <br />
+                    <button id="update_btn" class="btn">Update</button> 
+                    <button id="clear_btn" class="btn">Clear</button> 
+                    <div id="update_status">&nbsp;</div>
+                </div>
+                <div id="about">
+                    Created by DragonUncaged</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

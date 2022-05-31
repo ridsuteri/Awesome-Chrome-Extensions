@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Date Counter",
+  "description": "Counts the Time Until That Date Starts",
+  "version": "1.0.0",
+  "background": {
+    "page": "index.html",
+    "script": "script.js"
+  },
+  "browser_action": {
+    "default_title": "Date Counter",
+    "default_popup": "index.html"
+  },
+
+  "icons": { "128": "logo.png" },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "options_page": "index.html"
+}

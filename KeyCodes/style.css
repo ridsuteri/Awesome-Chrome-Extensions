@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(https://images.unsplash.com/photo-1560457079-9a6532ccb118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    min-height: 500px;
+    min-width: 300px;
+}
+
+.key{
+    border: 1px solid #999;
+    background-color: #eee;
+    box-shadow:  1px 1px 3px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: column;
+    margin: 50px;
+    min-width: 150px;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
