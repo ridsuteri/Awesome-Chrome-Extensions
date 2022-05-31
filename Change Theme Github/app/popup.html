@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>GitHub Dark Theme</title>
+        <link rel="stylesheet" type="text/css" href="bulma.css" />
+        <link rel="stylesheet" type="text/css" href="bulma-extensions.css" />
+        <style>
+            body {
+                width: 450px;
+            }
+        </style>
+    </head>
+    <body ng-app="app">
+        <div ng-controller="popupController as ctrl">
+            <section class="section" ng-if="ctrl.hasPermissions">
+                <div class="container is-fluid">
+                    <h1 class="title">GitHub Dark Theme</h1>
+                    <p class="subtitle">
+                        Refresh <strong class="has-text-primary">Github</strong> To see dark theme!
+                    </p>
+                </div>
+            </section>
+            <section class="section" ng-if="!ctrl.hasPermissions">
+                <div class="message">
+                    <div class="message-body">
+                        <p>
+                            DragonUncaged
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script type="application/javascript" src="vendor.js"></script>
+        <script type="application/javascript" src="popup.js"></script>
+    </body>
+</html>
