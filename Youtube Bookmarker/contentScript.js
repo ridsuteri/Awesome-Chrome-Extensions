@@ -68,7 +68,7 @@
     var date = new Date(0);
     date.setSeconds(t);
   
-    return date.toISOString().substr(11, 8);
+    return date.toISOString().substring(11, 8);
   };
   Footer
   
