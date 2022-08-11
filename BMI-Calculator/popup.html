@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-<head>
-	<title>BMI Calculator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-	<div id="container">
+  <body>
+    <div id="container">
+      <h1>BMI Calculator</h1>
 
-		<h1> BMI Calculator</h1>
+      <hr />
+      <div class="in-form">
+        Height in CM :
+        <input type="text" id="cm" /> <br />
 
-		<hr>
-		Height in CM :
-		<input type="text" id="cm"> <br />
-		Weight in KG :
-		<input type="text" id="kg"> <br />
-		<input type="submit" id="submit" value="Calculate"> <br /><br />
+        Weight in KG :
+        <input type="text" id="kg" /> <br />
 
-		<div id="result"></div>
+        
+      </div>
 
-		<hr>
+      <button type="submit" id="submit" role="button">
+        Calculate
+      </button>
 
-		<div id="weightguide">
-			<h2> BMI Weight Guide :</h2>
-			Under Weight &nbsp; = &nbsp; Less than 18.6 <br />
-			Normal Range &nbsp; = &nbsp; 18.6 and 24.9 <br />
-			Overweight &nbsp; = &nbsp; Greater than 24.9 <br />
-		</div>
+      <div id="result"></div>
 
-	</div>
+      <hr />
 
-	<script src="script.js"> </script>
+      <div id="weightguide">
+        <h2>BMI Weight Guide :</h2>
+        Under Weight &nbsp; = &nbsp; Less than 18.6 <br />
+        Normal Range &nbsp; = &nbsp; 18.6 and 24.9 <br />
+        Overweight &nbsp; = &nbsp; Greater than 24.9 <br />
+      </div>
+    </div>
 
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
