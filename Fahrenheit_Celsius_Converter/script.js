@@ -1,5 +1,3 @@
-
-
 function convert(num){const type= document.getElementById("type");
 const typeData=type.value;
 output=document.querySelector(".output");
