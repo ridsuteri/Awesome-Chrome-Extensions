@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <link rel="stylesheet" href="navstyle.css"> -->
-  <link rel="stylesheet" href="stylehelp.css" />
+  <link rel="stylesheet" href="navstyle.css">
+  <link rel="stylesheet" href="styleabout.css" />
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -20,22 +20,21 @@
   <title>Awesome Chrome Extensions</title>
 </head>
 <body id="body" class="dark-mode">
-  <div class="hero">
     <nav id="body" class="dark-mode">
-      <!--Dark mode button-->
-      
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label> 
-      <label class="shadow">Awesome Chrome Extensions</label>
-      
-      <ul>
-        <li><a href="index.html" class="active" >Home</a></li>
-        <li><a href="help.html" class="active" >Help</a></li>
+       <!--Dark mode button-->
+ <button id="toggle" class="toggleButton" type="button" onclick="toggleDarkLight()">☀️</button> 
+
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label> 
+        <label class="shadow">Awesome Chrome Extensions</label>
         
-        
-      </ul>
-      <button id="toggle" class="toggleButton" type="button" onclick="toggleDarkLight()">☀️</button> 
+        <ul>
+            <li><a href="index.html" class="active" href="#">Home</a></li>
+            <li><a href="about.html" class="active" href="#">About</a></li>
+            
+            
+        </ul>
         <section>
             <ul>
         </section>
@@ -74,16 +73,15 @@
        ></path></svg></a
    >
  <!-- Octocat svg end -->
- <h1 class="hero-heading">Do you want some awesome chrome extensions❓</h1>
-     <br>
-<p class="hero-desc">This website contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers</p>
- </div>
+ 
  <!-- Scroll To Top -->
  <a class="scrollToTop"><span></span></a>
  <!-- Scroll to Top End -->
 
  <!-- Heading -->
- 
+ <h1>Do you want some awesome chrome extensions❓</h1>
+     <br>
+<h2>This website contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers</h2>
 
 
   <!-- Main Section Start -->
