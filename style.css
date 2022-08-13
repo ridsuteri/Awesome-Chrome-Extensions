@@ -123,15 +123,81 @@ h4{
   padding: 1rem;
 
 }
-p{
-    font-family: 'Julius Sans One',
-    ;
-    text-align: left;
-    font-size: 1rem;
-    padding: 1rem;
 
+.projectCard {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #45A29E;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s ease-in-out 0s;
+  background-color: #0B0C10;
+  padding: 1rem;
 }
 
+.projectCard:hover{
+  background-color: #45A29E;
+  transform: scale(1.02);
+}
+
+.projectCardTitle{
+  color: azure;
+  font-size: 1.1rem;
+  padding-bottom: 3%;
+  
+}
+
+.projectCardTitle:hover{
+  background-color: #45A29E;
+}
+
+/* .projectCard:hover{
+  transform: scale3d(1.05, 1.05, 1);
+  filter: drop-shadow(10px);
+  filter: contrast(110%);
+  opacity: 90%;
+} */
+.projectCardImg {
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+
+
+.project-section{
+  /* width: 90vw; */
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  grid-gap: 1.5rem;
+}
+
+.project-section a{
+  text-decoration: none;
+}
+
+.project-section button{
+  background-color: white;
+  color: black;
+  border: 2px solid #45A29E; /* Green */
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+.project-section button:hover{
+  background-color: black; /* Green */
+  color: white;
+  transform: scale(1.10);
+}
 
 .body {
   padding: 0px 40px;
@@ -142,6 +208,36 @@ p{
   margin-bottom: 40px;
 }
 
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-txt[type=text] {
+  width: 300px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #0B0C10;
+  border: 2px solid #45A29E;
+  color: azure;
+  border: none;
+  padding: 5px 10px;
+}
+
+.search-btn{
+  height: 35px;
+  width: 50px;
+  background-color: #45A29E;
+  color: azure;
+  padding: 5px 10px;
+  margin-right: 16px;
+  margin-left: 5px;
+  font-size: 12px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
 
 footer {
   /* background-color: #19172e; */
