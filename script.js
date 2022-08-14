@@ -13,20 +13,20 @@ let projectData = [
   },
   {
     projectName: "Binary_To_Decimal_converter",
-    projectImage: "Binary_To_Decimal_converter/binarytodecimal.mp4",
+    projectImage: "Binary_To_Decimal_converter/binary-to-decimal.png",
     projectUrl: "Binary_To_Decimal_converter/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Binary_To_Decimal_converter",
   },
   {
     projectName: "CSS Background Generator",
-    projectImage: "CSS-Background-Generator/CSS Background Image.png",
+    projectImage: "CSS-Background-Generator/CSS-Background-Image.png",
     projectUrl: "Countdown-timer/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/CSS-Background-Generator",
 
   },
   {
     projectName: "Country_Capital_Extension",
-    projectImage: "Country_Capital_Extension\Country Capital gif.mp4",
+    projectImage: "Country_Capital_Extension/bg.jpg",
     projectUrl: "Country_Capital_Extension/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Country_Capital_Extension",
   },
@@ -34,11 +34,11 @@ let projectData = [
     projectName: "Dark-Mode",
     projectImage: "Dark-Mode/img/img_dark.jpeg",
     projectUrl: "Dark-Mode/popup.html",
-    projectDownload:"https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Dark-Mode",
+    projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Dark-Mode",
   },
   {
     projectName: "Github Extension",
-    projectImage:"Github-Extension/logo.png",
+    projectImage: "Github-Extension/logo.png",
     projectUrl: "Links-Launcher/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Github-Extension",
   },
@@ -101,7 +101,7 @@ let projectData = [
   },
   {
     projectName: "Puzzle Game",
-    projectImage: "Puzzle-Game/img/Screenshot-2022-04-08 030523.png",
+    projectImage: "Puzzle-Game/img/img.png",
     projectUrl: "Puzzle-Game/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Puzzle-Game",
 
@@ -172,7 +172,7 @@ let projectData = [
   },
   {
     projectName: "Auto Right",
-    projectImage: "Auto Right/Auto right image.png",
+    projectImage: "Auto Right/Auto-right-image.png",
     projectUrl: "Auto Right/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Auto%20Right",
   },
@@ -196,13 +196,13 @@ let projectData = [
   },
   {
     projectName: "Company Insider",
-    projectImage: "Company Insider/images/img1.JPG",
+    projectImage: "Company Insider/images/img1.png",
     projectUrl: "Company Insider/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Company%20Insider",
   },
   {
     projectName: "Control Chrome Tabs",
-    projectImage: "Control Chrome Tabs/img/000001.png",
+    projectImage: "Control_Chrome_Tabs/img/000001.png",
     projectUrl: "",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Control%20Chrome%20Tabs",
   },
@@ -226,7 +226,7 @@ let projectData = [
   },
   {
     projectName: "Note Pad",
-    projectImage: "Note Pad/img/Screenshot 2022-04-22 113100.png",
+    projectImage: "Note Pad/img/Screenshot-2022-04-22-113100.png",
     projectUrl: "Note Pad/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Note%20Pad",
   },
@@ -238,7 +238,7 @@ let projectData = [
   },
   {
     projectName: "Quick Access Google",
-    projectImage: "Quick Access Google/img/Screenshot 2022-04-12 071532.png",
+    projectImage: "Quick Access Google/img/quick.png",
     projectUrl: "Quick Access Google/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Quick%20Access%20Google",
   },
@@ -256,7 +256,7 @@ let projectData = [
   },
   {
     projectName: "User taking form",
-    projectImage: "User taking form/User Taking Form image.png",
+    projectImage: "User taking form/User-Taking-Form-image.png",
     projectUrl: "User taking form/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/User%20taking%20form",
   },
@@ -268,7 +268,7 @@ let projectData = [
   },
   {
     projectName: "Auto Fill",
-    projectImage: "Auto Fill/autofill image.png",
+    projectImage: "Auto Fill/autofill-image.png",
     projectUrl: "Auto Fill/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Auto%20Fill",
   },
@@ -286,7 +286,7 @@ let projectData = [
   },
   {
     projectName: "Calender-2",
-    projectImage: "Calender-2/Dynamic-Calender-images/Dynamic Calender2.png",
+    projectImage: "Calender-2/Dynamic-Calender-images/Dynamic-Calender2.png",
     projectUrl: "Calender-2/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Calender-2",
   },
@@ -304,7 +304,7 @@ let projectData = [
   },
   {
     projectName: "Color Picker",
-    projectImage: "Color Picker/color picker image.png",
+    projectImage: "Color Picker/color-picker-image.png",
     projectUrl: "Color Picker/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Color%20Picker",
   },
@@ -328,7 +328,7 @@ let projectData = [
   },
   {
     projectName: "Decimal_Hexadecimal_Converter",
-    projectImage: "Decimal_Hexadecimal_Converter/Decimal Hexadecimal Convertor image.png",
+    projectImage: "Decimal_Hexadecimal_Converter/Decimal-Hexadecimal-Convertor-image.png",
     projectUrl: "Decimal_Hexadecimal_Converter/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Decimal_Hexadecimal_Converter",
   },
@@ -352,7 +352,7 @@ let projectData = [
   },
   {
     projectName: "Guess_Cartoon",
-    projectImage: "Guess_Cartoon/Guess cartoon image.png",
+    projectImage: "Guess_Cartoon/Guess-cartoon-image.png",
     projectUrl: "Guess_Cartoon/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Guess_Cartoon",
   },
@@ -382,13 +382,13 @@ let projectData = [
   },
   {
     projectName: "Markdown Preview",
-    projectImage: "Markdown Preview/markdown preview image.png",
+    projectImage: "Markdown Preview/markdown-preview-image.png",
     projectUrl: "Markdown Preview/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Markdown%20Preview",
   },
   {
     projectName: "Recipe Extension",
-    projectImage: "Markdown Preview/markdown preview image.png",
+    projectImage: "Recipe Extension/images/img0.jpg",
     projectUrl: "Recipe Extension/images/img0.JPG",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Recipe%20Extension",
   },
@@ -396,11 +396,11 @@ let projectData = [
     projectName: "Riddle_Extension",
     projectImage: "Riddle_Extension/bg.png",
     projectUrl: "Riddle_Extension/popup.html",
-    projectDownload:"https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Riddle_Extension",
+    projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Riddle_Extension",
   },
   {
     projectName: "Smartphone Call",
-    projectImage: "Smartphone Call/1.jpg",
+    projectImage: "Smartphone Call/logo.png",
     projectUrl: "Smartphone Call/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Smartphone%20Call",
   },
@@ -420,35 +420,35 @@ let projectData = [
     projectName: "TIC-TAC-TOE",
     projectImage: "TIC-TAC-TOE/TICTACTOE-Image.png",
     projectUrl: "TIC-TAC-TOE/double.html",
-    projectDownload:"https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/TIC-TAC-TOE",
+    projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/TIC-TAC-TOE",
   },
   {
     projectName: "To-Do-Extension",
     projectImage: "To-Do-Extension/images/workingimage.png",
     projectUrl: "To-Do-Extension/popup.html",
-    projectDownload:"https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/To-Do-Extension",
+    projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/To-Do-Extension",
   },
   {
     projectName: "Translator",
-    projectImage: "Translator/img/Screenshot 2022-04-29 222446.png",
+    projectImage: "Translator/img/Screenshot-2022-04-29-222446.png",
     projectUrl: "Translator/index.html",
-    projectDownload:"https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Translator",
+    projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Translator",
   },
   {
     projectName: "Vocabulary Extension",
     projectImage: "Vocabulary Extension/bg.jpg",
     projectUrl: "Vocabulary Extension/popup.html",
-    projectDownload:"https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Vocabulary%20Extension",
+    projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Vocabulary%20Extension",
   },
   {
     projectName: "Weight conversion tool",
-    projectImage: "Weight conversion tool/Weight Convertor Image.png",
+    projectImage: "Weight conversion tool/Weight-Convertor-Image.png",
     projectUrl: "Weight conversion tool/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Weight%20conversion%20tool",
   },
   {
     projectName: "Wiki Search",
-    projectImage: "Wiki Search/wiki search image.png",
+    projectImage: "Wiki Search/wiki-search-image.png",
     projectUrl: "",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Wiki%20Search",
   },
@@ -462,7 +462,7 @@ let projectData = [
 
   {
     projectName: "Youtube Skip Ad",
-    projectImage: "",
+    projectImage: "Youtube Skip Ad/skip.png",
     projectUrl: "",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Youtube%20Skip%20Ad",
   },
@@ -480,7 +480,7 @@ let projectData = [
   },
   {
     projectName: "Word_Counter",
-    projectImage: "",
+    projectImage: "Word_Counter/word.png",
     projectUrl: "Word_Counter/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Word_Counter",
   },
@@ -510,13 +510,13 @@ let projectData = [
   },
   {
     projectName: "Type Color Change",
-    projectImage: "",
+    projectImage: "Type Color Change/type.png",
     projectUrl: "Type Color Change/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Type%20Color%20Change",
   },
   {
     projectName: "Today in History",
-    projectImage: "Web IDE Github/img/icon128.png",
+    projectImage: "Today in History/icon.jpeg",
     projectUrl: "Today in History/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Today%20in%20History",
   },
@@ -531,25 +531,25 @@ let projectData = [
     projectImage: "",
     projectUrl: "step-progress-bar/index.html",
     projectDownload: "",
-  },  
+  },
   {
     projectName: "Spotify_Clone",
     projectImage: "Spotify_Clone/bg.jpg",
     projectUrl: "Spotify_Clone/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Spotify_Clone",
-  },  
+  },
   {
     projectName: "Sports_Tracker",
     projectImage: "Sports_Tracker/logo.png",
     projectUrl: "Sports_Tracker/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Sports_Tracker",
-  },  
+  },
   {
     projectName: "Snake_Game",
     projectImage: "Snake_Game/bg.jpg",
     projectUrl: "Snake_Game/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Snake_Game",
-  },  
+  },
   {
     projectName: "Sketchify",
     projectImage: "Sketchify/icon128.png",
@@ -558,13 +558,13 @@ let projectData = [
   },
   {
     projectName: "Roots_Quadratic_Eqn",
-    projectImage: "",
+    projectImage: "Roots_Quadratic_Eqn/roots.png",
     projectUrl: "Roots_Quadratic_Eqn/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Roots_Quadratic_Eqn",
   },
   {
     projectName: "Random Anime Generator",
-    projectImage: "Random Anime Generator/logo.png",
+    projectImage: "Random Anime Generator/preview.jpg",
     projectUrl: "Random Anime Generator/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Random%20Anime%20Generator",
   },
@@ -576,7 +576,7 @@ let projectData = [
   },
   {
     projectName: "Profile-statistics",
-    projectImage: "",
+    projectImage: "Profile-statistics/profile.png",
     projectUrl: "Profile-statistics/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Profile-statistics",
   },
@@ -636,31 +636,31 @@ let projectData = [
   },
   {
     projectName: "Github-File_Structure",
-    projectImage: "Github-File_Structure/images\40px.png",
+    projectImage: "Github-File_Structure/images/40px.png",
     projectUrl: "",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Github-File_Structure",
   },
   {
     projectName: "GDocs Viewer",
-    projectImage: "GDocs Viewer/img/docs_spreadsheets-32.gif",
+    projectImage: "GDocs Viewer/img/gdocs-img.png",
     projectUrl: "GDocs Viewer/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/GDocs%20Viewer",
   },
   {
     projectName: "Fahrenheit_Celsius_Converter",
-    projectImage: "",
+    projectImage: "Fahrenheit_Celsius_Converter/f-to-c.png",
     projectUrl: "Fahrenheit_Celsius_Converter/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Fahrenheit_Celsius_Converter",
   },
   {
     projectName: "Emoji-rating",
-    projectImage: "",
+    projectImage: "Emoji-rating/emoji.png",
     projectUrl: "Emoji-rating/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Emoji-rating",
   },
   {
     projectName: "Dyslexic Help",
-    projectImage: "",
+    projectImage: "Dyslexic Help/images/readme.png",
     projectUrl: "Dyslexic Help/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Dyslexic%20Help",
   },
@@ -672,7 +672,7 @@ let projectData = [
   },
   {
     projectName: "DIY_extension",
-    projectImage: "DIY_extension\images/1.jpg",
+    projectImage: "DIY_extension/images/1.jpg",
     projectUrl: "DIY_extension/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/DIY_extension",
   },
@@ -684,7 +684,7 @@ let projectData = [
   },
   {
     projectName: "Dictionary_Extension",
-    projectImage: "",
+    projectImage: "Dictionary_Extension/dictonary_extension.png",
     projectUrl: "Dictionary_Extension/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Dictionary_Extension",
   },
@@ -744,13 +744,13 @@ let projectData = [
   },
   {
     projectName: "Blacklist Website",
-    projectImage: "Blacklist Website/images/icon-16x16.png",
+    projectImage: "Blacklist Website/images/blacklist.PNG",
     projectUrl: "Blacklist Website/popup.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Blacklist%20Website",
   },
   {
     projectName: "Background Generator",
-    projectImage: "Background Generator/logo.png",
+    projectImage: "Background Generator/bg-generator.png",
     projectUrl: "Background Generator/index.html",
     projectDownload: "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Background%20Generator",
   },
@@ -763,10 +763,10 @@ let projectData = [
 ];
 
 var projectDetails = projectData.slice(0);
-projectDetails.sort(function(a, b) {
-    var x = a.projectName.toLowerCase();
-    var y = b.projectName.toLowerCase();
-    return x < y ? -1 : x > y ? 1 : 0;
+projectDetails.sort(function (a, b) {
+  var x = a.projectName.toLowerCase();
+  var y = b.projectName.toLowerCase();
+  return x < y ? -1 : x > y ? 1 : 0;
 });
 
 let projectContainer = document.getElementById("js-projects");
@@ -775,10 +775,10 @@ console.log(projectContainer);
 window.addEventListener("load", getProjects());
 
 function getProjects() {
-    let output = "";
-    projectDetails.forEach(
-        (data, item) =>
-        (output += `
+  let output = "";
+  projectDetails.forEach(
+    (data, item) =>
+    (output += `
     <div class="projectCard">
     <a href=${data.projectUrl} class="hoverEffect" target="_blank">
     
@@ -797,10 +797,10 @@ function getProjects() {
     </a>
   </div>
   `)
-    );
+  );
 
-    projectContainer.innerHTML = output;
-    console.log("projectContainer", projectContainer.innerHTML);
+  projectContainer.innerHTML = output;
+  console.log("projectContainer", projectContainer.innerHTML);
 }
 
 // Search function starts
@@ -808,42 +808,41 @@ let searchInput = document.getElementById("searchBar");
 let searchText = "";
 
 searchInput.addEventListener("change", (e) => {
-    searchText = e.target.value;
+  searchText = e.target.value;
 });
 
 let searchForm = document.getElementById("searchForm");
 
 searchBtn.addEventListener("click", (e) => {
-    var filterData = [];
-    if (searchText.length !== 0) 
-    {
+  var filterData = [];
+  if (searchText.length !== 0) {
+    projectData.forEach((obj) => {
+      if (obj.projectName.toLowerCase().includes(searchText.toLowerCase())) {
+        filterData.push(obj);
+      }
+    });
+    console.log(filterData);
+
+    searchForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      var filterData = [];
+      if (searchText.length !== 0) {
         projectData.forEach((obj) => {
-            if (obj.projectName.toLowerCase().includes(searchText.toLowerCase())) {
-                filterData.push(obj);
-            }
+          if (
+            obj.projectName.toLowerCase().includes(searchText.toLowerCase())
+          ) {
+            filterData.push(obj);
+          }
         });
         console.log(filterData);
+      } else {
+        filterData = [...projectData];
 
-        searchForm.addEventListener("submit", (e) => {
-            e.preventDefault();
-            var filterData = [];
-            if (searchText.length !== 0) {
-                projectData.forEach((obj) => {
-                    if (
-                        obj.projectName.toLowerCase().includes(searchText.toLowerCase())
-                    ) {
-                        filterData.push(obj);
-                    }
-                });
-                console.log(filterData);
-            } else {
-                filterData = [...projectData];
-               
-            }
-            let filter = "";
-            filterData.forEach(
-                (data, item) =>
-                (filter += `
+      }
+      let filter = "";
+      filterData.forEach(
+        (data, item) =>
+        (filter += `
     <div class="projectCard">
     <a href=${data.projectUrl}  target="_blank">
       <img
@@ -855,42 +854,42 @@ searchBtn.addEventListener("click", (e) => {
     </a>
   </div>
   `)
-            );
-            projectContainer.innerHTML = filter;
-        });
-    }else{
-      alert("Please enter something to search!")
-    }
+      );
+      projectContainer.innerHTML = filter;
+    });
+  } else {
+    alert("Please enter something to search!")
+  }
 });
 // search function ends
 
 
-window.onscroll = function() {
-    myFunction();
+window.onscroll = function () {
+  myFunction();
 };
 
 var navbar = document.getElementById("Navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
 
-window.onscroll = function() {
-    myFunction();
+window.onscroll = function () {
+  myFunction();
 };
 
 var navbar = document.getElementById("Navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
