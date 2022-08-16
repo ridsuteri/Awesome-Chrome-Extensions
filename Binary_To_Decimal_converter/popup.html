@@ -1,28 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Binary To Decimal Converter and vice-versa Extension</title>
-</head>
-
-<body>
-      <div>  <center>
-          <label for="type"><h5>Choose The Type:</h5></label>
-          <select name="type" id="type">
-              <option value="binary">Binary</option>
-              <option value="decimal">Decimal</option>
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" >
+    <title>Number System Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4 class="text-center m-2 pb-2">Number System Converter</h4>
+      <div class="d-flex my-2">
+        <div class="input-group mx-2">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="from">From</label>
+          </div>
+          <select
+            class="custom-select"
+            name="from"
+            id="from"
+          >
+            <!-- <option selected>Choose...</option> -->
+            <option value="decimal">Decimal</option>
+            <option value="octal">Octal</option>
+            <option value="binary">Binary</option>
+            <option value="hexadecimal">Hexadecimal</option>
           </select>
-     <h5>Enter The Number: </h5><input size="20" class="num"><br>
-     
-        <input id="clickme" type="button" value="Convert" class="btn btn-primary"/>
-        <input id="reset" type="button" value="Reset" class="btn btn-dark"/>
-      <p  class="output"></p></center></div>
+        </div>
+        <div class="input-group mx-2">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="to">To</label>
+          </div>
+          <select
+            class="custom-select"
+            name="to"
+            id="to"
+          >
+            <option value="binary">Binary</option>
+            <option value="decimal">Decimal</option>
+            <option value="octal">Octal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column mx-2">
+        <label class="fs-6 mt-2" for="input">Enter number</label>
+        <input type="text" id="input" class="form-control">
+      </div>
+
+      <div class="d-flex w-full justify-content-center">
+        <input type="button" id="clickme" value="Convert" class="btn btn-primary m-2"
+        >
+        <input type="button" id="reset" value="Reset" class="btn btn-dark m-2">
+      </div>
+      
+      <div class="w-full mx-2 mt-2">
+        <p aria-placeholder="sdf" class="form-control" id="output">output...</p>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
+</html>
