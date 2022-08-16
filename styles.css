@@ -1,18 +1,14 @@
+/* resets */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: 'Archivo',sans-serif;
-    background-color: #1A1A1D;
-    color: #45A29E;
-}
 /* body.dark-mode a {
     color: #111;
 } */
-body.dark-mode a {
-    color: #111;
+body.dark-mode{
+    background-color: rgb(64, 64, 64);
 }
 
 body.light-mode footer {
@@ -25,7 +21,7 @@ body.dark-mode button {
     color: #111;
 }
 
-body.dark-mode h4 {
+body.dark-mode h5 {
     color: rgb(255, 255, 255);
 }
 
@@ -56,12 +52,12 @@ body.light-mode svg {
     fill: #151513;
     color: #fff;
 }
-.hero {
+
+.hero{
     height: 25rem;
     color: aliceblue;
     background-color: black;
 }
-
 .toggleButton {
     float: right;
     margin: 2rem;
@@ -69,7 +65,6 @@ body.light-mode svg {
     border-radius: 50px;
     cursor: pointer;
 }
-
 /* navigation bar */
 nav {
     background-color: #000000;
@@ -77,6 +72,7 @@ nav {
     height: 6rem;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
 }
 
 label.shadow {
@@ -235,70 +231,125 @@ nav ul li a:hover {
     font-size: 2.2rem;
     padding: 10rem 1rem 2rem 1rem;
 }
-
-.hero-desc {
+.hero-desc{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: gray;
 }
-h3 {
-    font-family: 'Julius Sans One',
-        sans-serif;
-    text-align: left;
-    font-size: 1.5rem;
-    padding: 1rem;
 
+/* search box */
+.search-box {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-h4 {
-    font-family: 'Julius Sans One',
-    ;
-    text-align: left;
+.search-txt[type=text] {
+    width: 20rem;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #0B0C10;
+    color: azure;
+    border: none;
+    padding: 5px 10px;
+}
+
+.search-btn {
+    height: 35px;
+    width: 50px;
+    background-color: #45A29E;
+    color: azure;
+    padding: 5px 10px;
+    margin-right: 16px;
+    margin-left: 5px;
+    font-size: 12px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* cards */
+.body{
+    /* display: flex; */
+    
+    display: flex;
+    justify-content: center;
+
+}
+.project-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+.projectCard {
+    width: 33.3%;
+    /* height: 20rem; */
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border-radius: 10px;
+}
+.projectCard:hover {
+    border: 1px #45A19F;
+    border-style:double;
+    background-color: rgba(0, 0, 0, 0.701);
+    transform: scale(1.02);
+}
+
+.projectCardImg{
+    display: flex;
+    position: relative;
+    margin: 1rem 7rem;
+    background-color: #0000006d;
+    border-radius: 10px;
+    width: 60%;
+    justify-self: center;
+    height: 15rem;
+}
+.projectCardTitle{
+    display: inline-block;
+    width: 100%;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    padding: 1rem;
-
-}
-
-p {
-    font-family: 'Julius Sans One',
-    ;
-    text-align: left;
-    font-size: 1rem;
-    padding: 1rem;
-
-}
-.body {
-    padding: 0px 10rem;
     text-align: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-bottom: 40px;
-}
-footer {
-    /* background-color: #19172e; */
-    /* position: fixed; */
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 0;
-    padding: 10px;
-    line-height: 3vh;
-    margin-top: 30px;
 }
 
-footer a:visited {
-    color: white;
 
+.projectCardTitle:hover {
+    color: #45A29E;
 }
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column;
-    }
+.projectCardDownload{
+    background-color: rgb(40, 40, 40);
+    padding: 0.3rem;
+    margin: 0 43% 1rem;
+    color: #45A29E;
+    display: inline-block;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
 }
+
+
+.project-section a {
+    text-decoration: none;
+}
+
+.project-section p {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.project-section p:hover {
+   color: white;
+    transform: scale(1.10);
+}
+
+/* scroll bar */
 
 .scrollToTop {
     position: fixed;
@@ -323,4 +374,25 @@ footer a:visited {
 
 .scrollToTop:hover {
     background-color: #45A29E;
+}
+
+/* footer */
+footer {
+    /* background-color: #19172e; */
+    /* position: fixed; */
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    line-height: 3vh;
+    margin-top: 30px;
+}
+
+footer a:visited {
+    color: white;
+
 }
