@@ -1,0 +1,20 @@
+{
+"manifest_version":2 ,
+    "name": "Cube Solver",
+    "description":"Solve Cube On the Go!!",
+    "version": "1.0.0" ,
+    "background" : {
+        "page" : "index.html",
+        "script": "script.js"
+      },
+    "browser_action":{
+        "default_title" : "Rubick's Solve",
+        "default_popup":"index.html"
+    },
+    "icons":{"128":"logo.png"},
+
+    "permissions":["activeTab","storage"],
+
+    "options_page": "index.html"   
+
+}

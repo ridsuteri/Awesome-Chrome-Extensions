@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 150vh;
+    overflow: hidden;
+    background-image: url('./bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color: #cdfbc3;
+    padding: 31px 49px;
+    width: 60%;
+    margin-top: 40px;
+    border-radius: 19px;
+    border: 3px solid green;
+    
+}
+#ans{
+    background-color: rgb(255, 245, 151);
+    font-family: emoji;
+    color: black;
+    padding: 16px 20px;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.7s ease-in-out;
+    display: none;
+    margin-top: 30px;
+    border: 2px dotted rgb(198, 144, 5);
+    
+}
+label{
+    font-family: serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+#btn{
+    background-color: #ffcdcd;;
+    padding: 6px 20px;
+    font-size: 20px;
+    font-family: serif;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+#btn:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: #f98b8b;
+    box-shadow: 5px 5px  8px rgb(67, 62, 62);
+}
+.container input{
+    border: 2px solid black;
+    font-size: 19px;
+    color: #1d981d;
+    font-weight: 600;
+    font-family: serif;
+}
+.container select{
+    border: 2px solid black;
+    color: #1d981d;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: serif;
+}
+.container option{
+    font-size: 19px;
+    font-family: serif;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    font-family: emoji;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(5, 119, 5);
+}

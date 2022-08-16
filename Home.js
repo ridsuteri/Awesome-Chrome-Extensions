@@ -1,3 +1,73 @@
+// selectors
+const hamburger = document.querySelector(".hamburger");
+const back = document.querySelector(".menu-back");
+const goTop = document.querySelector(".goTop");
+let projectContainer = document.querySelector(".projects");
+const header = document.querySelector("nav");
+
+// initalise aos animation library
+AOS.init();
+
+// scroll effects
+goTop.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});
+
+addEventListener("scroll", () => {
+  if (window.scrollY > 300) goTop.classList.add("hide");
+  else goTop.classList.remove("hide");
+});
+
+// hamburger menu
+
+hamburger.addEventListener("click", () => {
+  document.querySelector(".menu").classList.toggle("active");
+});
+back.addEventListener("click", () => {
+  document.querySelector(".menu").classList.toggle("active");
+});
+
+// css variables
+let planet = document.querySelector("#mode ion-icon");
+
+var isDark = false;
+var r = document.querySelector(":root");
+const mode = document.querySelector("#mode");
+mode.addEventListener("click", () => {
+  if (isDark) {
+    set_light();
+    isDark = false;
+    planet.name = "moon";
+    planet.style.color = "#46244c";
+  } else {
+    isDark = true;
+    set_dark();
+    planet.name = "sunny";
+    planet.style.color = "rgb(184, 184, 76)";
+  }
+});
+function set_light() {
+  r.style.setProperty("--header", "#46244c");
+  r.style.setProperty("--text", "#712b75");
+  r.style.setProperty("--button", "#c74b50");
+  r.style.setProperty("--hover", "#d49b54");
+  r.style.setProperty("--shad", "rgb(209, 208, 208)");
+  r.style.setProperty("--navColor", "rgba(250, 250, 250, 0.9)");
+  r.style.setProperty("--dark-yellow", "#c27a23");
+  r.style.setProperty("--body", "white");
+}
+function set_dark() {
+  r.style.setProperty("--header", "rgba(250, 250, 250, 0.9)");
+  r.style.setProperty("--text", "#712b75");
+  r.style.setProperty("--button", "#712b75");
+  r.style.setProperty("--hover", "#d49b54");
+  r.style.setProperty("--navColor", "rgba(0, 0, 0, 0.9)");
+  r.style.setProperty("--shad", "black");
+  r.style.setProperty("--dark-yellow", "#c27a23");
+  r.style.setProperty("--body", "black");
+}
+
+// projects
 let projectData = [
   {
     projectName: "Ad-Blocker",
@@ -193,15 +263,15 @@ let projectData = [
   },
   {
     projectName: "Auto Right",
-    projectImage: "Auto Right/Auto-right-image.png",
-    projectUrl: "Auto Right/index.html",
+    projectImage: "AutoRight/Auto-right-image.png",
+    projectUrl: "AutoRight/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Auto%20Right",
   },
   {
     projectName: "Background Remover",
-    projectImage: "Background Remover/logo.png",
-    projectUrl: "Background Remover/popup.html",
+    projectImage: "BackgroundRemover/logo.png",
+    projectUrl: "BackgroundRemover/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Background%20Remover",
   },
@@ -214,14 +284,14 @@ let projectData = [
   },
   {
     projectName: "Calculate Age",
-    projectImage: "Calculate Age/logo.png",
-    projectUrl: "Calculate Age/index.html",
+    projectImage: "CalculateAge/logo.png",
+    projectUrl: "CalculateAge/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Calculate%20Age",
   },
   {
     projectName: "Company Insider",
-    projectImage: "Company Insider/images/img1.png",
+    projectImage: "CompanyInsider/images/img1.png",
     projectUrl: "Company Insider/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Company%20Insider",
@@ -249,28 +319,28 @@ let projectData = [
   },
   {
     projectName: "Music player",
-    projectImage: "Music player/musician-349790.jpg",
+    projectImage: "Musicplayer/musician-349790.jpg",
     projectUrl: "Music player/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Music%20player",
   },
   {
     projectName: "Note Pad",
-    projectImage: "Note Pad/img/Screenshot-2022-04-22-113100.png",
+    projectImage: "NotePad/img/Screenshot-2022-04-22-113100.png",
     projectUrl: "Note Pad/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Note%20Pad",
   },
   {
     projectName: "Phone Checker",
-    projectImage: "Phone Checker/images/img0.JPG",
+    projectImage: "PhoneChecker/images/img0.JPG",
     projectUrl: "Phone Checker/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Phone%20Checker",
   },
   {
     projectName: "Quick Access Google",
-    projectImage: "Quick Access Google/img/quick.png",
+    projectImage: "QuickAccessGoogle/img/quick.png",
     projectUrl: "Quick Access Google/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Quick%20Access%20Google",
@@ -284,14 +354,14 @@ let projectData = [
   },
   {
     projectName: "Twitter Context Menu",
-    projectImage: "Twitter Context Menu/img/aok2.png",
+    projectImage: "TwitterContextMenu/img/aok2.png",
     projectUrl: "",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Twitter%20Context%20Menu",
   },
   {
     projectName: "User taking form",
-    projectImage: "User taking form/User-Taking-Form-image.png",
+    projectImage: "Usertakingform/User-Taking-Form-image.png",
     projectUrl: "User taking form/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/User%20taking%20form",
@@ -305,7 +375,7 @@ let projectData = [
   },
   {
     projectName: "Auto Fill",
-    projectImage: "Auto Fill/autofill-image.png",
+    projectImage: "AutoFill/autofillimage.png",
     projectUrl: "Auto Fill/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Auto%20Fill",
@@ -347,7 +417,7 @@ let projectData = [
   },
   {
     projectName: "Color Picker",
-    projectImage: "Color Picker/color-picker-image.png",
+    projectImage: "ColorPicker/color-picker-image.png",
     projectUrl: "Color Picker/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Color%20Picker",
@@ -361,7 +431,7 @@ let projectData = [
   },
   {
     projectName: "Cookie Editor",
-    projectImage: "Cookie Editor/img/sscookie.png",
+    projectImage: "CookieEditor/img/sscookie.png",
     projectUrl: "Cookie Editor/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Cookie%20Editor",
@@ -390,7 +460,7 @@ let projectData = [
   },
   {
     projectName: "File Counter",
-    projectImage: "File counter/img/ssfilecount.png",
+    projectImage: "Filecounter/img/ssfilecount.png",
     projectUrl: "File counter/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/File%20counter",
@@ -439,14 +509,14 @@ let projectData = [
   },
   {
     projectName: "Markdown Preview",
-    projectImage: "Markdown Preview/markdown-preview-image.png",
+    projectImage: "MarkdownPreview/markdown-preview-image.png",
     projectUrl: "Markdown Preview/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Markdown%20Preview",
   },
   {
     projectName: "Recipe Extension",
-    projectImage: "Recipe Extension/images/img0.jpg",
+    projectImage: "RecipeExtension/images/img0.jpg",
     projectUrl: "Recipe Extension/images/img0.JPG",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Recipe%20Extension",
@@ -460,21 +530,21 @@ let projectData = [
   },
   {
     projectName: "Smartphone Call",
-    projectImage: "Smartphone Call/logo.png",
+    projectImage: "SmartphoneCall/logo.png",
     projectUrl: "Smartphone Call/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Smartphone%20Call",
   },
   {
     projectName: "Speech Recognition",
-    projectImage: "Speech Recognition/img/ss2speech.png",
+    projectImage: "SpeechRecognition/img/ss2speech.png",
     projectUrl: "Speech Recognition/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Speech%20Recognition",
   },
   {
     projectName: "Text To Speech",
-    projectImage: "Text To Speech/preview1.jpg",
+    projectImage: "TextToSpeech/preview1.jpg",
     projectUrl: "Text To Speech/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Text%20To%20Speech",
@@ -502,21 +572,21 @@ let projectData = [
   },
   {
     projectName: "Vocabulary Extension",
-    projectImage: "Vocabulary Extension/bg.jpg",
+    projectImage: "VocabularyExtension/bg.jpg",
     projectUrl: "Vocabulary Extension/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Vocabulary%20Extension",
   },
   {
     projectName: "Weight conversion tool",
-    projectImage: "Weight conversion tool/Weight-Convertor-Image.png",
+    projectImage: "Weightconversiontool/Weight-Convertor-Image.png",
     projectUrl: "Weight conversion tool/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Weight%20conversion%20tool",
   },
   {
     projectName: "Wiki Search",
-    projectImage: "Wiki Search/wiki-search-image.png",
+    projectImage: "WikiSearch/wiki-search-image.png",
     projectUrl: "",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Wiki%20Search",
@@ -531,21 +601,21 @@ let projectData = [
 
   {
     projectName: "Youtube Skip Ad",
-    projectImage: "Youtube Skip Ad/skip.png",
+    projectImage: "YoutubeSkipAd/skip.png",
     projectUrl: "",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Youtube%20Skip%20Ad",
   },
   {
     projectName: "Youtube Save",
-    projectImage: "Youtube Save/logo.png",
+    projectImage: "YoutubeSave/logo.png",
     projectUrl: "Youtube Save/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Youtube%20Save",
   },
   {
     projectName: "Youtube Playlist Duration",
-    projectImage: "Youtube Playlist Duration/logo.png",
+    projectImage: "YoutubePlaylistDuration/logo.png",
     projectUrl: "",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Youtube%20Playlist%20Duration",
@@ -559,14 +629,14 @@ let projectData = [
   },
   {
     projectName: "Word Typing Game",
-    projectImage: "Word Typing Game/logo.png",
+    projectImage: "WordTypingGame/logo.png",
     projectUrl: "Word Typing Game/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Word%20Typing%20Game",
   },
   {
     projectName: "Web IDE Github",
-    projectImage: "Web IDE Github/img/icon128.png",
+    projectImage: "WebIDEGithub/img/icon128.png",
     projectUrl: "Web IDE Github/html/options.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Web%20IDE%20Github",
@@ -580,28 +650,28 @@ let projectData = [
   },
   {
     projectName: "Voice Selection",
-    projectImage: "Voice Selection/SpeakSel16.png",
+    projectImage: "VoiceSelection/SpeakSel16.png",
     projectUrl: "Voice Selection/options.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Voice%20Selection",
   },
   {
     projectName: "Type Color Change",
-    projectImage: "Type Color Change/type.png",
+    projectImage: "TypeColorChange/type.png",
     projectUrl: "Type Color Change/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Type%20Color%20Change",
   },
   {
     projectName: "Today in History",
-    projectImage: "Today in History/icon.jpeg",
+    projectImage: "TodayinHistory/icon.jpeg",
     projectUrl: "Today in History/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Today%20in%20History",
   },
   {
     projectName: "Tip Calculator",
-    projectImage: "Tip Calculator/images.png",
+    projectImage: "TipCalculator/images.png",
     projectUrl: "Tip Calculator/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Tip%20Calculator",
@@ -649,7 +719,7 @@ let projectData = [
   },
   {
     projectName: "Random Anime Generator",
-    projectImage: "Random Anime Generator/preview.jpg",
+    projectImage: "RandomAnimeGenerator/preview.jpg",
     projectUrl: "Random Anime Generator/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Random%20Anime%20Generator",
@@ -670,7 +740,7 @@ let projectData = [
   },
   {
     projectName: "Paragarph Generator",
-    projectImage: "Paragrph Generator/logo.png",
+    projectImage: "ParagrphGenerator/logo.png",
     projectUrl: "Paragrph Generator/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Paragrph%20Generator",
@@ -691,7 +761,7 @@ let projectData = [
   },
   {
     projectName: "Live CSS Style Editor",
-    projectImage: "Live CSS Style Editor/icons/icon-64.png",
+    projectImage: "LiveCSSStyleEditor/icons/icon-64.png",
     projectUrl: "Live CSS Style Editor/external-editor.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Live%20CSS%20Style%20Editor",
@@ -705,7 +775,7 @@ let projectData = [
   },
   {
     projectName: "JSON File Formatter",
-    projectImage: "JSON File Formatter/logo32.png",
+    projectImage: "JSONFileFormatter/logo32.png",
     projectUrl: "",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/JSON%20File%20Formatter",
@@ -719,14 +789,14 @@ let projectData = [
   },
   {
     projectName: "Google Drive Saver",
-    projectImage: "Google Drive Saver/images/driveicon128.png",
+    projectImage: "GoogleDriveSaver/images/driveicon128.png",
     projectUrl: "Google Drive Saver/captureselect.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Google%20Drive%20Saver",
   },
   {
     projectName: "Gmail Analytics",
-    projectImage: "Gmail Analytics/gmail_logged_in.png",
+    projectImage: "GmailAnalytics/gmail_logged_in.png",
     projectUrl: "Gmail Analytics/background.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Gmail%20Analytics",
@@ -740,7 +810,7 @@ let projectData = [
   },
   {
     projectName: "GDocs Viewer",
-    projectImage: "GDocs Viewer/img/gdocs-img.png",
+    projectImage: "GDocsViewer/img/gdocs-img.png",
     projectUrl: "GDocs Viewer/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/GDocs%20Viewer",
@@ -761,7 +831,7 @@ let projectData = [
   },
   {
     projectName: "Dyslexic Help",
-    projectImage: "Dyslexic Help/images/readme.png",
+    projectImage: "DyslexicHelp/images/readme.png",
     projectUrl: "Dyslexic Help/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Dyslexic%20Help",
@@ -802,7 +872,7 @@ let projectData = [
   },
   {
     projectName: "DevQuery Comment",
-    projectImage: "DevQuery Comment/logo.png",
+    projectImage: "DevQueryComment/logo.png",
     projectUrl: "DevQuery Comment/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/DevQuery%20Comment",
@@ -815,7 +885,7 @@ let projectData = [
   },
   {
     projectName: "Cube Game",
-    projectImage: "Cube Game/logo.png",
+    projectImage: "CubeGame/logo.png",
     projectUrl: "Cube Game/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Cube%20Game",
@@ -843,7 +913,7 @@ let projectData = [
   },
   {
     projectName: "Competitive Coding Contest Reminder",
-    projectImage: "Competitive Coding Contest Reminder/logo.png",
+    projectImage: "CompetitiveCodingContestReminder/logo.png",
     projectUrl: "Competitive Coding Contest Reminder/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Competitive%20Coding%20Contest%20Reminder",
@@ -857,14 +927,14 @@ let projectData = [
   },
   {
     projectName: "Blacklist Website",
-    projectImage: "Blacklist Website/images/blacklist.PNG",
+    projectImage: "BlacklistWebsite/images/blacklist.PNG",
     projectUrl: "Blacklist Website/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Blacklist%20Website",
   },
   {
     projectName: "Background Generator",
-    projectImage: "Background Generator/bg-generator.png",
+    projectImage: "BackgroundGenerator/bg-generator.png",
     projectUrl: "Background Generator/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Background%20Generator",
@@ -885,50 +955,50 @@ projectDetails.sort(function (a, b) {
   return x < y ? -1 : x > y ? 1 : 0;
 });
 
-let projectContainer = document.getElementById("js-projects");
-console.log(projectContainer);
-
 window.addEventListener("load", getProjects());
 
 function getProjects() {
-  let output = "";
+  var output = "";
   projectDetails.forEach(
     (data, item) =>
       (output += `
-    <div class="projectCard">
-    <a href=${data.projectUrl} class="hoverEffect" target="_blank">
-    
-    
-    <img
-    class="projectCardImg"
-    src=${data.projectImage}
-    alt="Project Image"
-    />
-   
-    <h5 class="projectCardTitle">${data.projectName} </h5>
-    
-    
-    <a href=${data.projectDownload} download="extension" target="_blank">
-    <button class=projectCardDownload" type="button">Download</button></a>
-    </a>
-  </div>
-  `)
+      <div class="aos" data-aos="fade-up" data-aos-once="true">
+      <div class="projectCard">
+      <a href=${data.projectUrl} class="hoverEffect" target="_blank">
+      <img
+      class="projectCardImg"
+      src=${data.projectImage}
+      alt="Project Image"
+      /></a>
+      <h3 class="projectCardTitle">${data.projectName} </h3>
+      <a href=${data.projectDownload} download="extension" target="_blank">
+      <button class="btn projectCardDownload" type="button">Download<i class="fa fa-download" style="font-size:24px"></i></button>
+      </a>
+    </div>
+    </div>
+    `)
   );
-
+  console.log(output);
   projectContainer.innerHTML = output;
 }
 
-// Search function starts
-let searchInput = document.getElementById("searchBar");
+// // Search function starts
+let searchForm = document.querySelector(".search");
+let searchBtn = document.querySelector(".search button");
+let searchInput = document.querySelector(".search input");
 let searchText = "";
 
 searchInput.addEventListener("change", (e) => {
   searchText = e.target.value;
+  display();
 });
 
-let searchForm = document.getElementById("searchForm");
-
 searchBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  display();
+});
+
+function display() {
   var filterData = [];
   if (searchText.length !== 0) {
     projectData.forEach((obj) => {
@@ -936,49 +1006,32 @@ searchBtn.addEventListener("click", (e) => {
         filterData.push(obj);
       }
     });
-    console.log(filterData);
-
-    searchForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      var filterData = [];
-      if (searchText.length !== 0) {
-        projectData.forEach((obj) => {
-          if (
-            obj.projectName.toLowerCase().includes(searchText.toLowerCase())
-          ) {
-            filterData.push(obj);
-          }
-        });
-        console.log(filterData);
-      } else {
-        filterData = [...projectData];
-      }
-      let filter = "";
-      filterData.forEach(
-        (data, item) =>
-          (filter += `
-          <div class="projectCard">
-    <a href=${data.projectUrl} class="hoverEffect" target="_blank">
-    
-    
-    <img
-    class="projectCardImg"
-    src=${data.projectImage}
-    alt="Project Image"
-    />
-   
-    <h5 class="projectCardTitle">${data.projectName} </h5>
-    
-    
-    <a href=${data.projectDownload} download="extension" target="_blank">
-    <button class=projectCardDownload" type="button">Download<i class="fa fa-download" style="font-size:24px"></i></button></a>
-    </a>
-  </div>
-  `)
-      );
-      projectContainer.innerHTML = filter;
-    });
   } else {
-    alert("Please enter something to search!");
+    filterData = [...projectData];
   }
-});
+  let filter = "";
+  if (filterData.length === 0) {
+    filter = "<h2>No search results...</h2>";
+  } else {
+    filterData.forEach(
+      (data, item) =>
+        (filter += `
+        <div class="aos" data-aos="fade-up" data-aos-once="true">
+        <div class="projectCard">
+        <a href=${data.projectUrl} class="hoverEffect" target="_blank">
+        <img
+        class="projectCardImg"
+        src=${data.projectImage}
+        alt="Project Image"
+        /></a>
+        <h3 class="projectCardTitle">${data.projectName} </h3>
+        <a href=${data.projectDownload} download="extension" target="_blank">
+        <button class="btn projectCardDownload" type="button">Download<i class="fa fa-download" style="font-size:24px"></i></button>
+        </a>
+      </div>
+      </div>
+    `)
+    );
+  }
+  projectContainer.innerHTML = filter;
+}
