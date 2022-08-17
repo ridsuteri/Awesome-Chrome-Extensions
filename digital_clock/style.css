@@ -11,13 +11,17 @@ body{
     overflow: hidden;
 }
 #clock{
+
    border:  3px solid #ff00ff;
    text-align: center;
+   /* width: 100%;
+   height:100% */
+   width: 440px;
    border-radius: 5px;
    color: white;
    font-size: 75px;
    padding: 60px;
-   -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
+   -webkit-box-reflect: below 0.1px linear-gradient(transparent,rgba(255,255,255,0.1));
 }
 h1{
     font-size: 70px;
@@ -26,8 +30,35 @@ h1{
     text-align: center;
 }
 #clock:hover{
-    background-color: #ff00ff;
+    color: black;
+    background-color: white;
+
     transition: all 0.5s ease-in-out;
     box-shadow: 0 0 12px 6px #ff00ff;
-    
+
 }
+#divButton{
+  text-align: center;
+  padding: 40px;
+}
+button {
+          /* display: block;
+          position: relative;
+          top: 30px;
+          left: 180px; */
+          padding: 10px;
+          font-size: 1rem;
+          font-family:Arial;
+          width: 20%;
+          border-width:1px;
+          color:#757d6f;
+          border-color:#b2b8ad;
+          font-weight:bold;
+          border-radius: 6px;
+          box-shadow:inset 0px 0px 14px -3px #f2fadc;
+          text-shadow:inset 0px 1px 0px #ced9bf;
+          background:linear-gradient(#dbe6c4, #9ba892);
+        }
+        button:hover {
+          background: linear-gradient(#9ba892, #dbe6c4);
+        }
