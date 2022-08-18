@@ -1,0 +1,20 @@
+{
+"manifest_version":2 ,
+    "name": "Paragraph Generator",
+    "description":"Generate specific number of paragraph",
+    "version": "1.0.0" ,
+    "background" : {
+        "page" : "index.html",
+        "script": "script.js"
+      },
+    "browser_action":{
+        "default_title" : "Paragraph Generator",
+        "default_popup":"index.html"
+    },
+    "icons":{"128":"logo.png"},
+
+    "permissions":["activeTab","storage"],
+
+    "options_page": "index.html"   
+
+}

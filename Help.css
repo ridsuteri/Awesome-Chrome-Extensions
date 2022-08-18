@@ -1,0 +1,135 @@
+:root {
+    --header: #46244c;
+    --text: #712b75;
+    --button: #c74b50;
+    --hover: #d49b54;
+    --shad: rgb(209, 208, 208);
+    --navColor: rgba(250, 250, 250, 0.9);
+    --dark-yellow: #c27a23;
+    --body: white;
+}
+*{
+    text-decoration: none;
+}
+
+/* hero section */
+.about-hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    padding: 1rem 10vw;
+}
+.about-hero h1{
+    font-size: 4rem;
+    color: var(--header);
+}
+.about-hero p{
+    color: var(--text);
+    font-size: 2rem;
+}
+.line{
+    width: 60%;
+    margin: 20px;
+    border-bottom: 2px solid var(--dark-yellow);
+}
+/* media queries */
+@media screen and (max-width: 1050px) {
+    .about-hero h1{
+        font-size: 3.5rem;
+        color: var(--header);
+    }
+    .about-hero p{
+        color: var(--text);
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 750px) {
+    .about-hero h1{
+        font-size: 3.2rem;
+        color: var(--header);
+    }
+    .about-hero p{
+        color: var(--text);
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .container{
+        padding: 1rem 5vw;
+    }
+    .about-hero h1{
+        font-size: 2.7rem;
+        color: var(--header);
+    }
+    .about-hero p{
+        color: var(--text);
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .container{
+        padding: 1rem 5vw;
+    }
+    .about-hero h1{
+        font-size: 2.2rem;
+        color: var(--header);
+    }
+    .about-hero p{
+        color: var(--text);
+        font-size: 1rem;
+    }
+}
+
+/* guidelines */
+.guide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem;
+}
+.guide h3, .guide ol li, .guide p, .guide ol li{
+    color: var(--header);
+}
+.guide h3{
+    font-size: 2rem;
+}
+.guide ol li, .guide p, .guide ol li{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.guide .code{
+    color: var(--button);
+}
+/* media queries */
+@media screen and (max-width: 700px) {
+    .guide ol li, .guide p{
+        font-size: 1rem;
+    }
+    .guide{
+        margin: 1.4rem 1rem;
+    }
+    .guide h3{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .guide ol li, .guide p{
+        font-size: 0.8rem;
+    }
+    .guide{
+        margin: 1.2rem 1rem;
+    }
+    .guide h3{
+        font-size: 1.2rem;
+    }
+}
+.new h3{
+    text-align: center;
+    margin-top: 10px;
+}
