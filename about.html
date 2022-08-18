@@ -1,161 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <link rel="stylesheet" href="navstyle.css"> -->
-  <link rel="stylesheet" href="stylehelp.css" />
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <script language="JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-
-  
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <!--<script src="script.js"></script>-->
-  
-
-  <title>Awesome Chrome Extensions</title>
-</head>
-<body id="body" class="dark-mode">
-  <div class="hero">
-    <nav id="body" class="dark-mode">
-      <!--Dark mode button-->
-      
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label> 
-      <label class="shadow">Awesome Chrome Extensions</label>
-      
-      <ul>
-        <li><a href="index.html" class="active" >Home</a></li>
-        <li><a href="help.html" class="active" >Help</a></li>
-        
-        
-      </ul>
-      <button id="toggle" class="toggleButton" type="button" onclick="toggleDarkLight()">☀️</button> 
-        <section>
-            <ul>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aos animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css files -->
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="Help.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="navbar">
+        <a href="Home.html">
+          <h1 class="brand">Awesome Chrome Extensions</h1></a
+        >
+        <div class="menu">
+          <div class="nav-icon menu-back">
+            <ion-icon name="arrow-back"></ion-icon>
+          </div>
+          <div class="nav-icon" id="mode">
+            <ion-icon name="moon"></ion-icon>
+          </div>
+          <a href="Home.html">
+            <button class="btn">HOME</button>
+          </a>
+          <a href="Help.html">
+            <button class="btn">HELP</button>
+          </a>
+        </div>
+        <div class="nav-icon hamburger"><ion-icon name="menu"></ion-icon></div>
+      </div>
     </nav>
-    
+    <!-- help-hero -->
+    <div class="about-hero container">
+      <h1>Do you want some awesome chrome extensions❓</h1>
+      <p>
+        This website contains custom-built Chrome extension that you can tweak
+        according to your needs and use them in your browsers
+      </p>
+      <div class="line"></div>
+      <p>
+        Awesome Chrome Extensions contains many awesome extensions, each built
+        using javascript and every extension will teach you some new and
+        important javascript concepts.
+      </p>
+      <div class="line"></div>
+    </div>
+    <!-- Octocat svg -->
+    <a
+      href="https://github.com/ridsuteri/Awesome-Chrome-Extensions"
+      class="github-corner"
+      target="_blank"
+      aria-label="View source on GitHub"
+      ><svg
+        width="80"
+        height="80"
+        viewBox="0 0 200 250"
+        style="
+          position: fixed;
+          bottom: 0;
+          border: 0;
+          left: 0;
+          transform: rotate(180deg);
+        "
+        aria-hidden="true"
+      >
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor"
+          style="transform-origin: 130px 106px"
+          class="octo-arm"
+        ></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor"
+          class="octo-body"
+        ></path></svg
+    ></a>
+    <!-- extension-guide -->
+    <div class="guide container">
+      <h3>How to use these extensions?</h3>
+      <p>
+        If you'd like to use these extensions for yourself, or perhaps use parts
+        of it and modify the rest, here's how you will need to set it up:
+      </p>
+      <ol>
+        <li>Clone this repository.</li>
+        <li>Find out the extension that excites you.</li>
+        <li>
+          If you'd like to further customize it or make any other edits to the
+          page, you will likely want to do that in either the popup.html file or
+          the script.js file.
+        </li>
+        <li>
+          Once you've made your desired changes (if any), open Chrome and
+          navigate to chrome://extensions/.
+        </li>
+        <li>
+          Click the toggle in the upper-right corner marker "Developer Mode".
+        </li>
+        <li>
+          You should then see three new buttons towards the top of your screen.
+        </li>
+        <li>
+          Click "Load Unpacked", and then select the folder containing this
+          repository.
+        </li>
+        <li>You can then turn off Developer Mode.</li>
+        <li>
+          Now, when you open up a new tab, you should see the customized page!
+        </li>
+      </ol>
+    </div>
+    <!-- weird lines -->
+    <div class="guide container">
+      <p class="code">
+        The Main Motive of this project is to make you ❎fall ☑️rise in love
+        with Javascript. You will be in love with the beauty of Javascript. So,
+        What are you waiting for? 😏
+      </p>
+      <div class="line"></div>
+      <p class="code">
+        To maintain a safe and inclusive space for everyone to learn and grow,
+        contributors are advised to follow the Code of Conduct. CODE OF
+        CONDUCT:🔗
+      </p>
+      <div class="line"></div>
+    </div>
+    <!-- authors -->
+    <div class="guide new">
+      <h3>
+        PROJECT ADMIN : Riddhi Suteri<a
+          href="https://github.com/ridsuteri"
+          target="_blank"
+          >🔗</a
+        >
+      </h3>
+      <h3>
+        MENTOR : Praniti Parmar<a
+          href="https://github.com/praniti111"
+          target="_blank"
+          >🔗</a
+        >
+      </h3>
+      <h3>
+        MENTOR: Akshima Ghai<a
+          href="https://github.com/Akshima-Ghai"
+          target="_blank"
+          >🔗</a
+        >
+      </h3>
+      <h3>
+        MENTOR : Omraj Sharma<a
+          href="https://github.com/omrajsharma"
+          target="_blank"
+          >🔗</a
+        >
+      </h3>
+      <h3>
+        MENTOR: Nikhil Barik<a
+          href="https://github.com/nerdynikhil"
+          target="_blank"
+          >🔗</a
+        >
+      </h3>
+    </div>
 
-     <!-- Octocat svg -->
-     <a
-     href="https://github.com/ridsuteri/Awesome-Chrome-Extensions"
-     class="github-corner"
-     target="_blank"
-     aria-label="View source on GitHub"
-     ><svg
-       width="80"
-       height="80"
-       viewBox="0 0 250 250"
-       style="
-         position: fixed;
-         top: 0;
-         border: 0;
-         right: 0;
-       "
-       aria-hidden="true"
-     >
-       <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-       <path
-         d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-         fill="currentColor"
-         style="transform-origin: 130px 106px"
-         class="octo-arm"
-       ></path>
-       <path
-         d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-         fill="currentColor"
-         class="octo-body"
-       ></path></svg></a
-   >
- <!-- Octocat svg end -->
- <h1 class="hero-heading">Do you want some awesome chrome extensions❓</h1>
-     <br>
-<p class="hero-desc">This website contains custom-built Chrome extension that you can tweak according to your needs and use them in your browsers</p>
- </div>
- <!-- Scroll To Top -->
- <a class="scrollToTop"><span></span></a>
- <!-- Scroll to Top End -->
-
- <!-- Heading -->
- 
-
-
-  <!-- Main Section Start -->
-  <section class="body" id="project">
-    <hr />
-    <!-- Add Serach Box here in future -->
-    <br />
-<h2>
-    Awesome Chrome Extensions contains many awesome extensions, each built using javascript and every extension will teach you some new and important javascript concepts.</h2>
-   <br />
-    <hr>
-    
-<h3>How to use these extensions?</h3>
-<h4>If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up:</h4>
-<h4>⚪ Clone this repository.</h4>
-    
-<h4>⚪ Find out the extension that excites you.</h4>
-       
-<h4>⚪ If you'd like to further customize it or make any other edits to the page, you will likely want to do that in either the popup.html file or the script.js file.</h4>
-       
-<h4>⚪ Once you've made your desired changes (if any), open Chrome and navigate to chrome://extensions/.</h4>
-        
-<h4>⚪ Click the toggle in the upper-right corner marker "Developer Mode".</h4>
-        
-<h4>⚪ You should then see three new buttons towards the top of your screen.</h4>
-        
-<h4>⚪ Click "Load Unpacked", and then select the folder containing this repository.</h4>
-<h4>⚪ You can then turn off Developer Mode.</h4>
-         
-<h4>⚪ Now, when you open up a new tab, you should see the customized page!</h4>
-
-<h5>The Main Motive of this project is to make you ❎fall ☑️rise in love with Javascript. You will be in love with the beauty of Javascript.</h5>
-<br />
-<h5>So, What are you waiting for? 😏</h5>
-
-<br />
-<hr>
-<br />
-<h5>To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the Code of Conduct.
-    <br>CODE OF CONDUCT:<a href ="https://github.com/ridsuteri/Awesome-Chrome-Extensions/blob/main/CODE_OF_CONDUCT.md">🔗</a></h5>
-<br />
-    <hr>
- <h3>PROJECT ADMIN : Riddhi Suteri<a href="https://github.com/ridsuteri" target="_blank">🔗</a></h3> 
- <h3>MENTOR : Praniti Parmar<a href="https://github.com/praniti111" target="_blank">🔗</a></h3>
- <h3>MENTOR: Akshima Ghai<a href="https://github.com/Akshima-Ghai" target="_blank">🔗</a></h3>
- <h3>MENTOR : Omraj Sharma<a href="https://github.com/omrajsharma" target="_blank">🔗</a></h3>
- <h3>MENTOR: Nikhil Barik<a href="https://github.com/nerdynikhil" target="_blank">🔗</a></h3>
-
-
-
-
-
-
-  </section>
-<!-- Main Section End -->
-
-<!-- Footer Start -->
-  <footer>
-    <p style="text-align:center">
+    <!-- footer -->
+    <div class="footer">
       ©
       <script>
         document.write(new Date().getFullYear());
       </script>
       Copyright. <b>Awesome Chrome Extensions</b>. All Rights Reserved.
-    </p>
-    <!-- <p style="text-align:center">
-      <a href="https://github.com/ridsuteri/Awesome-Chrome-Extensions" target="_blank" rel="follow"
-        >Awesome-Chrome-Extensions</a
-      >
-    </p> -->
-  </footer>
-  <script type="text/javascript" src="nav.js"></script>
+    </div>
 
-</body>
+    <!-- got to top button -->
+    <button class="btn goTop"><ion-icon name="arrow-up"></ion-icon></button>
+    <!-- iconicons for icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- aos animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="Help.js"></script>
+  </body>
 </html>

@@ -1,0 +1,10 @@
+{
+    "name": "Number Guessing Game",
+    "description" : "Guess the number and win the game",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+} 
