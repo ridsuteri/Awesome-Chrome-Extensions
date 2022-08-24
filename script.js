@@ -85,7 +85,7 @@ let projectData = [
   },
   {
     projectName: "Binary_To_Decimal_converter",
-    projectImage: "Binary_To_Decimal_converter/binary-to-decimal.png",
+    projectImage: "Binary_To_Decimal_converter/images/logo.png",
     projectUrl: "Binary_To_Decimal_converter/popup.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Binary_To_Decimal_converter",
@@ -298,7 +298,7 @@ let projectData = [
   },
   {
     projectName: "Control Chrome Tabs",
-    projectImage: "Control_Chrome_Tabs/img/000001.png",
+    projectImage: "ControlChromeTabs/img/000001.png",
     projectUrl: "",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Control%20Chrome%20Tabs",
@@ -831,7 +831,7 @@ let projectData = [
   },
   {
     projectName: "Dyslexic Help",
-    projectImage: "DyslexicHelp/images/readme.png",
+    projectImage: "Dyslexic Help/images/readme.png",
     projectUrl: "Dyslexic Help/index.html",
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Dyslexic%20Help",
