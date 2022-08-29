@@ -27,6 +27,15 @@ back.addEventListener("click", () => {
 
 // css variables
 let planet = document.querySelector("#mode ion-icon");
+function LoadCheck(){
+  console.log('helllo')
+  if (localStorage.getItem("mode") === "dark") {
+    isDark = true;
+    set_dark();
+    planet.style.color = "rgb(184, 184, 76)";
+  }
+}
+
 
 var isDark = false;
 var r = document.querySelector(":root");
@@ -35,13 +44,13 @@ mode.addEventListener("click", () => {
   if (isDark) {
     set_light();
     isDark = false;
-    planet.name = "moon";
     planet.style.color = "#46244c";
+    localStorage.setItem("mode", "light");
   } else {
     isDark = true;
     set_dark();
-    planet.name = "sunny";
     planet.style.color = "rgb(184, 184, 76)";
+    localStorage.setItem("mode", "dark");
   }
 });
 function set_light() {
@@ -64,3 +73,5 @@ function set_dark() {
   r.style.setProperty("--dark-yellow", "#c27a23");
   r.style.setProperty("--body", "black");
 }
+
+LoadCheck();
