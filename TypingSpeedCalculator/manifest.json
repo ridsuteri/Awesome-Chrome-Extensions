@@ -1,0 +1,11 @@
+{
+    "name": "Typing Speed Calculator",
+    "version": "0.0.1",
+    "description": "calculate typing speed",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "permissions": ["activeTab"]
+} 
