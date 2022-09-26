@@ -1,24 +1,197 @@
-h5{text-align: center;
-   
-    
-    padding-top: 20px;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  "Montserrat", Sans-serif;
 }
-html,body{
-    background-color: rgb(226, 95, 127);
+.background_image{
+
+    background-image: url("istockphoto-636332456-170667a.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100vh;
+    max-width: 100%;
+}
+.overlay_effect{
+    background-color: rgba(0, 0, 0, 0);
+    padding:10px;
+    height:100vh;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto 200px;
+    align-items: center;
+    justify-items: center;
+    gap:1em;
+}
+.Container{
+    position: fixed;
+    left:200px;
+    top:0px;
+    padding: 1.5em;
+    bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto;
+    justify-items: center;
+    width: 40%;
+    height: 95%;
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+.Container h2{
+    height:fit-content;
+    font-size: 30px;
+    color: white;
+}
+.box{
+    margin-top: 0px;
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap:2em;
+}
+#first_coeff{
+    margin: 0px 10px;
+}
+#second_coeff{
+    margin: 10px 10px;
+}
+#third_coeff{
+    margin: 0px 5px;
+}
+label{
+    font-size:20px;
+    color: rgb(0, 0, 0);
+}
+input{
+    width:100%;
+    margin-top:5px;
+    border: 1px solid #1e293b;
+    border-radius: 4px;
+    padding: 6px 6px;
+}
+.button_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.btn{
-margin-top: 15px;
+.button1{
+    background-color: #fff;
+    border: 1 solid #e2e8f0;
+    border-radius: 1.5rem;
+    width:90%;
+    height:100%;
+    color: #0d172a;
     text-align: center;
-    margin-bottom: 5px;
+    text-decoration: none #0d172a solid;
+    margin-top:10px;
 }
-input{margin-top: 15px !important;
-    margin-bottom: 15px !important;
+.button2{
+    background-color: #fff;
+    border: 1 solid #e2e8f0;
+    border-radius: 1.5rem;
+    width:90%;
+    height:100%;
+    color: #0d172a;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    margin-top:10px;
+    margin-left:20px;
+}
 
+button:hover {
+  background-color: #1e293b;
+  color: #fff;
 }
-p{font-size: 2rem;
-    color:white
+
+.results{
+    color: white;
 }
-div{
-    background-color: rgb(226, 95, 127);
-}
+
+
+@media (min-width: 768px) {
+    .button {
+      font-size: 1.125rem;
+      padding: 1rem 2rem;
+    }
+  }
+  .BMI_Value,.BMI_Result{
+      font-size: 22px;
+      text-align: center;
+  }
+  .footer{
+      font-size: 22px;
+      color:white;
+  }
+  /*mediaquery*/
+  @media all and (max-width:900px){
+      .Container{
+          width:50%;
+      }
+  }
+  @media all and (max-width:680px){
+      .Container{
+          width:70%;
+      }
+    
+  }
+  @media all and (max-width:450px){
+      .Container{
+          width:90%;
+      }
+     
+  }
+  @media all and (max-width:280px){
+      .Container{
+          width:100%;
+      }
+  }
+  .flip-card {
+    position:fixed;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    left:800px;
+    top:70px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    margin-top:50px;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }

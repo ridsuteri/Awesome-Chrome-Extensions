@@ -13,14 +13,42 @@
 </head>
 
 <body>
-      <div>  <center>
-        <h5>Enter coefficients:</h5>
-            <input size="20" class="a" placeholder="a"><br>
-            <input size="20" class="b" placeholder="b"><br>
-            <input size="20" class="c" placeholder="c"><br>
-     
-        <input id="clickme" type="button" value="Calculate" class="btn btn-primary"/>
-        <input id="reset" type="button" value="Reset" class="btn btn-dark"/>
-      <p  class="output"></p></center></div>
-    <script src="script.js"></script>
+  <div class="background_image">
+    <div class="overlay_effect">
+      <div class="Container">
+        <h2>Quadratic Root Calculator<hr></h2>
+        <h2></h2>
+        <div class="box">
+          <div id="first_coeff">
+            <label>First Coefficient(a):</label><input class="a" type="text" placeholder="Enter value of a"/>
+          </div>
+          <div id="second_coeff">
+              <label>Second Coefficient(b):</label><input class="b" type="text" placeholder="Enter value of b"/>
+          </div>
+          <div id="third_coeff">
+            <label>Third Coefficient(c):</label><input class="c" type="text" placeholder="Enter value of c"/>
+          </div>
+          <div class="button_container">
+            <!--calculate button-->
+            <button id="clickme" class="button1">Calculate</button>
+            <!--reset button-->
+            <button id="reset" class="button2">Reset</button>
+         </div>
+        <center><p class="output"></p></center>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-back">
+        <img src="formula.png" alt="Formula" style="width:300px;height:200px;">
+      </div>
+      <div class="flip-card-front">
+        <center><h1>FORMULA</h1></center>
+      </div>
+    </div>
+  </div>
+  
 </body>
