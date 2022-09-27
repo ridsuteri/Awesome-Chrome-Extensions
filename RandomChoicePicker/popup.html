@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <script defer src="./script.js"></script>
+    <title>Choice Maker</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="flex main">
+        <input
+          class="type"
+          ="text"
+          name="choices"
+          id="choicesInput"
+          placeholder="Enter your choice"
+        />
+        <br />
+        <div>
+          <button id="addBtn" class="btn">Add Item</button>
+          <button id="ranBtn" class="btn">Pick Random</button>
+        </div>
+      </section>
+      <section class="flex list"> 
+        <p id="res" class="items"></p>
+        <ul id="choiceList"></ul>
+      </section>
+    </div>
+  </body>
+</html>
