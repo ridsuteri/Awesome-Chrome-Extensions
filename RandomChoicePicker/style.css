@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  min-height: 580px;
+  min-width: 450px;
+  background: linear-gradient(to right, #ffdf77, #ffa64d);
+  overflow: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.btn {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #ffa64d;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.btn:hover {
+  background-color: #181895;
+}
+
+#choicesInput {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  height: 60px;
+  width: 80%;
+  font-size: 26px;
+  text-indent: 10px;
+}
+
+#choicesInput::placeholder {
+  font-size: 20px;
+}
+
+.main {
+  margin-right: -35px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.items {
+  list-style-type: none;
+  font-size: 32px;
+  font-family: "Montserrat";
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  width: 125px;
+}
+
+#res {
+  margin-left: 20px;
+  font-size: 32px;
+  font-family: "Montserrat";
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  width: 125px;
+  visibility: hidden;
+}
+
+#res {
+  background-color: #ffa64d;
+  color: black;
+}
