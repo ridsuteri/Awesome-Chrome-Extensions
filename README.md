@@ -1,3 +1,4 @@
+<h1><i> UPDATE: We are not maintaining this project currently :( </i></h1>
 <h1 align="center">🌐 Awesome Chrome Extensions 🌐</h1>
 
 
