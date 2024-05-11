@@ -30,15 +30,22 @@ back.addEventListener("click", () => {
 // css variables
 let planet = document.querySelector("#mode ion-icon");
 
-function LoadCheck(){
-  if (localStorage.getItem("mode") === "dark") {
-    isDark = true;
-    set_dark();
+function LoadCheck() {
+  if (localStorage.getItem("mode") === "light") {
+    isDark = false;
+    set_light();
     planet.style.color = "rgb(184, 184, 76)";
   }
 }
-
-
+var change = document.getElementById("change");
+change.onclick = function () {
+  document.body.classList.toggle("ion-icon");
+  if (document.body.classList.contains("ion-icon")) {
+    change.src = "./sun.png";
+  } else {
+    change.src = "./moon.png";
+  }
+};
 var isDark = false;
 var r = document.querySelector(":root");
 const mode = document.querySelector("#mode");
