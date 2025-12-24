@@ -1,12 +1,16 @@
 {
-    "name": "QR Code Generator",
-    "version": "0.0.1",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": "qr.png"
-    },
-    "icons": {
-        "128": "qr.png"
-    }
+  "name": "QR Code Generator",
+  "version": "0.0.1",
+  "manifest_version": 3,
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "qr.png"
+  },
+
+  "icons": {
+    "128": "qr.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.qrserver.com/*"]
 }
