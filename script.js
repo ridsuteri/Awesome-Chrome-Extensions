@@ -957,6 +957,14 @@ let projectData = [
     projectDownload:
       "https://downgit.github.io/#/home?url=https://github.com/ridsuteri/Awesome-Chrome-Extensions/tree/main/Analog_Clock",
   },
+  {
+    projectName: "gTabs - AI Tab Organizer",
+    projectImage: "gTabs/icon.png",
+    projectUrl:
+      "https://chromewebstore.google.com/detail/gtabs-ai-tab-organizer/hcpbchmdcjbgbmjihnenbfalepcdncnb",
+    projectDownload:
+      "https://github.com/vaddisrinivas/gtabs",
+  },
 ];
 
 var projectDetails = projectData.slice(0);
